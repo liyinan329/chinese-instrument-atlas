@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#f4f1e9">
+ <title>国乐工坊——中国民族乐器法交互平台</title>
+ <meta name="description" content="国乐工坊——中国民族乐器法交互平台：按乐器探索音位、记谱、技法与音色。弹拨、吹管、拉弦与打击乐四类板块开放。">
+ <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./studio.css?v=6.0"><link rel="stylesheet" href="./score.css?v=6.0"><link rel="stylesheet" href="./refinement.css?v=6.0"><link rel="stylesheet" href="./technique-motion.css?v=8.0">
+<link rel="stylesheet" href="./score-techniques.css?v=9.0"><link rel="stylesheet" href="./instrument-atlas.css?v=12.0"><link rel="stylesheet" href="./plucked.css"><link rel="stylesheet" href="./wind.css">
+<link rel="stylesheet" href="./orchestra.css">
+<link rel="stylesheet" href="./basic-audio.css">
+</head>
+<body class="atlas-mode">
+ <header class="site-header">
+  <a class="brand" href="#home" aria-label="返回乐器总览"><span class="seal">民<br>乐</span><span class="brand-word">国乐工坊<span class="brand-en">CHINESE INSTRUMENT ATLAS</span></span><span class="brand-divider"></span><span class="brand-sub">中国民族乐器法交互平台</span></a>
+  <a class="atlas-header-home" href="#home" id="header-home" hidden>← 乐器总览</a>
+  <nav id="pipa-nav" aria-label="琵琶板块导航" hidden><button class="nav-button active" data-view="explore">音位与和弦</button><button class="nav-button" data-view="techniques">技法库 <small>30</small></button><button class="nav-button" data-view="about">模型与资料</button></nav>
+  <span class="version"><i></i> 独立分享版 <span>v0.20</span></span>
+ </header>
+ <main>
+  <section id="home-view" class="view" aria-label="乐器总览"><p class="atlas-empty">正在准备乐器入口…</p></section>
+  <section id="planned-view" class="view" aria-label="筹备中的乐器" hidden></section>
+  <div class="pipa-breadcrumb" id="pipa-breadcrumb" hidden><span>乐器馆藏</span><span>/</span><b>琵琶</b><span id="pipa-location">音位与和弦</span></div>
+  <section class="intro" hidden><div><div class="eyebrow">FOR THE COMPOSER · 从弦上理解音乐</div><h1>把琵琶，放到手边。</h1><p>把谱上的和弦，放到真实的弦位。点谱写音，点弦聆听。</p></div><div class="intro-meta"><span>四弦 <b>·</b> 六相二十四品</span><span>A2 <i>—</i> D3 <i>—</i> E3 <i>—</i> A3</span></div></section>
+  <section id="explore-view" class="view" hidden>
+   <div class="workspace">
+    <section class="panel fingerboard-panel instrument-panel">
+     <div class="panel-title"><div><span class="index-label">01 / PLAY THE INSTRUMENT</span><h2>三维琵琶 · 直接演奏</h2></div><span class="model-tag">360°</span></div>
+     <div class="board-toolbar"><div class="segmented" aria-label="点击模式"><button class="active" data-mode="listen">自由点奏</button><button data-mode="collect">收集和弦</button></div><label class="inline-check"><input type="checkbox" id="flat-names"> 降号音名</label></div>
+     <div id="instrument-stage" class="instrument-stage">
+      <div class="stage-loading" id="stage-loading"><span class="loading-ring"></span>正在构建三维琵琶…</div>
+      <div class="stage-topline"><span><i></i> 雅器 · 弦音馆</span><div class="interaction-modes" aria-label="操作方式"><button data-interaction="play" class="active" aria-pressed="true">演奏</button><button data-interaction="pan" aria-pressed="false">移动</button><button data-interaction="orbit" aria-pressed="false">旋转</button></div></div>
+      <div class="view-presets" aria-label="相机视角"><button data-camera="front" class="active">全景 · 正面</button><button data-camera="back">背面</button><button data-camera="side">侧面</button><span></span><button data-camera="head">琴头细节</button><button data-camera="neck">靠近相位</button><button data-camera="frets">靠近品位</button><button data-camera="plinth">展台细节</button></div>
+      <div class="stage-tools"><button id="pan-up" aria-label="查看琴身上部">↑</button><button id="pan-down" aria-label="查看琴身下部">↓</button><button id="zoom-in" aria-label="放大琵琶">＋</button><button id="zoom-out" aria-label="缩小琵琶">−</button><button id="auto-rotate" aria-label="自动旋转" aria-pressed="false">⟳</button><button id="stage-fullscreen" aria-label="全屏演奏">⛶</button></div>
+      <div id="note-tooltip" class="note-tooltip" hidden></div>
+      <div class="stage-bottomline"><span id="stage-status">准备 3D 模型</span><label><input id="show-labels" type="checkbox" checked> 琴上标记</label></div>
+     </div>
+     <div class="gallery-palette" aria-label="展陈配色"><span>展陈配色</span><button data-gallery="warm" aria-pressed="true" class="active"><i></i>暖灰</button><button data-gallery="ink" aria-pressed="false"><i></i>墨蓝</button><button data-gallery="paper" aria-pressed="false"><i></i>宣纸</button><small id="gallery-note">暖灰石墙 · 胡桃木 · 柔金光</small></div>
+     <section class="pipa-profile" aria-labelledby="pipa-profile-title">
+      <header class="pipa-profile-heading"><div><span class="index-label">PIPA / INSTRUMENT PORTRAIT</span><h2 id="pipa-profile-title">认识琵琶</h2></div><span>从乐器本身，走向配器</span></header>
+      <div class="pipa-profile-grid">
+       <article class="pipa-profile-card"><h3 class="profile-number">01 / 历史源流</h3><p>古代“琵琶”曾泛指多种弹拨乐器，并不都与今天的器型相同。现代梨形琵琶与经丝路传入中国的西亚、中亚鲁特类乐器有关；唐代以后，指弹与较直立的持琴方式逐渐发展，后世又不断改进器型、相品与弦制。<a class="profile-ref" href="https://www.metmuseum.org/essays/the-pipa" target="_blank" rel="noopener" aria-label="历史资料：大都会博物馆">[1]</a><a class="profile-ref" href="https://www.atlasensemble.nl/assets/files/instruments/Pipa/Pipa%20by%20Samuel%20Wong%20Shengmiao.pdf" target="_blank" rel="noopener" aria-label="历史与器型资料：Samuel Wong">[2]</a></p></article>
+       <article class="pipa-profile-card"><h3 class="profile-number">02 / 器型结构</h3><p>现代常见琵琶由琴头、琴颈和梨形木质共鸣箱组成。弦轴调节张力，相与品提供按音位置，面板与覆手参与琴弦振动的传递。常见配置为四弦、六相二十四品，具体琴型仍有差异。<a class="profile-ref" href="https://www.atlasensemble.nl/assets/files/instruments/Pipa/Pipa%20by%20Samuel%20Wong%20Shengmiao.pdf" target="_blank" rel="noopener" aria-label="器型与定弦资料：Samuel Wong">[2]</a></p><div class="pipa-tuning-note"><small>常用定弦 · 由低至高</small><b>A2 <span>—</span> D3 <span>—</span> E3 <span>—</span> A3</b><small>五线谱按实音记写；中央 C = C4。<a class="profile-ref" href="https://www.atlasensemble.nl/assets/images/practical%20info/Pipa/Pipa%20by%20Moshe%20Denburg%20VICO.pdf" target="_blank" rel="noopener" aria-label="定弦与记谱资料：VICO">[3]</a></small></div></article>
+      </div>
+      <article class="pipa-ensemble"><h3 class="profile-number">03 / 乐队中的作用</h3><p>琵琶是现代民族乐队弹拨声部中的一员，也常见于室内乐与协奏作品。清楚的拨弦起音适合呈现旋律和节奏；轮奏以连续触弦延续声线，扫拂与分解音型则提供不同的和声质感。<a class="profile-ref" href="https://sco.com.sg/media-releases/scos-2024-2025-season-is-a-seamless-bridging-of-worlds/" target="_blank" rel="noopener" aria-label="乐队与室内乐使用实例：新加坡华乐团">[4]</a><a class="profile-ref" href="https://www.atlasensemble.nl/assets/images/practical%20info/Pipa/Pipa%20by%20Moshe%20Denburg%20VICO.pdf" target="_blank" rel="noopener" aria-label="旋律与音响特征资料：VICO">[3]</a></p><ul class="pipa-role-tags" aria-label="可考虑的写作角色"><li>旋律与独奏</li><li>节奏与重音</li><li>分解和声</li><li>轮奏与音色层</li></ul></article>
+      <section class="pipa-orchestration" aria-labelledby="pipa-orchestration-title"><h3 class="profile-number" id="pipa-orchestration-title">04 / 配器注意</h3><div class="pipa-writing-grid">
+       <div><b><span>01</span> 先分弦，再写和弦</b><p>常规实音和弦每弦一个音，最多四音。音名能组成和弦，不代表能同时按出；还要检查弦序、手型，以及扫奏是否会碰到未选弦。</p></div>
+       <div><b><span>02</span> 写清延音与收音</b><p>单次拨弦会自然衰减，长时值不等于持续保持音量。若要轮奏延续，注明起止；需要整齐休止时，也要交代制音。</p></div>
+       <div><b><span>03</span> 留出音响空间</b><p>音头可以突出，余响仍可能被厚重织体遮住。与唢呐、铜管或强打击乐重叠时，可疏化同音区配器，避免只靠提高琵琶力度来求平衡。</p></div>
+       <div><b><span>04</span> 把速度与换把一起看</b><p>同弦重复、连续过弦和大跳换把的难度不同。密集段落要连同前后连接检查；高把位的间距与按弦条件也不能只凭音域表判断。</p></div>
+       <div><b><span>05</span> 区分轮奏、节奏与力度</b><p>轮指不自动等于强奏，也不必写成机械五连音。区分自由密度的持续轮奏与严格节拍的重复音，并标明力度走向。</p></div>
+       <div><b><span>06</span> 特殊音色单独核对</b><p>泛音需核对节点与实际发声音高；推拉、滑音需交代目标或走向。绞弦、敲板等应注明动作与时长，不能默认仍有清楚的固定音高。</p></div>
+      </div><p class="pipa-writing-context">以上是结合乐器法资料整理的写作建议，不是固定的速度、跨度或力度上限；复杂组合需与演奏者试奏确认。</p></section>
+      <details class="pipa-profile-sources"><summary>资料与阅读来源</summary><ol><li><a href="https://www.metmuseum.org/essays/the-pipa" target="_blank" rel="noopener">大都会博物馆 · The Pipa</a><span>历史源流与持琴、触弦方式的演变。</span></li><li><a href="https://www.atlasensemble.nl/assets/files/instruments/Pipa/Pipa%20by%20Samuel%20Wong%20Shengmiao.pdf" target="_blank" rel="noopener">Samuel Wong · Pipa / Atlas Ensemble</a><span>PDF 第3–7页：历史、器型与定弦；后续章节介绍演奏技法。</span></li><li><a href="https://www.atlasensemble.nl/assets/images/practical%20info/Pipa/Pipa%20by%20Moshe%20Denburg%20VICO.pdf" target="_blank" rel="noopener">VICO / Moshe Denburg · Pipa</a><span>PDF 第1–4页：定弦、记谱及一般写作考虑。原稿带有待核条目，未据此设置硬性参数。</span></li><li><a href="https://sco.com.sg/media-releases/scos-2024-2025-season-is-a-seamless-bridging-of-worlds/" target="_blank" rel="noopener">新加坡华乐团 · 乐季介绍</a><span>弹拨室内乐与琵琶协奏作品的实际编制实例。</span></li></ol><p>配器提示为本工作台的综合整理；外部资料链接需要联网，简介正文可离线阅读。</p></details>
+     </section>
+    </section>
+    <aside class="panel chord-panel">
+     <div class="panel-title"><div><span class="index-label">02 / COMPOSE</span><h2>五线谱 · 和弦输入</h2></div><span class="small-badge">谱弦联动</span></div>
+     <div id="staff-editor"></div><section id="score-tech-window" class="score-tech-window" aria-label="音符技法窗口"></section><details class="score-secondary"><summary><span>弦位与演奏可行性</span><span id="difficulty-badge" class="difficulty-badge" aria-live="polite">待输入</span></summary><div id="note-positions" class="note-positions" aria-live="polite"></div>
+     </details><details class="score-secondary"><summary>用和弦符号导入</summary><details class="text-chord-entry" open><summary>也可以用和弦符号 / 音名导入</summary>
+     <label class="field-label" for="chord-input">和弦符号 / 具体音高</label>
+     <div class="chord-input-wrap"><textarea id="chord-input" rows="2" spellcheck="false" placeholder="Dm、Am7，或 D3 A3 D4 F4">D3 A3 D4 F4</textarea><span>♮</span></div>
+     <div class="example-row"><span>试试</span><button data-example="A2 D3 E3 A3">四根空弦</button><button data-example="Dm">Dm</button><button data-example="Am7">Am7</button><button data-example="C4 E4 G4 B4">Cmaj7 高位</button></div>
+     <label class="inline-check voice-option"><input type="checkbox" id="auto-voice" checked> 和弦符号自动寻找合适的八度与转位</label>
+     <p class="input-hint">具体音高保留原八度；关闭自动配音时符号从第 3 八度起。单个 C6 / C7 / C9 按和弦解析，单音请写 =C6。支持 # / b。</p>
+     <button class="primary-button" id="analyze">导入五线谱并分析 <span>↗</span></button></details></details>
+     <details class="score-secondary"><summary>和弦分析详情</summary><div id="analysis-result" aria-live="polite"></div>
+     <div class="analysis-footnote"><span>i</span><p>结果是静态手型的几何估算。实际舒适度还取决于手型、琴型、速度与前后声部；指序仅供讨论。</p></div>
+     </details>
+    </aside>
+   </div>
+  </section>
+  <section id="techniques-view" class="view" hidden>
+   <div class="technique-heading"><div><span class="index-label">TECHNIQUE LIBRARY</span><h2>琵琶演奏技法大全</h2><p>怎么弹，听起来怎样，谱上怎么写。</p></div><input id="tech-search" type="search" placeholder="搜索技法，如：轮、绞弦、泛音" aria-label="搜索技法"></div>
+   <div id="recording-coverage" class="recording-coverage"></div><div id="tech-filters" class="category-tabs"></div>
+   <div class="tech-layout"><div id="tech-grid" class="tech-grid"></div><aside id="tech-detail" class="panel tech-detail"></aside></div>
+  </section>
+  <section id="about-view" class="view" hidden>
+   <div class="about-layout"><section class="panel settings-panel"><span class="index-label">INSTRUMENT MODEL</span><h2>知道模型的边界，才能用好它。</h2><p>本工作台使用实际发声音高、十二平均律与 A4 = 440 Hz。它帮助比较方案，不代替琵琶演奏家的试奏。</p>
+    <label class="field-label" for="profile">相品排列</label><select id="profile"><option value="chromatic">连续半音型 · 六相24品 · 子弦最高 D♯6</option><option value="historic">末品跨全音型 · 子弦最高 E6，缺 D♯6</option></select>
+    <label class="inline-check setting-check"><input id="conservative" type="checkbox" checked> 采用音位表的保守高品覆盖</label><p class="setting-help">Ⅳ弦至15品，Ⅲ弦至18品，Ⅱ/Ⅰ弦至24品。表中空白不是“实体上不存在”的证明；关闭后按四弦全覆盖计算，请核对自己的琴。</p>
+    <label class="field-label" for="scale-length">假设有效弦长 <output id="scale-output">650 mm</output></label><input id="scale-length" type="range" min="550" max="750" step="5" value="650">
+    <label class="field-label" for="reach">较轻松的纵向跨度阈值 <output id="reach-output">65 mm</output></label><input id="reach" type="range" min="40" max="100" step="5" value="65">
+    <p class="setting-help">这两个值是可调的工程假设，并非经过演奏家标定的生理界限。跨度按理想弦长计算，开放弦不计入左手跨度。</p>
+    <button id="reset-settings" class="secondary-button">恢复默认模型</button>
+   </section><section class="panel model-notes"><span class="index-label">HOW TO READ THE RESULTS</span><h2>哪些确定，哪些需要试奏</h2><div class="model-point"><b>01 · 音位</b><p>默认模型：1–6相为升高1–6个半音，1品为升高7个半音，24品为升高30个半音。不同琴型可能有不同末品布局。</p></div><div class="model-point"><b>02 · 和弦</b><p>枚举不同弦的配音。一次常规实音和弦每弦一个音；四弦最多四个音。算法按每个按弦音一个手指估算，不自动假定横按。相同品位可与演奏者讨论横按。</p></div><div class="model-point"><b>03 · 舒适度</b><p>比较纵向物理跨度、按弦指数量、高把位与是否跳弦。较小跨度也可能挤手；不分析前后和弦连接、换把速度、力度或个体手型。</p></div><div class="model-point"><b>04 · 真实采样与技法实录</b><p>琴体点奏使用真实琵琶单音采样，并对未覆盖的音高移调。技法原始片段保持原速、原调；不能把采样重复播放等同于真实轮指。技法库配有独立五线谱例，并区分已核对技法的实录与相关音响参考；缺少授权录音的项目明确显示待补充。</p><p>三维模型按现代琵琶正背面实物照片的外形比例重建，配有原创花饰与虚拟博物馆展台；不是特定实物的1:1扫描。相品仍采用上方理想化音位模型，照片比例不作为手指跨度标定。参考：<a href="https://www.easonmusicstore.com/blogs/guides/pipa-buyers-guide" target="_blank" rel="noopener">现代琵琶正背面实拍</a> · <a href="https://www.metmuseum.org/art/collection/search/500625" target="_blank" rel="noopener">大都会博物馆琵琶实物与侧视测量</a>。琴弦显示粗细经过适度放大，以便在全景下辨认与点击。</p></div><div class="model-point"><b>05 · 记谱</b><p>和弦输入显示实际音高，切换谱号不移调。技法谱例仅示范记谱方法，不是录音转写；以通用谱号配合中文技法文字，区分音高、触弦方法与非定音效果。</p></div></section></div>
+   <section class="sources-section"><details class="model-point"><summary>虚拟手部模型与许可</summary><p>人手网格：WebXR Input Profiles / Amazon（MIT）。本网站另行制作关节动作、琵琶义甲与触弦示意。动画为技法分解，并非真人动作捕捉。</p><p><a href="https://github.com/immersive-web/webxr-input-profiles/tree/main/packages/assets/profiles/generic-hand" target="_blank" rel="noopener">模型来源</a> · <a href="assets/hands/LICENSE.md" target="_blank" rel="noopener">MIT 许可全文</a></p></details><span class="index-label">FURTHER READING</span><h2>查阅乐器法资料</h2><div id="source-links" class="source-grid"></div></section>
+  </section>
+ </main>
+ <footer><span>民族乐器 / INSTRUMENT ATLAS</span><p>为每一种音色，找到写作的可能。</p><span id="footer-context">琵琶已开放 · 其余乐器筹备中</span></footer>
+ <div class="audio-bar"><span id="audio-status"><i></i> 点击音位，启用声音</span><span class="synth-label" id="sound-kind">真实采样音源准备中</span><div class="audio-controls"><button id="sound-help" aria-expanded="false">声音检测</button><label for="volume">音量</label><input id="volume" type="range" min="0" max="100" value="75" aria-label="音量"><button id="stop-audio">■ 停止</button></div></div>
+ <section id="sound-panel" class="sound-panel" hidden aria-label="声音检测">
+  <div class="sound-panel-heading"><b>声音与播放</b><button id="close-sound" aria-label="关闭声音检测">×</button></div>
+  <div class="meter-row"><span>琴弦输出</span><meter id="output-meter" min="0" max="1" value="0" aria-label="琴弦音频输出电平"></meter><output id="output-level">等待点奏</output></div>
+  <p id="audio-error" role="status">点奏后显示实际音频信号；电平不代表扬声器音量。</p>
+  <div class="sound-actions"><button id="recover-audio">恢复声音并试奏</button><button id="test-native">原生试听 A3</button></div>
+  <audio id="native-player" controls preload="metadata" aria-label="真实琵琶录音播放器"></audio>
+  <p id="native-caption">技法实录也在这里播放，可直接使用播放器控制。</p>
+  <p class="sound-hint">若播放器时间正常前进但仍听不到，请检查设备音量、输出设备及浏览器静音。</p>
+ </section>
+ <div id="toast" role="status" class="toast" hidden></div>
+ <script src="./vendor/vexflow.js"></script><script type="module" src="./app.mjs?v=8.0"></script>
+</body>
+</html>

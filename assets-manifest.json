@@ -1,8 +1,8 @@
 [
   {
     "path": "app.mjs",
-    "sha256": "51dbf9f9d14fb2a6591be9e1c7796173071ed65508c2158ee0d2beeb0d77895a",
-    "bytes": 33079
+    "sha256": "360d62fb71baf24e38e5a13a6a862018b8f15d515c39ea9dca82d0a7741366b1",
+    "bytes": 33085
   },
   {
     "path": "assets/hands/LICENSE.md",
@@ -1101,8 +1101,8 @@
   },
   {
     "path": "instrument-atlas.mjs",
-    "sha256": "389c7c9b100b8845ad1d47d82eaa6d0511e97c93718f19590a78fb782923f55e",
-    "bytes": 5064
+    "sha256": "4872c6220b4893888450a9b58504545fda04ea16db9cd45db9799fa339c26967",
+    "bytes": 5067
   },
   {
     "path": "instrument-catalog.mjs",

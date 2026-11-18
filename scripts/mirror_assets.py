@@ -24,6 +24,8 @@ def fetch(item):
                 data = response.read()
             if hashlib.sha256(data).hexdigest() != item['sha256']:
                 raise ValueError('Release checksum mismatch: ' + item['path'])
+            if relative.suffix in ('.html', '.mjs', '.js', '.json', '.txt', '.md'):
+                data = data.decode('utf-8').replace('中国民族乐器法交互平台', '中国民族乐器法交互学习平台').encode('utf-8')
             target.write_bytes(data)
             return len(data)
         except Exception:

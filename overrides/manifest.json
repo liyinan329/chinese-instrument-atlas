@@ -113,7 +113,7 @@
   },
   {
     "path": "liuqin-studio.mjs",
-    "sha256": "1ce0eae9fb80350a08cf90e5dc6164e42feccb1a2f2441551224a86dbbacb9df"
+    "sha256": "b6f8c6ae7233e2e4b2199f4e7ecae90b867fa66ff05d6ad4f1faa66af46e7406"
   },
   {
     "path": "notation-renderer.mjs",
@@ -129,7 +129,7 @@
   },
   {
     "path": "audio/liuqin/bank.json",
-    "sha256": "ff7096245a1f4470004bfc5a83004ccdc60eaba71670aa9c19e586597be7f37c"
+    "sha256": "f223d8d673116f0181b4dd9bcab77cb6b51575c0ac31785cbb80e5fadfae101a"
   },
   {
     "path": "audio/liuqin/pluck-62-0.wav",
@@ -137,7 +137,7 @@
   },
   {
     "path": "audio/liuqin/音色说明.txt",
-    "sha256": "2eccbb719c5ffad1f31337029041fe9d118de539b59fe998162ca687ff862950"
+    "sha256": "38162d93312361cb9bb9401e686c3886ebbf441f1708755fb2b36ce00d0d6f1a"
   },
   {
     "path": "audio/liuqin/pluck-62-1.wav",
@@ -158,5 +158,33 @@
   {
     "path": "audio/liuqin/pluck-74-0.wav",
     "sha256": "fa1acf70300edca62dbda0266f879d68daaf4716be21d0bd2b5376dbc58fd682"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-1.wav",
+    "sha256": "cc9cae1d42d0b0f6c4f45237aed819a1f6e0c0e408f34a98d5a8605520522a13"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-2.wav",
+    "sha256": "cc98b1bc6ecc8d1ea68247552bb571488ae469f80549b65a10fd7bf65cbffd9f"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-3.wav",
+    "sha256": "05cb18aeb066bf7cb05c6bad322fbb4c85ac2e0c0721e35121070f73e244ac8a"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-4.wav",
+    "sha256": "0d698930e87f6f8fef3fe973051a2e9a86f6526271731766634a5b15a52a3bb9"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-5.wav",
+    "sha256": "9a549a0f927ea61505803ddd860505faa50f4d5284f1e5a7f5c407019c78aaa0"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-6.wav",
+    "sha256": "bf27a2377d65b02f2ce1badacd3744c2ba718a5e9e4833b376ecb27eab42bc5e"
+  },
+  {
+    "path": "audio/liuqin/kong-lq-7.wav",
+    "sha256": "08feb47fd7fd5cf4785d7b9c2cc29d8b09a00909836ea71999640d0479e0ced3"
   }
 ]

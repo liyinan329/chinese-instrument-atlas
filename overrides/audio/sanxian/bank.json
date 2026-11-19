@@ -1,0 +1,82 @@
+{
+  "instrument": "三弦",
+  "kind": "sample-library",
+  "title": "三弦采样音色 · Kong Audio K",
+  "source": "用户提供的本机Kong Audio K音色库",
+  "processing": "单音采样、基频校准、22.05kHz单声道MP3、最长2.8秒及尾部淡出；技法为参数化参考。",
+  "rights_status": "用户明确要求上传公开应用；厂商针对应用嵌入与再分发的专项授权尚未确认，版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.mp3",
+      "root_midi": 43,
+      "root_hz": 98.16019193349433,
+      "duration": 0.46253333333333335,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      1.wav",
+      "sha256": "ae0a06168f06a5b7863bbeef958df566bc648ccdba253a7d5dd12e080b46807f"
+    },
+    {
+      "file": "kong-2.mp3",
+      "root_midi": 48,
+      "root_hz": 132.3668210470793,
+      "duration": 0.7569333333333333,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      2.wav",
+      "sha256": "fd41c32ee973d0209f6ac5b90e1576f87a8f71e53fbf434c80ce73b89f44760e"
+    },
+    {
+      "file": "kong-3.mp3",
+      "root_midi": 52,
+      "root_hz": 162.8264799486844,
+      "duration": 0.5287666666666667,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      3.wav",
+      "sha256": "a83fd18eb5ea2c430a0c1892dae8dda5a0760ec01fe5a86f9271428caef859e6"
+    },
+    {
+      "file": "kong-4.mp3",
+      "root_midi": 55,
+      "root_hz": 192.65769013812692,
+      "duration": 0.6101333333333333,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      4.wav",
+      "sha256": "9f2f62c38d4955caf7f72a2e4022313abd3931fe8c7d505bc7fded0cf835381b"
+    },
+    {
+      "file": "kong-5.mp3",
+      "root_midi": 64,
+      "root_hz": 325.50629580085587,
+      "duration": 0.5416333333333333,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      5.wav",
+      "sha256": "c318c128d4eac86f45366898c15ac12769f1a124043c331f84b59cc20a54fcf4"
+    },
+    {
+      "file": "kong-6.mp3",
+      "root_midi": 67,
+      "root_hz": 386.3967469962035,
+      "duration": 0.4476,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      6.wav",
+      "sha256": "73866e2b5cfa113fbdf7c2125792008826ed34ab5edfd9d6a76cdc83c194f2c4"
+    },
+    {
+      "file": "kong-7.mp3",
+      "root_midi": 72,
+      "root_hz": 525.9750630719577,
+      "duration": 0.30033333333333334,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      7.wav",
+      "sha256": "6b7fbc1829093a0b6f3a1690dfc775e0dd3515484c9ead10b2418d02fdb3db3a"
+    },
+    {
+      "file": "kong-8.mp3",
+      "root_midi": 79,
+      "root_hz": 773.6306811304325,
+      "duration": 0.7167333333333333,
+      "kind": "sample-library",
+      "source_file": "SanXian/SanXian Samples/SXL      8.wav",
+      "sha256": "fd790282647b184164f9f292ef9ad35c67343b1060d906e23353017c039b2c52"
+    }
+  ]
+}

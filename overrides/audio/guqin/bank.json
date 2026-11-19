@@ -1,0 +1,55 @@
+{
+  "instrument": "古琴",
+  "kind": "sample-library",
+  "title": "古琴采样音色 · Kong Audio K",
+  "source": "用户提供的本机Kong Audio K音色库",
+  "processing": "单音采样、基频校准、22.05kHz单声道MP3、最长2.8秒及尾部淡出；技法为参数化参考。",
+  "rights_status": "用户明确要求上传公开应用；厂商针对应用嵌入与再分发的专项授权尚未确认，版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.mp3",
+      "root_midi": 36,
+      "root_hz": 65.14738492568632,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_048_110.wav",
+      "sha256": "c246f2046bd42e181565defc94f04a2e7a0387253528ae9cbe8d74a8b2e7fec8"
+    },
+    {
+      "file": "kong-2.mp3",
+      "root_midi": 48,
+      "root_hz": 131.0048548116991,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_060_110.wav",
+      "sha256": "350813eea0e9decd9782c4b0294b0f5abd2802f31ac4658f633d7752794e0b14"
+    },
+    {
+      "file": "kong-3.mp3",
+      "root_midi": 60,
+      "root_hz": 262.0562725716163,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_072_110.wav",
+      "sha256": "df4b956dbd03a5d726362a62d04c97b4181abc350a382948fe4dea5ed7e51b03"
+    },
+    {
+      "file": "kong-4.mp3",
+      "root_midi": 72,
+      "root_hz": 524.1125451432326,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_084_110.wav",
+      "sha256": "54a4ef18678b0a8d242792c25529780c74c8303cad78ba3270032ba1b6600623"
+    },
+    {
+      "file": "kong-5.mp3",
+      "root_midi": 83,
+      "root_hz": 990.0080306202849,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_095_110.wav",
+      "sha256": "aba7345abeb3c3f822f5238d0a9992918d556d4e11cb79b0244382ad491efdfe"
+    }
+  ]
+}

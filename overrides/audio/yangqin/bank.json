@@ -1,0 +1,55 @@
+{
+  "instrument": "扬琴",
+  "kind": "sample-library",
+  "title": "扬琴采样音色 · Kong Audio K",
+  "source": "用户提供的本机Kong Audio K音色库",
+  "processing": "单音采样、基频校准、22.05kHz单声道MP3、最长2.8秒及尾部淡出；技法为参数化参考。",
+  "rights_status": "用户明确要求上传公开应用；厂商针对应用嵌入与再分发的专项授权尚未确认，版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.mp3",
+      "root_midi": 41,
+      "root_hz": 87.27986544868445,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_041.wav",
+      "sha256": "e5b5f54835b26dda7c8349e60f0a8ee61fbf922fa8b9a6f90e0b143fd1939ba7"
+    },
+    {
+      "file": "kong-2.mp3",
+      "root_midi": 53,
+      "root_hz": 174.96373241092874,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_053.wav",
+      "sha256": "e8e18b8699a85f7b3968b5b94b188566b2706a9aae53e23d5846c66b392c3b2f"
+    },
+    {
+      "file": "kong-3.mp3",
+      "root_midi": 65,
+      "root_hz": 349.08838475523316,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_065.wav",
+      "sha256": "7ebabcc77c2ae1172d6f441930ad8f7195897e6b2daf2a5df262005353deebef"
+    },
+    {
+      "file": "kong-4.mp3",
+      "root_midi": 77,
+      "root_hz": 697.493074641365,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_077.wav",
+      "sha256": "41aafa61cc2684519634cfc374b7f28bf65a6bea1b2e8fa9de74878ca32a5f81"
+    },
+    {
+      "file": "kong-5.mp3",
+      "root_midi": 89,
+      "root_hz": 1407.914197716646,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_089.wav",
+      "sha256": "3204b41970806f6ba78c1c9c6a46afbe79e30e4bac75d586bba1d1a2d20c8f38"
+    }
+  ]
+}

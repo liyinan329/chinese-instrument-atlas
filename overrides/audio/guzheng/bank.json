@@ -1,0 +1,55 @@
+{
+  "instrument": "古筝",
+  "kind": "sample-library",
+  "title": "古筝采样音色 · Kong Audio K",
+  "source": "用户提供的本机Kong Audio K音色库",
+  "processing": "单音采样、基频校准、22.05kHz单声道MP3、最长2.8秒及尾部淡出；技法为参数化参考。",
+  "rights_status": "用户明确要求上传公开应用；厂商针对应用嵌入与再分发的专项授权尚未确认，版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.mp3",
+      "root_midi": 36,
+      "root_hz": 65.38602003530423,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuZheng/GZ Basic Layers Samples/GZ Basic Layers_048_100.wav",
+      "sha256": "95b5abba86091c45df7ca0f57a4613ecff23717e2a88cd4130cbdac55c392d82"
+    },
+    {
+      "file": "kong-2.mp3",
+      "root_midi": 48,
+      "root_hz": 130.87680670409924,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuZheng/GZ Basic Layers Samples/GZ Basic Layers_060_100.wav",
+      "sha256": "f455177346b03a65e42b00736eb531aabeda0e40e25cc5eed7e501b0bafd4939"
+    },
+    {
+      "file": "kong-3.mp3",
+      "root_midi": 60,
+      "root_hz": 262.4287761573613,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuZheng/GZ Basic Layers Samples/GZ Basic Layers_072_100.wav",
+      "sha256": "1db347c1804ef6cf4d5a1f1397f0a0f39b65aa545900c624937c85d281d1205d"
+    },
+    {
+      "file": "kong-4.mp3",
+      "root_midi": 72,
+      "root_hz": 521.5050200430176,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuZheng/GZ Basic Layers Samples/GZ Basic Layers_084_100.wav",
+      "sha256": "da594517f66bacaecc671b95b6001b926a107ff42be63d08e20cf2e1bf7dcd4d"
+    },
+    {
+      "file": "kong-5.mp3",
+      "root_midi": 83,
+      "root_hz": 988.8653417808937,
+      "duration": 2.8,
+      "kind": "sample-library",
+      "source_file": "GuZheng/GZ Basic Layers Samples/GZ Basic Layers_095_100.wav",
+      "sha256": "a01ad06254855ac7b87c83f3aeca6f661230ae2c12a88db911052206a393579c"
+    }
+  ]
+}

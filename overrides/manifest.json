@@ -17,7 +17,7 @@
   },
   {
     "path": "ruan-audio.mjs",
-    "sha256": "7e4bd21bdb713e114c8a952a6a34a7cfc1199025f782aa41cfc83d3af097ec9a"
+    "sha256": "31fcc97ef7adc4dc61294cb60ac739952034250905cfc40fad9b5cea1d184e1e"
   },
   {
     "path": "ruan-motion.mjs",
@@ -322,5 +322,109 @@
   {
     "path": "yangqin-feedback.mjs",
     "sha256": "fc09c7567a82cb0df6b4b9b9249a68a98c6065b2a5127477eb3923213511642f"
+  },
+  {
+    "path": "wind-audio.mjs",
+    "sha256": "80d40062c32a6c131e6d25c1d76e8e88268007e9127b6e83270c7adcfbc5b0f0"
+  },
+  {
+    "path": "wind-workbench.mjs",
+    "sha256": "e79851c5c63449fadd4ff80c9834c1882bfd847ee89e7354edc54c3a260672a0"
+  },
+  {
+    "path": "instrument-atlas.mjs",
+    "sha256": "bdc39d5fa5eb4d748721aecc487f3a49e57319656811c6cecd56520036bef1e5"
+  },
+  {
+    "path": "audio/dizi/bank.json",
+    "sha256": "3ea2122311878101263cda7b65b6dfbd53c05359ddffbd772387744f9cb146bc"
+  },
+  {
+    "path": "audio/dizi/音色说明.txt",
+    "sha256": "62ec11caf9c76363653589b30e042dde722599d123cecc1ec2bc41d76f59ea54"
+  },
+  {
+    "path": "audio/xiao/kong-2.mp3",
+    "sha256": "ad8980657ead57602d932564253c39b68e1461e9d891cc4331cae3075b828ec2"
+  },
+  {
+    "path": "audio/xiao/kong-3.mp3",
+    "sha256": "4b1d2608a5de9940f6243221166f6ca5be84b2382de9ffe9a3dfb511ab6712cd"
+  },
+  {
+    "path": "audio/xiao/kong-1.mp3",
+    "sha256": "ac6100f4649643bea72a28da9710c66a65da3e79e95e0475d7929bcb0dacdcab"
+  },
+  {
+    "path": "audio/xiao/kong-4.mp3",
+    "sha256": "0bfb9bf90132f4f0965456bcf84571f8ebd80f26851b1b36a715126e66156f74"
+  },
+  {
+    "path": "audio/xiao/kong-5.mp3",
+    "sha256": "25859f5a3eead31477326a8b80bf446ac042209e0daa85f5bdb282a17df1626e"
+  },
+  {
+    "path": "audio/xiao/bank.json",
+    "sha256": "0e23f1d780bd2000426cca66288122417e649ab30b62ad75bd30a990a3eae434"
+  },
+  {
+    "path": "audio/xiao/音色说明.txt",
+    "sha256": "b21b3aa5f67a422ef8babc42c169842446b249ae2fcdf776d08e629131a793ea"
+  },
+  {
+    "path": "audio/sheng/kong-2.mp3",
+    "sha256": "5b46bd475e27d3e34f333e377ef4a2116fbe6697faaadff0b3102dc1c3b5e913"
+  },
+  {
+    "path": "audio/sheng/kong-3.mp3",
+    "sha256": "56766fef091cb208a22b9b41c7e1de8a00255014bf92ed960a3a33e115c34b1c"
+  },
+  {
+    "path": "audio/sheng/kong-1.mp3",
+    "sha256": "df1a024501f52e69e26cde4a55bcf3fdf2d4c553756f57d4b39537326487bb10"
+  },
+  {
+    "path": "audio/sheng/kong-4.mp3",
+    "sha256": "5d402b01d1b40d1e9f51c1eead7090fc4eb1f8b28feceab8c38d83f012417439"
+  },
+  {
+    "path": "audio/sheng/kong-5.mp3",
+    "sha256": "25361cd2f25f216a71a75be7d9dfdce21b29ccb6939b3afa920a6cd6c9bbc71e"
+  },
+  {
+    "path": "audio/sheng/bank.json",
+    "sha256": "299c8791236fc0118c47eb88d2582023910b07c32fc17dc9eea430645f5c1187"
+  },
+  {
+    "path": "audio/sheng/音色说明.txt",
+    "sha256": "1ac89345fe2605009cf0e0a371be82ffbb8081893990eeded91a48bcb918f852"
+  },
+  {
+    "path": "audio/suona/kong-2.mp3",
+    "sha256": "30f706c2014e2f9c379b2fc4bcacda0af5ca71f7c33ac46d49fc15216bf650fb"
+  },
+  {
+    "path": "audio/suona/kong-3.mp3",
+    "sha256": "f17e905f60fd5d2f668402ccf7e930fba46326be1254d9641900e7beb96a9a36"
+  },
+  {
+    "path": "audio/suona/kong-1.mp3",
+    "sha256": "64f391e3a78e932615778e6e059550e482eef8410012fc65428c6d80c53302be"
+  },
+  {
+    "path": "audio/suona/kong-4.mp3",
+    "sha256": "47c4dedc6489c1cf79994b52ff7056add595d0808328111e1dc3f45047184a31"
+  },
+  {
+    "path": "audio/suona/kong-5.mp3",
+    "sha256": "7514b864521ef3f0dce0d9bd7c0058f2864e36f37477dab27ee1be2a2e252e71"
+  },
+  {
+    "path": "audio/suona/bank.json",
+    "sha256": "b55d6398233e3910ba896690e9947af77902ca1a4517ed37daaab78cf1dd7ae8"
+  },
+  {
+    "path": "audio/suona/音色说明.txt",
+    "sha256": "9a0e8024cb2e3938cf7fc1c94222e3befac00ba78664b147bb6d32f02bb0f634"
   }
 ]

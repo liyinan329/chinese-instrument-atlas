@@ -1,0 +1,60 @@
+{
+  "instrument": "笙",
+  "kind": "sample-library",
+  "title": "笙基础采样 · Kong Audio K",
+  "source": "用户提供的本机Kong Audio K",
+  "processing": "基频校准、前置静音裁切、22.05kHz单声道MP3、短淡入淡出；未做独立技法采集。",
+  "rights_status": "用户明确要求上传本机音色；厂商对应用嵌入及再分发的专项授权尚未确认。版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.mp3",
+      "root_midi": 55,
+      "root_hz": 196.55350801687044,
+      "kind": "sample-library",
+      "source_file": "Sheng/Sheng Samples/ChineeSheng_055_100.wav",
+      "trim_start": 0,
+      "duration": 3.2,
+      "sha256": "df1a024501f52e69e26cde4a55bcf3fdf2d4c553756f57d4b39537326487bb10"
+    },
+    {
+      "file": "kong-2.mp3",
+      "root_midi": 62,
+      "root_hz": 294.9873615343834,
+      "kind": "sample-library",
+      "source_file": "Sheng/Sheng Samples/ChineeSheng_062_100.wav",
+      "trim_start": 0.038780045351473925,
+      "duration": 3.2,
+      "sha256": "5b46bd475e27d3e34f333e377ef4a2116fbe6697faaadff0b3102dc1c3b5e913"
+    },
+    {
+      "file": "kong-3.mp3",
+      "root_midi": 69,
+      "root_hz": 440.8366972477064,
+      "kind": "sample-library",
+      "source_file": "Sheng/Sheng Samples/ChineeSheng_069_100.wav",
+      "trim_start": 0.028848072562358273,
+      "duration": 3.2,
+      "sha256": "56766fef091cb208a22b9b41c7e1de8a00255014bf92ed960a3a33e115c34b1c"
+    },
+    {
+      "file": "kong-4.mp3",
+      "root_midi": 76,
+      "root_hz": 660.6407042234387,
+      "kind": "sample-library",
+      "source_file": "Sheng/Sheng Samples/ChineeSheng_076_100.wav",
+      "trim_start": 0.003768707482993197,
+      "duration": 3.2,
+      "sha256": "5d402b01d1b40d1e9f51c1eead7090fc4eb1f8b28feceab8c38d83f012417439"
+    },
+    {
+      "file": "kong-5.mp3",
+      "root_midi": 83,
+      "root_hz": 991.0289509242153,
+      "kind": "sample-library",
+      "source_file": "Sheng/Sheng Samples/ChineeSheng_083_100.wav",
+      "trim_start": 0.018439909297052155,
+      "duration": 3.2,
+      "sha256": "25361cd2f25f216a71a75be7d9dfdce21b29ccb6939b3afa920a6cd6c9bbc71e"
+    }
+  ]
+}

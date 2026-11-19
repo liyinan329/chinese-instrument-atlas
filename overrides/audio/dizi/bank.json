@@ -1,0 +1,51 @@
+{
+  "instrument": "笛子",
+  "kind": "open-recording",
+  "source": "Ng Hsien Han、Chen Jer-ming · Dizi Dataset",
+  "license": "CC BY 4.0",
+  "url": "https://doi.org/10.5281/zenodo.6333670",
+  "samples": [
+    {
+      "file": "../basic/dizi-76.wav",
+      "root_midi": 76,
+      "root_hz": 661.497,
+      "sha256": "bdfb0f90458eff109d72e20256bd92fb40ef1b92a6e94f703aa88c034dac1f30",
+      "duration": 4
+    },
+    {
+      "file": "../basic/dizi-81.wav",
+      "root_midi": 81,
+      "root_hz": 891.1755,
+      "sha256": "ed529ad8e817d31b832498e2933041cb379a155c30286f7a9fd5ae02c24aae41",
+      "duration": 4
+    },
+    {
+      "file": "../basic/dizi-90.wav",
+      "root_midi": 90,
+      "root_hz": 1494.6035,
+      "sha256": "3098c893314501751aec5e0ce1e6dc46430bb059efa470a0bcb9bfd6fb750cb7",
+      "duration": 4
+    },
+    {
+      "file": "../basic/dizi-91.wav",
+      "root_midi": 91,
+      "root_hz": 1598.1544,
+      "sha256": "d6344018d703ada354bdb912d01516c48eb93d9eabaa6e62e17ae142557b9525",
+      "duration": 4
+    },
+    {
+      "file": "../basic/dizi-102.wav",
+      "root_midi": 103,
+      "root_hz": 3089.9754,
+      "sha256": "9b340190c19ac70ce7e347ce5593a6c87f6273d236afeba0fccee829c00642a1",
+      "duration": 3.627
+    },
+    {
+      "file": "../basic/dizi-103.wav",
+      "root_midi": 103,
+      "root_hz": 3213.7523,
+      "sha256": "e3314051ba5f8aa8ec415f9dbab55c43537437b3c8fa5cbe316cf0b165a03cb4",
+      "duration": 2.503
+    }
+  ]
+}

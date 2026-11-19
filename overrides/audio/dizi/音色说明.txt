@@ -1,0 +1,4 @@
+竹笛：Ng Hsien Han、Chen Jer-ming，Dizi Dataset，CC BY 4.0。
+来源 https://doi.org/10.5281/zenodo.6333670
+许可 https://creativecommons.org/licenses/by/4.0/
+沿用本项目现有6个已剪辑并校准音高的基础采样，按邻近音区移调。详细原始录音目录与变更见 audio/basic 下的竹笛许可文件。技法为参数化示意，非独立技法录音。

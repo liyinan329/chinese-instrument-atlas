@@ -1,7 +1,7 @@
 [
   {
     "path": "plucked-workbench.mjs",
-    "sha256": "6faca9a0d00ee0411f6154446fed0a0a037de03a15eddcf3624f07cbaded84bf"
+    "sha256": "0d818db5c89dee0d927a17dca9d1502b97d2172ac4b8ea5a5afa434a881fbd21"
   },
   {
     "path": "plucked-staff.mjs",
@@ -70,5 +70,25 @@
   {
     "path": "audio/ruan/g3-b.wav",
     "sha256": "86fe9e1398825bb45c1d6130ca7b40e19b308943ea9b00ef6400e2afeaaa9c85"
+  },
+  {
+    "path": "string-feedback.mjs",
+    "sha256": "70ce9d97864378ded61662ec0816c1712bd9c4b5503847a63916eebba2fe7ade"
+  },
+  {
+    "path": "plucked-scene.mjs",
+    "sha256": "ba212c023d742a7cf3f232b7290699cecee15937716bef13f835cce3cbae2448"
+  },
+  {
+    "path": "pipa-3d.mjs",
+    "sha256": "dc140fbdbbae550fca216f4c337f301a19fd4b02a4262b222e2cd2a936c53d3f"
+  },
+  {
+    "path": "sampler.mjs",
+    "sha256": "75afc6d3e059db130d8a7448a78589ed49609d754854d9b5bbb54f101271a611"
+  },
+  {
+    "path": "app.mjs",
+    "sha256": "d0f89fc89a4da6f477c1cb12e3180c2dfaf96f28add0e42b6952e7e03a4cfb23"
   }
 ]

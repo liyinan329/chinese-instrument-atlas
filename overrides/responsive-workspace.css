@@ -1,0 +1,8 @@
+@media(max-width:1000px){
+ .workspace,.ruan-workbench .plucked-workspace{grid-template-columns:minmax(0,1fr)!important}
+ .workspace>.chord-panel{min-width:0;position:static;border-left:0;max-width:100%}
+ .workspace>.mobile-profile-panel{grid-column:1/-1;min-width:0;width:100%;box-sizing:border-box;margin:0;padding:24px;background:var(--paper,#faf8f0);border:1px solid var(--line,#d9d1c1);border-radius:0 0 8px 8px}
+ .workspace>.mobile-profile-panel .pipa-profile-heading{flex-wrap:wrap;gap:12px}
+ .workspace>.mobile-profile-panel .pipa-profile-grid,.workspace>.mobile-profile-panel .pipa-writing-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:540px){.workspace>.mobile-profile-panel{padding:22px 18px}}

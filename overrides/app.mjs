@@ -1,3 +1,4 @@
+import {startResponsiveWorkspaces} from './responsive-workspace.mjs';
 import {mountInstrumentAtlas} from './instrument-atlas.mjs';
 import {ScoreTechniques} from './score-techniques.mjs?v=9.0';
 import { STRINGS, noteName, frequency, fretName, midiAt, available, parseInput, solve } from './model.mjs?v=6.0';
@@ -268,4 +269,5 @@ function renderCoverage(){
 }
 document.addEventListener('change',e=>{if(e.target.id==='recording-select'){stop();const clip=selectedClip();$('#clip-description').innerHTML=clipMetadata(clip);syncClipProgress();}});
 
+startResponsiveWorkspaces();
 atlas=mountInstrumentAtlas(applyAtlasRoute);

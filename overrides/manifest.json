@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "d0f89fc89a4da6f477c1cb12e3180c2dfaf96f28add0e42b6952e7e03a4cfb23"
+    "sha256": "4895299da8b2327bd45969be6d685bb516b72fe5fd81b8f0931cb31712f41dcf"
   },
   {
     "path": "object-turntable.mjs",
@@ -426,5 +426,13 @@
   {
     "path": "audio/suona/音色说明.txt",
     "sha256": "9a0e8024cb2e3938cf7fc1c94222e3befac00ba78664b147bb6d32f02bb0f634"
+  },
+  {
+    "path": "responsive-workspace.mjs",
+    "sha256": "7380a20ca05f8a1492ae4c423c65611a690e0891b9c630bc22b5a8b3b7f47b28"
+  },
+  {
+    "path": "responsive-workspace.css",
+    "sha256": "fd36379cbf41466cd487ee936a630357de5bc488d4eab4ae664fd6dcac543ee4"
   }
 ]

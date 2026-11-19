@@ -1,7 +1,7 @@
 [
   {
     "path": "plucked-workbench.mjs",
-    "sha256": "2162c4c9f8885c5141480ced186b1b2d4df0e7f4deadb7d11ae0fd652d0fa433"
+    "sha256": "23dc558f32ef31fcc386b431398b0730d5233d21da6f3608f964f242369b9c8f"
   },
   {
     "path": "plucked-staff.mjs",
@@ -73,15 +73,15 @@
   },
   {
     "path": "string-feedback.mjs",
-    "sha256": "70ce9d97864378ded61662ec0816c1712bd9c4b5503847a63916eebba2fe7ade"
+    "sha256": "71c90f79a8272ca23827b331803cf5306e81a010dbae519e7596cad12ac4431c"
   },
   {
     "path": "plucked-scene.mjs",
-    "sha256": "3424e4c38b73515467ec14a44c0fd26f35cb3499ee330d18ac6f8115cb95678b"
+    "sha256": "91bb06767fc6a3ea64e6341bad2e2a6ca1048770ae8efdb77f299b20c05ccf11"
   },
   {
     "path": "pipa-3d.mjs",
-    "sha256": "cb30db485d78bb86d9e4dcb9d59b11e41436a726eca8f168ff7a0a0cc0e733f0"
+    "sha256": "fa58c16e25468a74be70ba005d8237feb5b5a86d75b0fb1ba42c503e83a231a7"
   },
   {
     "path": "sampler.mjs",
@@ -186,5 +186,9 @@
   {
     "path": "audio/liuqin/kong-lq-7.wav",
     "sha256": "08feb47fd7fd5cf4785d7b9c2cc29d8b09a00909836ea71999640d0479e0ced3"
+  },
+  {
+    "path": "note-marker.mjs",
+    "sha256": "34c0981de2604b6d97866be356e07a98a125780bc62bc00a55107099aa57e39c"
   }
 ]

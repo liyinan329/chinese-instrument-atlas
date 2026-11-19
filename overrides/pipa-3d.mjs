@@ -1,3 +1,4 @@
+import {makeNoteMarker} from './note-marker.mjs';
 import {ObjectTurntable,objectDragDelta} from './object-turntable.mjs';
 import {StringFeedback} from './string-feedback.mjs';
 import * as THREE from './vendor/three.module.js';
@@ -191,10 +192,10 @@ export class Pipa3D{
   for(const x of [-.69,.69])for(const y of [-4.92,-4.68]){const rivet=this.mesh(new THREE.SphereGeometry(.009,12,8),frame,x,y,1.197,this.scene);rivet.scale.z=.3;}
   this.setGalleryTheme('warm');
  }
- makeMarker(radius=.07,color=0xa6482f){const mesh=new THREE.Mesh(new THREE.TorusGeometry(radius,.015,8,24),new THREE.MeshBasicMaterial({color,depthTest:false}));mesh.renderOrder=8;return mesh;}
+ makeMarker(radius=.07,color=0xa6482f){return makeNoteMarker({size:radius*.34,current:color===0xa6482f,candidate:color===0xc5a15f});}
  update({profile=this.profile,conservative=this.conservative,flat=this.flat,positions=this.positions,held=this.held}={}){
   const rebuild=profile!==this.profile||conservative!==this.conservative;this.profile=profile;this.conservative=conservative;this.flat=flat;this.positions=positions;this.held=[...held];if(rebuild)this.rebuildFrets();
-  this.clearGroup(this.markerGroup);for(const p of positions){if(!available(p.s,p.fret,this.conservative))continue;const y=p.fret===0?NUT_Y+.09:fretY(p.fret,this.profile);const marker=this.makeMarker(.072,p.current?0xa6482f:p.candidate?0xc5a15f:0x4d815c);marker.position.set(stringX(p.s,y),y,.36);this.markerGroup.add(marker);if(this.labels){const label=this.label(`${noteName(midiAt(p.s,p.fret,this.profile),this.flat)}${p.finger?' · '+p.finger:''}`,p.current?'#a6482f':p.candidate?'#bc9855':'#366747');label.position.set(stringX(p.s,y)+(p.s<2?-.32:.32),y+.10,.4);label.scale.set(.62,.155,1);this.markerGroup.add(label);}}
+  this.clearGroup(this.markerGroup);for(const p of positions){if(!available(p.s,p.fret,this.conservative))continue;const y=p.fret===0?NUT_Y+.09:fretY(p.fret,this.profile);const marker=this.makeMarker(.072,p.current?0xa6482f:p.candidate?0xc5a15f:0x4d815c);marker.position.set(stringX(p.s,y),y,.36);this.markerGroup.add(marker);if(this.labels){const label=this.label(`${noteName(midiAt(p.s,p.fret,this.profile),this.flat)}${p.finger?' · '+p.finger:''}`,p.current?'#b79859':p.candidate?'#8f9e91':'#8b7c58');label.position.set(stringX(p.s,y)+(p.s<2?-.32:.32),y+.10,.4);label.scale.set(.62,.155,1);this.markerGroup.add(label);}}
  }
  pick(e){
   const rect=this.renderer.domElement.getBoundingClientRect();this.pointer.set((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1);this.ray.setFromCamera(this.pointer,this.camera);

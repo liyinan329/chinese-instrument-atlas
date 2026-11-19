@@ -21,7 +21,7 @@
   },
   {
     "path": "ruan-motion.mjs",
-    "sha256": "fd9e9f0cf19ce306d7ab7a5cbf9fa4bb96abd888e83b9034706ca8e054d4c551"
+    "sha256": "6c1485dc77d87481d51d74c220f04d1c15d66375c62a3cf2da58d4859d8ebee7"
   },
   {
     "path": "ruan-studio.mjs",
@@ -77,11 +77,11 @@
   },
   {
     "path": "plucked-scene.mjs",
-    "sha256": "ba212c023d742a7cf3f232b7290699cecee15937716bef13f835cce3cbae2448"
+    "sha256": "5f26e265c3ba52c01e11ee2e55e072f960507537aebc33828897acecade16f96"
   },
   {
     "path": "pipa-3d.mjs",
-    "sha256": "dc140fbdbbae550fca216f4c337f301a19fd4b02a4262b222e2cd2a936c53d3f"
+    "sha256": "cb30db485d78bb86d9e4dcb9d59b11e41436a726eca8f168ff7a0a0cc0e733f0"
   },
   {
     "path": "sampler.mjs",
@@ -90,5 +90,17 @@
   {
     "path": "app.mjs",
     "sha256": "d0f89fc89a4da6f477c1cb12e3180c2dfaf96f28add0e42b6952e7e03a4cfb23"
+  },
+  {
+    "path": "object-turntable.mjs",
+    "sha256": "3b2a225404bb70004ee1ae0b6c936763b5223c50390ba86b28421acb54896203"
+  },
+  {
+    "path": "wind-scene.mjs",
+    "sha256": "886b3f422cb9e4925624c1209d2e2476491411e54b7ee52d77bc9ab48e8bdd00"
+  },
+  {
+    "path": "orchestra-scene.mjs",
+    "sha256": "12caa365a84fd3d64d4c4e1ae5615a5d3f42f95d119fac5e6f18fe7a92dcc18f"
   }
 ]

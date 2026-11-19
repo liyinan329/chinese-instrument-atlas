@@ -1,3 +1,4 @@
+import {ObjectTurntable,objectDragDelta} from './object-turntable.mjs';
 import {StringFeedback} from './string-feedback.mjs';
 import * as THREE from './vendor/three.module.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
@@ -21,13 +22,13 @@ export class Pipa3D{
   this.scene=new THREE.Scene();this.scene.background=new THREE.Color('#34312e');this.scene.fog=new THREE.Fog('#34312e',30,65);
   this.camera=new THREE.PerspectiveCamera(34,1,.1,100);this.camera.position.set(0,.65,19.7);
   this.renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});this.renderer.setPixelRatio(Math.min(devicePixelRatio,2));this.renderer.outputColorSpace=THREE.SRGBColorSpace;this.renderer.toneMapping=THREE.ACESFilmicToneMapping;this.renderer.toneMappingExposure=1.05;this.renderer.shadowMap.enabled=true;this.renderer.shadowMap.type=THREE.PCFSoftShadowMap;
-  this.renderer.domElement.setAttribute('aria-label','可旋转的3D琵琶：点击琴弦演奏，拖动空白处平移，滚轮上下浏览；选择旋转模式查看背面。方向键选择弦品，空格发声。');this.renderer.domElement.tabIndex=0;
+  this.renderer.domElement.setAttribute('aria-label','可旋转的3D琵琶：点击琴弦演奏，拖动空白处只转动琴身，滚轮上下浏览；选择旋转模式查看背面。方向键选择弦品，空格发声。');this.renderer.domElement.tabIndex=0;
   this.el.prepend(this.renderer.domElement);this.renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();this.onStatus('3D显示暂时中断，请刷新页面。');});
   this.model=new THREE.Group();this.model.rotation.y=-.08;this.scene.add(this.model);
   this.hitObjects=[];this.buildMaterials();this.buildInstrument();this.buildLighting();
   this.markerGroup=new THREE.Group();this.model.add(this.markerGroup);this.hoverMarker=this.makeMarker(.075,0xa6482f);this.hoverMarker.visible=false;this.model.add(this.hoverMarker);
   this.controls=new OrbitControls(this.camera,this.renderer.domElement);this.controls.target.set(0,.25,0);this.controls.enableDamping=true;this.controls.dampingFactor=.1;this.controls.minDistance=4;this.controls.maxDistance=23;this.controls.maxPolarAngle=Math.PI*.94;this.controls.minPolarAngle=Math.PI*.06;this.controls.enablePan=true;this.controls.enableRotate=false;this.controls.enableZoom=false;this.controls.screenSpacePanning=true;this.controls.mouseButtons.LEFT=THREE.MOUSE.PAN;this.controls.touches.ONE=THREE.TOUCH.PAN;this.controls.touches.TWO=THREE.TOUCH.DOLLY_PAN;
-  this.bindEvents();this.resizeObserver=new ResizeObserver(()=>this.resize());this.resizeObserver.observe(this.el);this.resize();this.animate();
+  this.turntable=new ObjectTurntable(this.model,{onChange:()=>{this.feedbackRoll=0;}});this.turntable.capture();this.bindEvents();this.resizeObserver=new ResizeObserver(()=>this.resize());this.resizeObserver.observe(this.el);this.resize();this.animate();
   this.onStatus('3D 琵琶已就绪');
  }
  woodTexture(dark=false){
@@ -207,12 +208,12 @@ export class Pipa3D{
   canvas.addEventListener('pointerdown',e=>{
    if(e.button!==0)return;canvas.focus({preventScroll:true});
    const hit=this.interaction==='play'?this.pick(e):null;
-   down={x:e.clientX,y:e.clientY,playing:!!hit,orbit:this.interaction==='orbit'};
+   down={x:e.clientX,y:e.clientY,playing:!!hit,orbit:this.interaction!=='pan'&&!hit};
    this.controls.enabled=!hit&&!down.orbit;this.isDown=!!hit;this.lastHit='';
    if(hit||down.orbit){canvas.setPointerCapture(e.pointerId);e.preventDefault();if(hit)this.fire(hit);}
   },true);
   canvas.addEventListener('pointermove',e=>{
-   if(down?.orbit){this.model.rotation.y+=(e.clientX-down.x)*.008;this.model.rotation.x=THREE.MathUtils.clamp(this.model.rotation.x+(e.clientY-down.y)*.004,-.7,.7);down.x=e.clientX;down.y=e.clientY;this.autorotate=false;return;}
+   if(down?.orbit){const delta=objectDragDelta(e.clientX-down.x,e.clientY-down.y);this.turntable.rotate(delta.yaw,delta.pitch);down.x=e.clientX;down.y=e.clientY;this.autorotate=false;return;}
    const hit=this.interaction==='play'?this.pick(e):null;canvas.style.cursor=hit?'crosshair':down?'grabbing':'grab';this.hoverMarker.visible=!!hit;
    if(hit){const y=hit.fret===0?NUT_Y+.09:fretY(hit.fret,this.profile);this.hoverMarker.position.set(stringX(hit.s,y),y,.37);this.onHover({s:hit.s,fret:hit.fret,pluck:hit.pluck,x:e.clientX,y:e.clientY});if(this.isDown&&down?.playing)this.fire(hit);}else{this.onHover(null);if(this.isDown)this.lastHit='';}
   });
@@ -220,13 +221,13 @@ export class Pipa3D{
   canvas.addEventListener('wheel',e=>{e.preventDefault();if(e.ctrlKey||e.metaKey)this.zoom(Math.exp(e.deltaY*.002));else this.pan(0,-e.deltaY*.008);},{passive:false});
   canvas.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown',' ','Enter'].includes(e.key))return;e.preventDefault();if(e.shiftKey){this.pan(e.key==='ArrowLeft'?-.4:e.key==='ArrowRight'?.4:0,e.key==='ArrowUp'?.4:e.key==='ArrowDown'?-.4:0);return;}const cur=this.positions.find(p=>p.current)||{s:3,fret:0};let {s,fret}=cur;if(e.key==='ArrowLeft')s=Math.max(0,s-1);if(e.key==='ArrowRight')s=Math.min(3,s+1);if(e.key==='ArrowUp')fret=Math.max(0,fret-1);if(e.key==='ArrowDown')fret=Math.min(this.conservative?[21,24,30,30][s]:30,fret+1);if(available(s,fret,this.conservative)){this.held[s]=fret;this.pluck(s);this.onNote(s,fret,{keyboard:true});}});
  }
- setMode(mode){this.interaction=mode;this.hoverMarker.visible=false;this.onHover(null);this.onStatus(mode==='orbit'?'旋转 · 左右转动琴身，上下调整俯仰':mode==='pan'?'移动 · 拖动任意位置，上下滚动浏览':'演奏 · 点弦发声，拖动空白处移动');}
+ setMode(mode){this.interaction=mode;this.hoverMarker.visible=false;this.onHover(null);this.onStatus(mode==='orbit'?'旋转 · 左右转动琴身，上下调整俯仰':mode==='pan'?'移动 · 拖动任意位置，上下滚动浏览':'演奏 · 点弦发声，拖动空白处只转动琴身');}
  pan(x,y){const t=this.controls.target,ny=THREE.MathUtils.clamp(t.y+y,-4.3,5.2),nx=THREE.MathUtils.clamp(t.x+x,-3.5,3.5);this.camera.position.x+=nx-t.x;this.camera.position.y+=ny-t.y;t.x=nx;t.y=ny;this.controls.update();}
  pluck(s,{strength=.75,fret=this.held[s]}={}){this.stringFeedback.pluck(s,{strength,stop:fretY(fret||0,this.profile)});}
  preset(view){
-  this.autorotate=false;this.stringFeedback.reset();this.feedbackRoll=0;this.model.rotation.set(0,0,0);this.camera.position.set(0,.65,19.7);this.controls.target.set(0,.25,0);
-  if(view==='back')this.model.rotation.y=Math.PI;
-  if(view==='side')this.model.rotation.y=-Math.PI*.46;
+  this.autorotate=false;this.stringFeedback.reset();this.feedbackRoll=0;this.turntable.reset();this.camera.position.set(0,.65,19.7);this.controls.target.set(0,.25,0);
+  if(view==='back')this.turntable.view('back');
+  if(view==='side')this.turntable.view('side');
   if(view==='neck'){this.camera.position.set(0,2.9,6.8);this.controls.target.set(0,2.9,.12);}
   if(view==='frets'){this.camera.position.set(0,-1.2,7.5);this.controls.target.set(0,-1.2,.12);}
   if(view==='head'){this.camera.position.set(0,4.12,5.4);this.controls.target.set(0,4.12,0);}
@@ -236,7 +237,7 @@ export class Pipa3D{
  zoom(factor){const v=this.camera.position.clone().sub(this.controls.target);v.multiplyScalar(factor);v.clampLength(4,23);this.camera.position.copy(this.controls.target).add(v);this.controls.update();}
  resize(){const w=this.el.clientWidth,h=this.el.clientHeight;if(!w||!h)return;this.camera.aspect=w/h;this.camera.updateProjectionMatrix();this.renderer.setSize(w,h,false);}
  animate(){
-  this.frame=requestAnimationFrame(()=>this.animate());if(this.el.getClientRects().length===0)return;const t=this.clock.getElapsedTime();this.controls.update();if(this.autorotate)this.model.rotation.y+=.003;
+  this.frame=requestAnimationFrame(()=>this.animate());if(this.el.getClientRects().length===0)return;const t=this.clock.getElapsedTime();this.controls.update();if(this.autorotate&&!globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches)this.turntable.rotate(.002); 
   const front=new THREE.Vector3(0,0,1).transformDirection(this.model.matrixWorld).dot(this.camera.position.clone().sub(this.model.position).normalize())>.15;
   this.markerGroup.visible=front;this.labelGroup.visible=this.labels&&front;if(!front)this.hoverMarker.visible=false;
   const roll=this.stringFeedback.step(performance.now()/1000,{reduced:globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches});this.model.rotation.z+=roll-this.feedbackRoll;this.feedbackRoll=roll;

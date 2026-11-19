@@ -35,5 +35,16 @@ def fetch(item):
 
 with ThreadPoolExecutor(max_workers=6) as executor:
     sizes = list(executor.map(fetch, manifest))
+# Overlay reviewed module-only updates; keep the pinned v0.22 title and release shell.
+for item in json.loads(Path('overrides/manifest.json').read_text()):
+    relative = Path(item['path'])
+    if relative.is_absolute() or '..' in relative.parts:
+        raise ValueError('Unsafe overlay path')
+    data = (Path('overrides') / relative).read_bytes()
+    if hashlib.sha256(data).hexdigest() != item['sha256']:
+        raise ValueError('Overlay checksum mismatch: ' + item['path'])
+    target = DEST / relative
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_bytes(data)
 (DEST / '.nojekyll').touch()
 print(f'Verified {len(sizes)} assets, {sum(sizes)} bytes. No runtime dependency on the source host.')

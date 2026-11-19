@@ -1,0 +1,6 @@
+中阮音频来源与许可
+作者：Francesc Fort；原文件元数据：NENU Folklorical Orchestra
+原文件：https://commons.wikimedia.org/wiki/File:Zhongruan.ogg
+许可：CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+原录音0.145–1.34秒片段，经裁切、单声道重采样、高通、音量归一、边缘淡入淡出。衍生音频沿用CC BY-SA 4.0。该许可仅针对音频，不代表作者为应用背书。
+播放时按谱音变速移调，不作无限循环延音，不将此片段标为逐技法实录。

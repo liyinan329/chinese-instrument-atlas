@@ -1,0 +1,42 @@
+[
+  {
+    "path": "plucked-workbench.mjs",
+    "sha256": "e5dc8be7b267c0a166d7634eb4980f3deb152f208f7cc446a3d23f0d345ce8cf"
+  },
+  {
+    "path": "plucked-staff.mjs",
+    "sha256": "a7b59cdba15264b0aa4ff864a5b9e0987929a27bab77e66d9f39c7e6b8a83bea"
+  },
+  {
+    "path": "ruan-techniques.mjs",
+    "sha256": "a19adc05ecbad62e38f39570de198163db17b22c80d14bfa917d127ef441941b"
+  },
+  {
+    "path": "ruan-audio.mjs",
+    "sha256": "9c16e4c7be4d93477110f477aad9d0b94665c8f46582385bf392803576d1313d"
+  },
+  {
+    "path": "ruan-motion.mjs",
+    "sha256": "cfd26986a9e8ba883a6b334b4d401fb2d85f8601e815896f759fcd5d44ac8f7f"
+  },
+  {
+    "path": "ruan-studio.mjs",
+    "sha256": "bcf26df44f03c76b76485459946718c306d0067ba630d924b5ce2a208b6b9ec9"
+  },
+  {
+    "path": "ruan.css",
+    "sha256": "ae57a1ca69c3a1b4862bffe9f0216aea144ac236b63049fb1423e2af62d29662"
+  },
+  {
+    "path": "audio/ruan/zhongruan-d4.wav",
+    "sha256": "f20cb9a665b77c74f22df9050c7e3eca2cab5953152a88641831069034e62062"
+  },
+  {
+    "path": "audio/ruan/source.json",
+    "sha256": "3260648bf94658bf804e27b2ca4c08a82f44f201dc4d1730e20c9ee75cfac859"
+  },
+  {
+    "path": "audio/ruan/LICENSE.txt",
+    "sha256": "a3d6d22aa98f8790f6b631de0839125156bb8a00cf52a9bc98cf5713a5d940e8"
+  }
+]

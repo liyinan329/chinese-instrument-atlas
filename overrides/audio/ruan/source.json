@@ -1,0 +1,17 @@
+{
+  "title": "中阮真实演奏切片",
+  "author": "Francesc Fort",
+  "performer_metadata": "NENU Folklorical Orchestra",
+  "source": "https://commons.wikimedia.org/wiki/File:Zhongruan.ogg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "excerpt_seconds": [
+    0.145,
+    1.34
+  ],
+  "processing": "裁切、单声道、22050Hz重采样、60Hz高通、音量归一、边缘淡入淡出；无合成叠层。播放按目标音高变速移调，轮奏/扫弦等为该单音切片的参数化演示，不是分技法实录。",
+  "root_midi": 62,
+  "root_hz": 294.5,
+  "path": "audio/ruan/zhongruan-d4.wav",
+  "sha256": "f20cb9a665b77c74f22df9050c7e3eca2cab5953152a88641831069034e62062"
+}

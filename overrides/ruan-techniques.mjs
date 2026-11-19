@@ -22,16 +22,16 @@ export const ruanTechniques=[
 export const ruanTechnique=id=>ruanTechniques.find(t=>t.id===id)||ruanTechniques[0];
 export const ruanSources=[{title:'济南大学音乐学院《音教器乐》教学大纲（中阮）',url:'https://music.ujn.edu.cn/info/1093/2238.htm'},{title:'香港康文署音乐事务处中阮必修教材',url:'https://www.lcsd.gov.hk/en/mo/common/doc/faq/faq_01_syb_0204.pdf'}];
 export function naturalHarmonics(c){return c.tuning.flatMap((m,s)=>[2,3,4,5,6,8].map(h=>({s,h,midi:m+Math.round(12*Math.log2(h)),touch:Math.round(c.scale/h),cents:1200*Math.log2(h)-100*Math.round(12*Math.log2(h))})));}
-export function validateRuan(notes,id,c,shape=[],target){
- const t=ruanTechnique(id);if(!notes.length)throw Error('请先在谱面输入音符。');
+export function validateRuan(notes,id,c,shape=[],target,catalog=ruanTechniques){
+ const t=catalog.find(t=>t.id===id)||catalog[0];if(!notes.length)throw Error('请先在谱面输入音符。');
  if(t.count&&notes.length!==t.count)throw Error(`${t.name}需要选择${t.count}个参与音；可用“试听所选音”听普通奏法。`);
  if(t.minCount&&notes.length<t.minCount)throw Error(`${t.name}至少需要两个参与音。`);
  if(t.target){if(notes.length!==1)throw Error('滑音、打音与带音请先选一个音，再指定目标音。');const n=notes[0],p=n.binding||shape.find(p=>p.midi===n.midi);if(!Number.isInteger(target))throw Error('请填写目标实际音高，例如 D4。');if((target-n.midi)*t.direction<=0)throw Error(t.direction>0?'目标音应高于起音。':'目标音应低于起音。');if(!p||target<c.tuning[p.s]||target>c.tuning[p.s]+c.frets)throw Error('起止音不能安排在同一根弦的有效品位内。');}
  if(id==='harmonic')for(const n of notes){const p=n.binding;const matches=naturalHarmonics(c).filter(h=>h.midi===n.midi&&(!p||h.s===p.s));if(!matches.length)throw Error('此音不是当前定弦的常用自然泛音实音；请改音高或取消固定弦位。');}
  return true;
 }
-export function planRuan(notes,id='down',{speed=10,duration=2.4,target}={}){
- const t=ruanTechnique(id),ordered=[...notes].sort((a,b)=>(a.s??a.binding?.s??0)-(b.s??b.binding?.s??0)||a.midi-b.midi),events=[];
+export function planRuan(notes,id='down',{speed=10,duration=2.4,target}={},catalog=ruanTechniques){
+ const t=catalog.find(t=>t.id===id)||catalog[0],ordered=[...notes].sort((a,b)=>(a.s??a.binding?.s??0)-(b.s??b.binding?.s??0)||a.midi-b.midi),events=[];
  const emit=(n,time=0,extra={})=>events.push({midi:n.midi,s:n.s??n.binding?.s,time,duration,velocity:.72/Math.sqrt(notes.length),technique:id,...extra});
  if(['tremolo','alternate'].includes(id)){const count=id==='alternate'?8:Math.floor(duration*speed);for(let k=0;k<count;k++){const stroke=k%2?[...ordered].reverse():ordered;stroke.forEach((n,i)=>{const time=Math.max(0,k/speed+(k%3-1)*.0017+i*.007);emit(n,time,{duration:Math.max(.015,Math.min(.65,duration-time)),velocity:(.6+.07*Math.sin(k*1.73))/Math.sqrt(notes.length),pick:k%2});});}}
  else if(['sweepDown','sweepUp','double','arpeggio'].includes(id)){let list=id==='sweepUp'?[...ordered].reverse():ordered;list.forEach((n,i)=>emit(n,i*(id==='arpeggio'?.18:.026)));}

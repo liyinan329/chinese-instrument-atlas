@@ -1,7 +1,7 @@
 [
   {
     "path": "plucked-workbench.mjs",
-    "sha256": "0d818db5c89dee0d927a17dca9d1502b97d2172ac4b8ea5a5afa434a881fbd21"
+    "sha256": "2162c4c9f8885c5141480ced186b1b2d4df0e7f4deadb7d11ae0fd652d0fa433"
   },
   {
     "path": "plucked-staff.mjs",
@@ -13,31 +13,31 @@
   },
   {
     "path": "ruan-techniques.mjs",
-    "sha256": "1d071cd7697614e7476d5edaa3d63e8ad235dd25fadf9da0105a7f7aae391175"
+    "sha256": "ac6ab67d80962409c8d43325e5d27f48ee24cbb49a7b93d5c31ef66f6c589fba"
   },
   {
     "path": "ruan-audio.mjs",
-    "sha256": "73763dd95884ec8348b06e0a8615ad97a830ece93bc2f314cf557c23cdc2d052"
+    "sha256": "c897b28556e08488870cdf0dd63946c5985e585ddcc9f9d50698a338ab4f7acf"
   },
   {
     "path": "ruan-motion.mjs",
-    "sha256": "6c1485dc77d87481d51d74c220f04d1c15d66375c62a3cf2da58d4859d8ebee7"
+    "sha256": "2b47e15a4c0090cfc3e636e1d21525d40058a80dc40241524c3a3a19c38f1435"
   },
   {
     "path": "ruan-studio.mjs",
-    "sha256": "e6a05e9ce485f8c991bc2d38c190abf1b5f5128a960af618a76aa707dee9278c"
+    "sha256": "f9a4768606d92f029b31cd45d7e8b3d8e71d5b498225db91b2629398fa045959"
   },
   {
     "path": "ruan.css",
-    "sha256": "b7071c13663ee7371b5e290cefe9039eb3ed88f6b301dc1006822075d4f0705b"
+    "sha256": "bebf6051a30cf727237cf367a137eb46d5da06440d7579646ed073f2e76ad3db"
   },
   {
     "path": "ruan-score.mjs",
-    "sha256": "463d75b3af80bc45b39392d35b7749fdd8558c2efcddfc3b433f9507ab4877ff"
+    "sha256": "28deb1a49761af9555229533d66bedc99b1aee03f1c9d7288c0df1f13f781750"
   },
   {
     "path": "ruan-motion-state.mjs",
-    "sha256": "0124a7278754802a2cef6813fe9b79117a494c94ed252eed5ec946cdae004930"
+    "sha256": "07c005c12377d64d0212d741524228d0181cba900d38d3bae7187b2fc5431d2f"
   },
   {
     "path": "audio/ruan/LICENSE.txt",
@@ -77,7 +77,7 @@
   },
   {
     "path": "plucked-scene.mjs",
-    "sha256": "5f26e265c3ba52c01e11ee2e55e072f960507537aebc33828897acecade16f96"
+    "sha256": "3424e4c38b73515467ec14a44c0fd26f35cb3499ee330d18ac6f8115cb95678b"
   },
   {
     "path": "pipa-3d.mjs",
@@ -102,5 +102,61 @@
   {
     "path": "orchestra-scene.mjs",
     "sha256": "12caa365a84fd3d64d4c4e1ae5615a5d3f42f95d119fac5e6f18fe7a92dcc18f"
+  },
+  {
+    "path": "liuqin-techniques.mjs",
+    "sha256": "935f172058343f075aed08fd6b58f8b267e7019eefdff7726b180eb93eed0f85"
+  },
+  {
+    "path": "liuqin-score.mjs",
+    "sha256": "29fe50ce6525e9f2f26e99e89182d40e2d2653074226f73c1e8db6263b346171"
+  },
+  {
+    "path": "liuqin-studio.mjs",
+    "sha256": "1ce0eae9fb80350a08cf90e5dc6164e42feccb1a2f2441551224a86dbbacb9df"
+  },
+  {
+    "path": "notation-renderer.mjs",
+    "sha256": "f2313662345fbd3ae1a0f78f3bf8d5033789ff5167dcd34d061c0f79eeda8759"
+  },
+  {
+    "path": "audio/liuqin/pluck-67-1.wav",
+    "sha256": "0e3845d35d5f6dd98fc0eded5fe131bad92cd363841fea121bed1cd69a19df36"
+  },
+  {
+    "path": "audio/liuqin/pluck-67-0.wav",
+    "sha256": "5bd09f65aa8a099857367e3f9e3035835e7a9f27ad0a267d6fbd668176556d24"
+  },
+  {
+    "path": "audio/liuqin/bank.json",
+    "sha256": "ff7096245a1f4470004bfc5a83004ccdc60eaba71670aa9c19e586597be7f37c"
+  },
+  {
+    "path": "audio/liuqin/pluck-62-0.wav",
+    "sha256": "63034926cf38faae2481c03b30cef3dd77356748395158e2d462b5691f3b10bc"
+  },
+  {
+    "path": "audio/liuqin/音色说明.txt",
+    "sha256": "2eccbb719c5ffad1f31337029041fe9d118de539b59fe998162ca687ff862950"
+  },
+  {
+    "path": "audio/liuqin/pluck-62-1.wav",
+    "sha256": "c4ff6ef04276c7385519df57a349d8e62f5052f51efaa7c6555c726203784952"
+  },
+  {
+    "path": "audio/liuqin/pluck-55-1.wav",
+    "sha256": "1dd794a6d55638cc7a29a5f0c2d3832a015de5c2a8e653af3a274b6a8bb2a383"
+  },
+  {
+    "path": "audio/liuqin/pluck-55-0.wav",
+    "sha256": "f9d290d5a63c8b34d6b8281c4076b9bbfd627fd8d45fc98f267d205acfbed7f7"
+  },
+  {
+    "path": "audio/liuqin/pluck-74-1.wav",
+    "sha256": "71f4399dcdd661e32f0beae703fe3575fc80d6d9afb8f457f8d04568787345ce"
+  },
+  {
+    "path": "audio/liuqin/pluck-74-0.wav",
+    "sha256": "fa1acf70300edca62dbda0266f879d68daaf4716be21d0bd2b5376dbc58fd682"
   }
 ]

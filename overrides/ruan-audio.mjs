@@ -7,15 +7,15 @@ export function chooseRuanSample(bank,midi,iteration=0){
 }
 export function scheduleRuanRecordings(events,recordings,technique='down'){
  const groups=new Map(),scheduled=[];
- for(const e of events){const id=e.technique||technique;if(id!=='tremolo'||!recordings.has(id)){scheduled.push(e);continue;}const key=JSON.stringify([id,e.s,e.midi]);if(!groups.has(key))groups.set(key,{...e,time:0});const voice=groups.get(key);voice.duration=Math.max(voice.duration,e.time+e.duration);}
+ for(const e of events){const id=e.technique||technique;if(!['tremolo','doubleWheel','longWheel','sweepWheel'].includes(id)||!recordings.has(id)){scheduled.push(e);continue;}const key=JSON.stringify([id,e.s,e.midi]);if(!groups.has(key))groups.set(key,{...e,time:0});const voice=groups.get(key);voice.duration=Math.max(voice.duration,e.time+e.duration);}
  return [...scheduled,...groups.values()].sort((a,b)=>a.time-b.time);
 }
 export class RuanAudio extends PipaAudio{
- constructor(){super();this.generation=0;this.recordings=new Map();this.timers=new Set();this.iteration=0;}
+ constructor({instrumentName='中阮',bankUrl='./audio/ruan/bank.json',soundLabel='中阮分音区实录移调 · 技法为参数化参考'}={}){super();Object.assign(this,{instrumentName,bankUrl,soundLabel});this.generation=0;this.recordings=new Map();this.timers=new Set();this.iteration=0;}
  stop(){this.generation++;for(const timer of this.timers)clearTimeout(timer);this.timers.clear();super.stop();}
  async importRecording(id,file,midi){await this.ready();if(file.size>30*1024*1024)throw Error('单份录音请控制在30MB以内。');const buffer=await this.ctx.decodeAudioData(await file.arrayBuffer());if(buffer.duration<.05||buffer.duration>60)throw Error('请使用0.05至60秒的录音。');this.recordings.set(id,{buffer,midi,name:file.name});return buffer.duration;}
  removeRecording(id){this.recordings.delete(id);}
- async loadBase(){if(!this.basePromise)this.basePromise=(async()=>{const response=await fetch(new URL('./audio/ruan/bank.json',import.meta.url));if(!response.ok)throw Error('中阮实录目录未载入，请刷新或重新打开离线包。');const meta=await response.json();this.bank=await Promise.all(meta.samples.map(async sample=>{const r=await fetch(new URL('./audio/ruan/'+sample.file,import.meta.url));if(!r.ok)throw Error('中阮实录未载入：'+sample.file);return {...sample,buffer:await this.ctx.decodeAudioData(await r.arrayBuffer())};}));})().catch(e=>{this.basePromise=null;throw e;});await this.basePromise;}
+ async loadBase(){if(!this.basePromise)this.basePromise=(async()=>{const response=await fetch(new URL(this.bankUrl,import.meta.url));if(!response.ok)throw Error(this.instrumentName+'音色目录未载入，请刷新或重新打开离线包。');const meta=await response.json();this.bank=await Promise.all(meta.samples.map(async sample=>{const r=await fetch(new URL(sample.file,new URL(this.bankUrl,import.meta.url)));if(!r.ok)throw Error(this.instrumentName+'音色未载入：'+sample.file);return {...sample,buffer:await this.ctx.decodeAudioData(await r.arrayBuffer())};}));})().catch(e=>{this.basePromise=null;throw e;});await this.basePromise;}
  async play(events,{technique='down',onEvent=()=>{},onEnd=()=>{}}={}){
   this.stop();const generation=this.generation;await this.ready();await this.loadBase();if(generation!==this.generation)return;
   const start=this.ctx.currentTime+.04,prior=new Map();let end=0;
@@ -31,7 +31,7 @@ export class RuanAudio extends PipaAudio{
    const timer=setTimeout(()=>{this.timers.delete(timer);if(generation===this.generation)onEvent(e);},Math.max(0,(time-this.ctx.currentTime)*1000));this.timers.add(timer);
   }
   const timer=setTimeout(()=>{this.timers.delete(timer);if(generation===this.generation){this.onstate('播放结束');onEnd();}},(end+.09)*1000);this.timers.add(timer);
-  this.onstate(events.every(e=>this.recordings.has(e.technique||technique))?'本机载入的授权录音 · 按谱音移调':'中阮分音区实录移调 · 技法为参数化参考');return end;
+  this.onstate(events.every(e=>this.recordings.has(e.technique||technique))?'本机载入的授权录音 · 按谱音移调':this.soundLabel);return end;
  }
  dispose(){this.stop();this.recordings.clear();this.bank=[];if(this.ctx&&this.ctx.state!=='closed')this.ctx.close();}
 }

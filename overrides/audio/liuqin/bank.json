@@ -1,0 +1,74 @@
+{
+  "instrument": "柳琴",
+  "kind": "synthesis",
+  "title": "柳琴拨弦合成参考（非真实采样）",
+  "source": "本项目参数化拨弦波形生成，不含外部录音。",
+  "processing": "加法拨弦合成、非实测的模态权重、短起音与自然衰减参考；四个参考音区，每音两种起音。并非由真实柳琴录音采集。",
+  "limitation": "用于核对谱音和技法组织，不能代替柳琴音色实录。可在应用内载入有权使用的单音或技法录音。",
+  "samples": [
+    {
+      "file": "pluck-55-0.wav",
+      "root_hz": 195.99771799087463,
+      "root_midi": 55,
+      "kind": "synthesis",
+      "duration": 1.55,
+      "sha256": "f9d290d5a63c8b34d6b8281c4076b9bbfd627fd8d45fc98f267d205acfbed7f7"
+    },
+    {
+      "file": "pluck-55-1.wav",
+      "root_hz": 195.99771799087463,
+      "root_midi": 55,
+      "kind": "synthesis",
+      "duration": 1.55,
+      "sha256": "1dd794a6d55638cc7a29a5f0c2d3832a015de5c2a8e653af3a274b6a8bb2a383"
+    },
+    {
+      "file": "pluck-62-0.wav",
+      "root_hz": 293.6647679174076,
+      "root_midi": 62,
+      "kind": "synthesis",
+      "duration": 1.55,
+      "sha256": "63034926cf38faae2481c03b30cef3dd77356748395158e2d462b5691f3b10bc"
+    },
+    {
+      "file": "pluck-62-1.wav",
+      "root_hz": 293.6647679174076,
+      "root_midi": 62,
+      "kind": "synthesis",
+      "duration": 1.55,
+      "sha256": "c4ff6ef04276c7385519df57a349d8e62f5052f51efaa7c6555c726203784952"
+    },
+    {
+      "file": "pluck-67-0.wav",
+      "root_hz": 391.99543598174927,
+      "root_midi": 67,
+      "kind": "synthesis",
+      "duration": 1.15,
+      "sha256": "5bd09f65aa8a099857367e3f9e3035835e7a9f27ad0a267d6fbd668176556d24"
+    },
+    {
+      "file": "pluck-67-1.wav",
+      "root_hz": 391.99543598174927,
+      "root_midi": 67,
+      "kind": "synthesis",
+      "duration": 1.15,
+      "sha256": "0e3845d35d5f6dd98fc0eded5fe131bad92cd363841fea121bed1cd69a19df36"
+    },
+    {
+      "file": "pluck-74-0.wav",
+      "root_hz": 587.3295358348151,
+      "root_midi": 74,
+      "kind": "synthesis",
+      "duration": 1.15,
+      "sha256": "fa1acf70300edca62dbda0266f879d68daaf4716be21d0bd2b5376dbc58fd682"
+    },
+    {
+      "file": "pluck-74-1.wav",
+      "root_hz": 587.3295358348151,
+      "root_midi": 74,
+      "kind": "synthesis",
+      "duration": 1.15,
+      "sha256": "71f4399dcdd661e32f0beae703fe3575fc80d6d9afb8f457f8d04568787345ce"
+    }
+  ]
+}

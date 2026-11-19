@@ -77,7 +77,7 @@
   },
   {
     "path": "plucked-scene.mjs",
-    "sha256": "91bb06767fc6a3ea64e6341bad2e2a6ca1048770ae8efdb77f299b20c05ccf11"
+    "sha256": "996eb95ff128ed965820f39309cd91f985b7d918b8f90191d9d68c7aa28a740c"
   },
   {
     "path": "pipa-3d.mjs",
@@ -318,5 +318,9 @@
   {
     "path": "audio/yangqin/音色说明.txt",
     "sha256": "ec2f8191a5950221bb81207f7dc5e795fe249ed3d576daba0de60a36c5b42b6b"
+  },
+  {
+    "path": "yangqin-feedback.mjs",
+    "sha256": "1e2d701ba9cee043a72b1435a7017f914f6606e7d6f423124bd8409544fd2ccb"
   }
 ]

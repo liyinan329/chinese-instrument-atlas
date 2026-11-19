@@ -33,7 +33,7 @@ export function validateRuan(notes,id,c,shape=[],target){
 export function planRuan(notes,id='down',{speed=10,duration=2.4,target}={}){
  const t=ruanTechnique(id),ordered=[...notes].sort((a,b)=>(a.s??a.binding?.s??0)-(b.s??b.binding?.s??0)||a.midi-b.midi),events=[];
  const emit=(n,time=0,extra={})=>events.push({midi:n.midi,s:n.s??n.binding?.s,time,duration,velocity:.72/Math.sqrt(notes.length),technique:id,...extra});
- if(['tremolo','alternate'].includes(id)){const count=id==='alternate'?8:Math.floor(duration*speed);for(let k=0;k<count;k++)for(const n of ordered)emit(n,Math.max(0,k/speed+(k%3-1)*.0017),{duration:Math.min(.65,duration),velocity:(.6+.07*Math.sin(k*1.73))/Math.sqrt(notes.length),pick:k%2});}
+ if(['tremolo','alternate'].includes(id)){const count=id==='alternate'?8:Math.floor(duration*speed);for(let k=0;k<count;k++){const stroke=k%2?[...ordered].reverse():ordered;stroke.forEach((n,i)=>{const time=Math.max(0,k/speed+(k%3-1)*.0017+i*.007);emit(n,time,{duration:Math.max(.015,Math.min(.65,duration-time)),velocity:(.6+.07*Math.sin(k*1.73))/Math.sqrt(notes.length),pick:k%2});});}}
  else if(['sweepDown','sweepUp','double','arpeggio'].includes(id)){let list=id==='sweepUp'?[...ordered].reverse():ordered;list.forEach((n,i)=>emit(n,i*(id==='arpeggio'?.18:.026)));}
  else for(const n of ordered){emit(n,0,{harmonic:id==='harmonic',vibrato:id==='vibrato'?.16:0,bend:id==='bend'?.7:0,duration:id==='palmMute'?.14:id==='stop'?.35:duration});if(t.target){if(['hammer','pullOff'].includes(id))emit({...n,midi:target},.35,{velocity:.43,duration:duration-.35});else events[events.length-1].slide=target-n.midi;}}
  return events;

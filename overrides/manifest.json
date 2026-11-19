@@ -1,42 +1,74 @@
 [
   {
     "path": "plucked-workbench.mjs",
-    "sha256": "e5dc8be7b267c0a166d7634eb4980f3deb152f208f7cc446a3d23f0d345ce8cf"
+    "sha256": "6faca9a0d00ee0411f6154446fed0a0a037de03a15eddcf3624f07cbaded84bf"
   },
   {
     "path": "plucked-staff.mjs",
-    "sha256": "a7b59cdba15264b0aa4ff864a5b9e0987929a27bab77e66d9f39c7e6b8a83bea"
+    "sha256": "cc8633b91a342ace3290a72db618831c60aaabced49f69ff15bbcb1ca1ac54ae"
+  },
+  {
+    "path": "plucked-staff-model.mjs",
+    "sha256": "43bb401580e7a26905de0778bfab145cf52015c9e83f3406eceecd373a1f3f25"
   },
   {
     "path": "ruan-techniques.mjs",
-    "sha256": "a19adc05ecbad62e38f39570de198163db17b22c80d14bfa917d127ef441941b"
+    "sha256": "5c1573b1483a29a5bc12535b619a76e0bfe372b6969aa4fd111e37aa2515789e"
   },
   {
     "path": "ruan-audio.mjs",
-    "sha256": "9c16e4c7be4d93477110f477aad9d0b94665c8f46582385bf392803576d1313d"
+    "sha256": "e466b2844c84c8743d421156d6010c526d9f7fcd9c6ab0794d7d59397a151e78"
   },
   {
     "path": "ruan-motion.mjs",
-    "sha256": "cfd26986a9e8ba883a6b334b4d401fb2d85f8601e815896f759fcd5d44ac8f7f"
+    "sha256": "fd9e9f0cf19ce306d7ab7a5cbf9fa4bb96abd888e83b9034706ca8e054d4c551"
   },
   {
     "path": "ruan-studio.mjs",
-    "sha256": "bcf26df44f03c76b76485459946718c306d0067ba630d924b5ce2a208b6b9ec9"
+    "sha256": "1e01022f00c7969405a6ac76c9883306f987aa47ebdd5127694b4fb5b5ede06c"
   },
   {
     "path": "ruan.css",
-    "sha256": "ae57a1ca69c3a1b4862bffe9f0216aea144ac236b63049fb1423e2af62d29662"
+    "sha256": "b7071c13663ee7371b5e290cefe9039eb3ed88f6b301dc1006822075d4f0705b"
   },
   {
-    "path": "audio/ruan/zhongruan-d4.wav",
-    "sha256": "f20cb9a665b77c74f22df9050c7e3eca2cab5953152a88641831069034e62062"
+    "path": "ruan-score.mjs",
+    "sha256": "463d75b3af80bc45b39392d35b7749fdd8558c2efcddfc3b433f9507ab4877ff"
   },
   {
-    "path": "audio/ruan/source.json",
-    "sha256": "3260648bf94658bf804e27b2ca4c08a82f44f201dc4d1730e20c9ee75cfac859"
+    "path": "ruan-motion-state.mjs",
+    "sha256": "0124a7278754802a2cef6813fe9b79117a494c94ed252eed5ec946cdae004930"
   },
   {
     "path": "audio/ruan/LICENSE.txt",
-    "sha256": "a3d6d22aa98f8790f6b631de0839125156bb8a00cf52a9bc98cf5713a5d940e8"
+    "sha256": "6b415d40a36505a39725d434761a5a7596fb79e73a84b33005ed68d29d280605"
+  },
+  {
+    "path": "audio/ruan/a3-a.wav",
+    "sha256": "e09d10d33aa4249bc23b36c82b9ed264dfce029df41944572e577e3537c02239"
+  },
+  {
+    "path": "audio/ruan/bank.json",
+    "sha256": "4a0247404764e109331b42e88f98f2c55ee569ab602f395d278de33c7e6830b7"
+  },
+  {
+    "path": "audio/ruan/d3-a.wav",
+    "sha256": "222e06b8030028bbe765d591a36bbcad19377982103f18f0caa49107f8f04b8f"
+  },
+  {
+    "path": "audio/ruan/d3-b.wav",
+    "sha256": "05852654ff921ac63bafef39f03368169601b901110472e1fcc36dd00395b190"
+  },
+  {
+    "path": "audio/ruan/g2-a.wav",
+    "sha256": "c933a0b39ee409b60055b22a1d2225a49f11c8fa92575c3b98851d08755de63a"
+  },
+  {
+    "path": "audio/ruan/g3-a.wav",
+    "sha256": "b668848e305d66fa9e56b33ddf4f242f98173f6255f2c201653f4bec41abcd5f"
+  },
+  {
+    "path": "audio/ruan/g3-b.wav",
+    "sha256": "86fe9e1398825bb45c1d6130ca7b40e19b308943ea9b00ef6400e2afeaaa9c85"
   }
 ]

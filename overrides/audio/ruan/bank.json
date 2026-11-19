@@ -1,0 +1,78 @@
+{
+  "title": "中阮分音区实录参考",
+  "author": "Francesc Fort",
+  "performer_metadata": "NENU Folklorical Orchestra",
+  "source": "https://commons.wikimedia.org/wiki/File:Zhongruan.ogg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "processing": "从真实演奏中裁切、单声道重采样、55Hz高通、音量归一、边缘淡入淡出。按基音及泛音列校音，不按最强频率直接判定八度。播放按最近音区移调，重复音轮换不同实录起音；不叠加合成波形。",
+  "limitation": "实录演奏切片带有自然余响，非逐弦多力度采样库；轮奏、扫弦、滑音和泛音等仍为切片与参数化参考，不是独立技法录音。",
+  "samples": [
+    {
+      "file": "g2-a.wav",
+      "root_hz": 98.2,
+      "root_midi": 43.035496870832056,
+      "excerpt_seconds": [
+        0.145,
+        1.34
+      ],
+      "duration": 1.1950113378684808,
+      "sha256": "c933a0b39ee409b60055b22a1d2225a49f11c8fa92575c3b98851d08755de63a"
+    },
+    {
+      "file": "d3-a.wav",
+      "root_hz": 147.4,
+      "root_midi": 50.066796008196576,
+      "excerpt_seconds": [
+        5.895,
+        6.61
+      ],
+      "duration": 0.7150113378684807,
+      "sha256": "222e06b8030028bbe765d591a36bbcad19377982103f18f0caa49107f8f04b8f"
+    },
+    {
+      "file": "d3-b.wav",
+      "root_hz": 147.5,
+      "root_midi": 50.078537168694524,
+      "excerpt_seconds": [
+        17.035,
+        17.75
+      ],
+      "duration": 0.7150113378684807,
+      "sha256": "05852654ff921ac63bafef39f03368169601b901110472e1fcc36dd00395b190"
+    },
+    {
+      "file": "g3-a.wav",
+      "root_hz": 196.15,
+      "root_midi": 55.01344573998088,
+      "excerpt_seconds": [
+        6.622,
+        7.145
+      ],
+      "duration": 0.5229931972789116,
+      "sha256": "b668848e305d66fa9e56b33ddf4f242f98173f6255f2c201653f4bec41abcd5f"
+    },
+    {
+      "file": "g3-b.wav",
+      "root_hz": 196.2,
+      "root_midi": 55.0178582136866,
+      "excerpt_seconds": [
+        17.765,
+        18.19
+      ],
+      "duration": 0.42498866213151926,
+      "sha256": "86fe9e1398825bb45c1d6130ca7b40e19b308943ea9b00ef6400e2afeaaa9c85"
+    },
+    {
+      "file": "a3-a.wav",
+      "root_hz": 221.5,
+      "root_midi": 57.1176381003643,
+      "excerpt_seconds": [
+        8.735,
+        9.19
+      ],
+      "duration": 0.45501133786848075,
+      "sha256": "e09d10d33aa4249bc23b36c82b9ed264dfce029df41944572e577e3537c02239"
+    }
+  ]
+}

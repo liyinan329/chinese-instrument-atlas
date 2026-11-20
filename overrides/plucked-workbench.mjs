@@ -7,7 +7,7 @@ import {mountRuanStudio,ruanTechniques} from './ruan-studio.mjs';
 import {specFor} from './plucked-dimensions.mjs';
 import {YANGQIN_SOURCE} from './yangqin-402.mjs';
 import {config,plucked,positions,analyze,voiceSymbol} from './plucked-data.mjs';
-import {PluckedScene} from './plucked-scene.mjs';
+import {PluckedScene} from './plucked-scene.mjs?assets=individual-patterns';
 import {PluckedStaffEditor} from './plucked-staff.mjs';
 import {spellMidi,spellToken,scoreName} from './plucked-staff-model.mjs';
 import {noteName,parseInput} from './model.mjs';

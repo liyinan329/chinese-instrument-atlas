@@ -1,6 +1,6 @@
 import {PercussionFeedback,bindPercussionPress} from './percussion-feedback.mjs';
 import * as T from './vendor/three.module.js';
-import {PluckedScene} from './plucked-scene.mjs?assets=percussion-rebound';
+import {PluckedScene} from './plucked-scene.mjs?assets=individual-patterns';
 import {bowPositions} from './bowed-data.mjs';
 import {percussion} from './percussion-data.mjs';
 export class OrchestraScene extends PluckedScene{

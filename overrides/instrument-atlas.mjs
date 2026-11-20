@@ -2,7 +2,7 @@ import {mountArranger,suspendArranger} from './arranger-workbench.mjs';
 import {mountBowed,suspendBowed} from './bowed-workbench.mjs?assets=bowed-audio';
 import {mountPercussion,suspendPercussion} from './percussion-workbench.mjs?assets=percussion-rebound';
 import {mountWind,suspendWind} from './wind-workbench.mjs';
-import {mountPlucked,suspendPlucked} from './plucked-workbench.mjs';
+import {mountPlucked,suspendPlucked} from './plucked-workbench.mjs?assets=individual-patterns';
 import {instruments,families,instrumentIcon,filterInstruments} from './instrument-catalog.mjs';
 export function mountInstrumentAtlas(onRoute){
  let family='all',term='';if(!document.querySelector('[data-arranger-style]')){const l=document.createElement('link');l.rel='stylesheet';l.href=new URL('./arranger.css',import.meta.url).href;l.dataset.arrangerStyle='true';document.head.append(l);}

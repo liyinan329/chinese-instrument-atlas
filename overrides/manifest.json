@@ -1,7 +1,7 @@
 [
   {
     "path": "plucked-workbench.mjs",
-    "sha256": "ac9da01758c39e2c5e4a1c1de0a614808680b2f8f279588b02fc3d2edda1490e"
+    "sha256": "f0a5d8a69db1bacd376dd1987c2d65f04857283666f73cbd565b26c4740d47db"
   },
   {
     "path": "plucked-staff.mjs",
@@ -77,7 +77,7 @@
   },
   {
     "path": "plucked-scene.mjs",
-    "sha256": "6f980d52e29b2b782b67737503336b0a28d6d59e17d9a6214d0e631197d062f7"
+    "sha256": "0e0d6604f64718bd39dcb5b868aea259a6b3b1a5fd96ba27072541288c7e40af"
   },
   {
     "path": "pipa-3d.mjs",
@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "b88a25b1db8217042432323896bb5987f01a022e899a45770747283b18d644b1"
+    "sha256": "871638219cffb3ec89eef7e4312e354dbaf6bb3fe1fae80fd080c762186688ef"
   },
   {
     "path": "object-turntable.mjs",
@@ -101,7 +101,7 @@
   },
   {
     "path": "orchestra-scene.mjs",
-    "sha256": "a99b64964e2c8e6948915ad41bb0e87a6e9880084f0451439fd0a84d633b2314"
+    "sha256": "9c0f847b1bd3a96ef958ebb9a78677075684fd21c88c6779ed61ad3af5f5a319"
   },
   {
     "path": "liuqin-techniques.mjs",
@@ -333,7 +333,7 @@
   },
   {
     "path": "instrument-atlas.mjs",
-    "sha256": "49f25d657b603370d1834b365609eab3b4c7f6062113838a55b59a8c5d6ede53"
+    "sha256": "1c403843468a2c278833bbe4b943af45b15e3a4e1fb572ad2074691788ea7328"
   },
   {
     "path": "audio/dizi/bank.json",
@@ -586,5 +586,9 @@
   {
     "path": "arranger-config.json",
     "sha256": "4d1ed877842ddb513880cae1b5986e70daf188f25ca0d6e5cc9b87f3fe88c053"
+  },
+  {
+    "path": "plucked-ornament.mjs",
+    "sha256": "54138222640e302305e5685c2c07155737b91c702c1a4fcc3dd16baa083eb693"
   }
 ]

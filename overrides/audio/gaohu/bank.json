@@ -1,0 +1,156 @@
+{
+  "instrument": "高胡",
+  "kind": "sample-library",
+  "source": "用户提供的本机Kong Audio K / GaoHu",
+  "processing": "单声道22.05kHz；按测得基频移调。沿用原WAV的smpl循环区，环缝18ms交叉淡化；持续音为采样循环延展，不是每音独立的长弓实录。",
+  "rights_status": "用户明确授权用于公开应用；厂商针对应用嵌入和再分发的专项许可尚未确认。版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.wav",
+      "kind": "sample-library",
+      "root_hz": 410.9892174,
+      "root_midi": 67.819164,
+      "duration": 1.3117460317460317,
+      "loop": {
+        "start": 0.4297278911564626,
+        "end": 1.3117460317460317,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "GaoHu/Gao hu Samples/GH       0.wav",
+      "source_sha256": "09bc54c9e58b40dfd073536a8b30ee39edf573c164557492e285b23bcb4ec9db",
+      "source_smpl_loop_frames": [
+        18157,
+        57847
+      ],
+      "pitchConfidence": 0.9971,
+      "sha256": "2dae21afa0f57c3252b84da5983806a56e0292b5c4e236e74e0ff298f662f6bf"
+    },
+    {
+      "file": "kong-2.wav",
+      "kind": "sample-library",
+      "root_hz": 488.7248044,
+      "root_midi": 70.818226,
+      "duration": 1.393061224489796,
+      "loop": {
+        "start": 0.7773242630385487,
+        "end": 1.393061224489796,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.275424,
+      "source_file": "GaoHu/Gao hu Samples/GH       1.wav",
+      "source_sha256": "083b888a04e28e076c1005a2635990bc39a6a30c2e094da82a2282273991b0b2",
+      "source_smpl_loop_frames": [
+        33486,
+        61433
+      ],
+      "pitchConfidence": 0.9988,
+      "sha256": "d934b7ddc6c23a5d811dfa0fd6379da87d3760c6e568a04ef64333ab5b9a0c81"
+    },
+    {
+      "file": "kong-3.wav",
+      "kind": "sample-library",
+      "root_hz": 610.6506208,
+      "root_midi": 74.674124,
+      "duration": 1.584625850340136,
+      "loop": {
+        "start": 1.0458049886621315,
+        "end": 1.5846031746031746,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "GaoHu/Gao hu Samples/GH       2.wav",
+      "source_sha256": "98101dd62aec77c92b787f7996915a46aae6fe988eae2375d2d2cbbbaab99bbd",
+      "source_smpl_loop_frames": [
+        45326,
+        69880
+      ],
+      "pitchConfidence": 0.9969,
+      "sha256": "e34a11d9a8178ad634b199913aaa4e6d65b96d4150740a0e854aa140d71174b4"
+    },
+    {
+      "file": "kong-4.wav",
+      "kind": "sample-library",
+      "root_hz": 727.6515584,
+      "root_midi": 77.708931,
+      "duration": 0.946031746031746,
+      "loop": {
+        "start": 0.47603174603174603,
+        "end": 0.9460090702947845,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "GaoHu/Gao hu Samples/GH       3.wav",
+      "source_sha256": "5ab3fa149bee613526bc67adca6d286bb6d19eaa7765e997601f8785c5bebab9",
+      "source_smpl_loop_frames": [
+        20199,
+        41718
+      ],
+      "pitchConfidence": 0.9945,
+      "sha256": "cb6f7823e068f6df41c36046d24d118f4eb8ec5063257958d81858b97df67647"
+    },
+    {
+      "file": "kong-5.wav",
+      "kind": "sample-library",
+      "root_hz": 977.2555487,
+      "root_midi": 82.814788,
+      "duration": 0.5483446712018141,
+      "loop": {
+        "start": 0.3550113378684807,
+        "end": 0.5483446712018141,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "GaoHu/Gao hu Samples/GH       4.wav",
+      "source_sha256": "410701b58aa331db25da4750cf88889a7be570c86cf29e5b36de884969d2449a",
+      "source_smpl_loop_frames": [
+        14862,
+        24181
+      ],
+      "pitchConfidence": 0.9988,
+      "sha256": "ac4a8f8947aa1c93a6ba8499fc294ba7a704f7d4659bc0abe8fe45426bf6b9d5"
+    },
+    {
+      "file": "kong-6.wav",
+      "kind": "sample-library",
+      "root_hz": 1245.7642713,
+      "root_midi": 87.017468,
+      "duration": 0.6906575963718821,
+      "loop": {
+        "start": 0.3659637188208617,
+        "end": 0.6906575963718821,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "GaoHu/Gao hu Samples/GH       5.wav",
+      "source_sha256": "d4e3f9b98156ca36fc45144fe72364ab814a65aaab9efe5935a42e8353c8b046",
+      "source_smpl_loop_frames": [
+        15345,
+        30457
+      ],
+      "pitchConfidence": 0.9908,
+      "sha256": "202107c4243de6d4c6e8954f05c1b08aa2d001b34f3bcf705141bbfd3722ffa7"
+    },
+    {
+      "file": "kong-7.wav",
+      "kind": "sample-library",
+      "root_hz": 1477.4088973,
+      "root_midi": 89.969925,
+      "duration": 1.0854421768707483,
+      "loop": {
+        "start": 0.3082539682539683,
+        "end": 1.0854421768707483,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.414046,
+      "source_file": "GaoHu/Gao hu Samples/GH       6.wav",
+      "source_sha256": "b4201a6b680b6c92633277bcecc3ccdb908543d185924dc4fc311737d5457d36",
+      "source_smpl_loop_frames": [
+        12800,
+        47867
+      ],
+      "pitchConfidence": 0.9702,
+      "sha256": "1f62dfb42303aad532cc0f297843e9a6620fbcde2e24d66d9b7391861f0d898f"
+    }
+  ]
+}

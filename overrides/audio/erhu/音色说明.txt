@@ -1,0 +1,3 @@
+二胡基础拉奏采样；不代表独立弓法实录。
+sfzinstruments / aliexpress-erhu，CC0，https://github.com/sfzinstruments/aliexpress-erhu
+谱音通过实际基频移调。

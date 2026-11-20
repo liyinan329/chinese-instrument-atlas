@@ -1,0 +1,156 @@
+{
+  "instrument": "板胡",
+  "kind": "sample-library",
+  "source": "用户提供的本机Kong Audio K / Ban hu",
+  "processing": "单声道22.05kHz；按测得基频移调。沿用原WAV的smpl循环区，环缝18ms交叉淡化；持续音为采样循环延展，不是每音独立的长弓实录。",
+  "rights_status": "用户明确授权用于公开应用；厂商针对应用嵌入和再分发的专项许可尚未确认。版权归原权利人。",
+  "samples": [
+    {
+      "file": "kong-1.wav",
+      "kind": "sample-library",
+      "root_hz": 531.7908803,
+      "root_midi": 72.280266,
+      "duration": 0.6224036281179138,
+      "loop": {
+        "start": 0.37936507936507935,
+        "end": 0.6223809523809524,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "Ban hu/Ban hu Samples/BH     0.wav",
+      "source_sha256": "3ef7e63d0e0092f2c9af53891e03b1fce2bbd718bb44cd30ac13cd484e4dccce",
+      "source_smpl_loop_frames": [
+        15936,
+        27446
+      ],
+      "pitchConfidence": 0.9986,
+      "sha256": "6af010ff98923dee7e6f1ddc8080ba0f25f3090ca713728a543806b025065862"
+    },
+    {
+      "file": "kong-2.wav",
+      "kind": "sample-library",
+      "root_hz": 709.8678521,
+      "root_midi": 77.280563,
+      "duration": 0.5834013605442177,
+      "loop": {
+        "start": 0.33081632653061227,
+        "end": 0.5833786848072562,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "Ban hu/Ban hu Samples/BH     1.wav",
+      "source_sha256": "c0c80e9b7c323f63e4f5db2faa57ea90fe8014a9c9a6d828ce6d178b1579d334",
+      "source_smpl_loop_frames": [
+        13795,
+        25726
+      ],
+      "pitchConfidence": 0.9933,
+      "sha256": "2b2ade61fdf6e82d8a8b4e986ba817e8c0a2ce1159c7301c157180709013259a"
+    },
+    {
+      "file": "kong-3.wav",
+      "kind": "sample-library",
+      "root_hz": 944.7812654,
+      "root_midi": 82.229722,
+      "duration": 0.45555555555555555,
+      "loop": {
+        "start": 0.22736961451247165,
+        "end": 0.4555328798185941,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "Ban hu/Ban hu Samples/BH     2.wav",
+      "source_sha256": "2616c9fb5365583f521558af02b2b852b32fea80844836fa102a2f4ad20cc9cd",
+      "source_smpl_loop_frames": [
+        9233,
+        20088
+      ],
+      "pitchConfidence": 0.9923,
+      "sha256": "c85a186f6ee9a4b521195a25ef325eefd6907198315debcc23cb74fbff4c2abc"
+    },
+    {
+      "file": "kong-4.wav",
+      "kind": "sample-library",
+      "root_hz": 1203.9019408,
+      "root_midi": 86.42571,
+      "duration": 0.5616326530612245,
+      "loop": {
+        "start": 0.22671201814058958,
+        "end": 0.561609977324263,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "Ban hu/Ban hu Samples/BH     3.wav",
+      "source_sha256": "31fd18c9cc12c43c612d58ef19670694cc9beee5d328370799cec96e1cfa128f",
+      "source_smpl_loop_frames": [
+        9204,
+        24766
+      ],
+      "pitchConfidence": 0.9969,
+      "sha256": "703507644bad3acfb093067f75a46a8077f490deff404ece7e1bee08ff4c04b2"
+    },
+    {
+      "file": "kong-5.wav",
+      "kind": "sample-library",
+      "root_hz": 1426.5812159,
+      "root_midi": 89.363837,
+      "duration": 0.6588208616780046,
+      "loop": {
+        "start": 0.29321995464852607,
+        "end": 0.6587981859410431,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.272193,
+      "source_file": "Ban hu/Ban hu Samples/BH     4.wav",
+      "source_sha256": "f2897c112e99a575716dec2ee58a7b7a4df3181678eaac46879908070ae6fba3",
+      "source_smpl_loop_frames": [
+        12137,
+        29052
+      ],
+      "pitchConfidence": 0.9972,
+      "sha256": "586883f9184870d13a12b89df82f45ffae63b26496bcf6d885de63fe2c60dbd0"
+    },
+    {
+      "file": "kong-6.wav",
+      "kind": "sample-library",
+      "root_hz": 1615.9685833,
+      "root_midi": 91.521885,
+      "duration": 0.655827664399093,
+      "loop": {
+        "start": 0.4677097505668934,
+        "end": 0.6558049886621315,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.269987,
+      "source_file": "Ban hu/Ban hu Samples/BH     5.wav",
+      "source_sha256": "5159646706b64c39e472cd404a30ec6b6fe8593762a6605a9fb0d2b377fea09b",
+      "source_smpl_loop_frames": [
+        19832,
+        28920
+      ],
+      "pitchConfidence": 0.9838,
+      "sha256": "7de52861d1299bec6b810f92fd3242aa0e9a3ccc2fd846da7414ce9ff572f670"
+    },
+    {
+      "file": "kong-7.wav",
+      "kind": "sample-library",
+      "root_hz": 2387.7757408,
+      "root_midi": 98.281103,
+      "duration": 0.3510204081632653,
+      "loop": {
+        "start": 0.20979591836734693,
+        "end": 0.3510204081632653,
+        "crossfadeSeconds": 0.01800453514739229
+      },
+      "playbackGain": 0.25,
+      "source_file": "Ban hu/Ban hu Samples/BH     8.wav",
+      "source_sha256": "0f046e6725f1ceb6001e0def9c3d0ad6fb53b5b6e7cc4c38327a9a4aa07d14d5",
+      "source_smpl_loop_frames": [
+        8458,
+        15479
+      ],
+      "pitchConfidence": 0.9432,
+      "sha256": "c4fc853fa844670d67361bf0405b2bcb6ad14f2e0b026207affe7904868958e6"
+    }
+  ]
+}

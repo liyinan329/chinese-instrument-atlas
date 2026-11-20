@@ -1,0 +1,75 @@
+{
+  "instrument": "中胡",
+  "kind": "other-instrument-reference",
+  "sourceInstrument": "二胡",
+  "source": "sfzinstruments / aliexpress-erhu",
+  "license": "CC0",
+  "url": "https://github.com/sfzinstruments/aliexpress-erhu",
+  "referenceNotice": "中胡音区参考：使用二胡实录移调，不是真实中胡采样。",
+  "samples": [
+    {
+      "file": "../basic/erhu-62.wav",
+      "root_midi": 62,
+      "root_hz": 291.2247,
+      "duration": 2.545,
+      "sha256": "ade13af4e16041c876b99963ce05b32f291f8039c1e30b30b1244d62bc78abe4",
+      "playbackGain": 0.437019
+    },
+    {
+      "file": "../basic/erhu-65.wav",
+      "root_midi": 65,
+      "root_hz": 350.9474,
+      "duration": 2.877,
+      "sha256": "2a80a8170050e66b3fda3d2d90ab7ba26f298db7741e2a68ba9882bbfaa44751",
+      "playbackGain": 0.33037
+    },
+    {
+      "file": "../basic/erhu-69.wav",
+      "root_midi": 69,
+      "root_hz": 443.0476,
+      "duration": 2.464,
+      "sha256": "4d7c8323e80e517ddc64373d143254653efce3d2344e94eeacad74e4aadd3e01",
+      "playbackGain": 0.386812
+    },
+    {
+      "file": "../basic/erhu-72.wav",
+      "root_midi": 72,
+      "root_hz": 526.9795,
+      "duration": 2.417,
+      "sha256": "187d5d142ac4886fbbc128b38ee472feb511cd20c22dfbb679230de08b9b3794",
+      "playbackGain": 0.315137
+    },
+    {
+      "file": "../basic/erhu-74.wav",
+      "root_midi": 74,
+      "root_hz": 590.9609,
+      "duration": 2.221,
+      "sha256": "813e9d8ecbf308777ba7a2f50cc44654f0692be0273c80f446e79d5ca65361bf",
+      "playbackGain": 0.326588
+    },
+    {
+      "file": "../basic/erhu-76.wav",
+      "root_midi": 76,
+      "root_hz": 657.4159,
+      "duration": 1.862,
+      "sha256": "176975b0af6ef58440993fde161271f4e4b4069464c7296aaf765cd9eee1f113",
+      "playbackGain": 0.426089
+    },
+    {
+      "file": "../basic/erhu-79.wav",
+      "root_midi": 79,
+      "root_hz": 787.093,
+      "duration": 2.315,
+      "sha256": "738aae8294851fdbedec27ae97d0517ea7c7bc048eade691bb1d7f4e0962c8df",
+      "playbackGain": 0.360994
+    },
+    {
+      "file": "../basic/erhu-81.wav",
+      "root_midi": 81,
+      "root_hz": 894.5145,
+      "duration": 2.414,
+      "sha256": "c702100680589972f711150eef12748347fdbc1076257c348bcf65b7a89e3231",
+      "playbackGain": 0.25704
+    }
+  ]
+}

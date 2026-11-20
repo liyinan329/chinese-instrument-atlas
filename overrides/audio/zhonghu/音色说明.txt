@@ -1,0 +1,3 @@
+中胡音区参考：使用二胡实录移调，不是真实中胡采样。
+sfzinstruments / aliexpress-erhu，CC0，https://github.com/sfzinstruments/aliexpress-erhu
+谱音通过实际基频移调。有待用独立中胡录音替换。

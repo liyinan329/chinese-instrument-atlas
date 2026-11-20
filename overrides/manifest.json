@@ -17,7 +17,7 @@
   },
   {
     "path": "ruan-audio.mjs",
-    "sha256": "9f6a54ba1f3c77176fc0757e722c51f4d9829255ff7c71b5d0fb7ae787ab548c"
+    "sha256": "3f046068bff7da8b4a7185f8f9d204622aaafb78f650ad12cd53851274dd4933"
   },
   {
     "path": "ruan-motion.mjs",
@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "4895299da8b2327bd45969be6d685bb516b72fe5fd81b8f0931cb31712f41dcf"
+    "sha256": "3b3367915d02c633b198fad9cb77b9a3bfe43004c68e13da31b6de7d162ac766"
   },
   {
     "path": "object-turntable.mjs",
@@ -333,7 +333,7 @@
   },
   {
     "path": "instrument-atlas.mjs",
-    "sha256": "bdc39d5fa5eb4d748721aecc487f3a49e57319656811c6cecd56520036bef1e5"
+    "sha256": "ee57ffa33841b217602128287de909a2a75b10f7f1695727355400a8f8d97fbc"
   },
   {
     "path": "audio/dizi/bank.json",
@@ -450,5 +450,101 @@
   {
     "path": "basic-audio-data.mjs",
     "sha256": "e4e3ac962c6f5697c1ab4fbbbb53d9910db08c3d67662718e8dfbe533ef89a73"
+  },
+  {
+    "path": "bowed-workbench.mjs",
+    "sha256": "d1ac6552e625a6956197d583e67972b955de87aae475a7f1b8910d15245591af"
+  },
+  {
+    "path": "bowed-audio.mjs",
+    "sha256": "609a1697c8cc88115f92e6f38a95c4f9d45f18e8825f64c24a0c2af96233cfc3"
+  },
+  {
+    "path": "audio/gaohu/bank.json",
+    "sha256": "92984e470b1624a3c5260141d8878a7642f04b9494f4ac21ecde1281c7035eed"
+  },
+  {
+    "path": "audio/gaohu/kong-1.wav",
+    "sha256": "2dae21afa0f57c3252b84da5983806a56e0292b5c4e236e74e0ff298f662f6bf"
+  },
+  {
+    "path": "audio/gaohu/kong-2.wav",
+    "sha256": "d934b7ddc6c23a5d811dfa0fd6379da87d3760c6e568a04ef64333ab5b9a0c81"
+  },
+  {
+    "path": "audio/gaohu/kong-3.wav",
+    "sha256": "e34a11d9a8178ad634b199913aaa4e6d65b96d4150740a0e854aa140d71174b4"
+  },
+  {
+    "path": "audio/gaohu/kong-4.wav",
+    "sha256": "cb6f7823e068f6df41c36046d24d118f4eb8ec5063257958d81858b97df67647"
+  },
+  {
+    "path": "audio/gaohu/kong-5.wav",
+    "sha256": "ac4a8f8947aa1c93a6ba8499fc294ba7a704f7d4659bc0abe8fe45426bf6b9d5"
+  },
+  {
+    "path": "audio/gaohu/kong-6.wav",
+    "sha256": "202107c4243de6d4c6e8954f05c1b08aa2d001b34f3bcf705141bbfd3722ffa7"
+  },
+  {
+    "path": "audio/gaohu/kong-7.wav",
+    "sha256": "1f62dfb42303aad532cc0f297843e9a6620fbcde2e24d66d9b7391861f0d898f"
+  },
+  {
+    "path": "audio/gaohu/音色说明.txt",
+    "sha256": "c56e4ee7d938c15f6bf475486bd2a0675e1152fc7a235b39dd741d74ad35bd74"
+  },
+  {
+    "path": "audio/banhu/bank.json",
+    "sha256": "400d484a4b1d261ef087861147a68dab142fe038ed2d687b40c4e200d2ce56ae"
+  },
+  {
+    "path": "audio/banhu/kong-1.wav",
+    "sha256": "6af010ff98923dee7e6f1ddc8080ba0f25f3090ca713728a543806b025065862"
+  },
+  {
+    "path": "audio/banhu/kong-2.wav",
+    "sha256": "2b2ade61fdf6e82d8a8b4e986ba817e8c0a2ce1159c7301c157180709013259a"
+  },
+  {
+    "path": "audio/banhu/kong-3.wav",
+    "sha256": "c85a186f6ee9a4b521195a25ef325eefd6907198315debcc23cb74fbff4c2abc"
+  },
+  {
+    "path": "audio/banhu/kong-4.wav",
+    "sha256": "703507644bad3acfb093067f75a46a8077f490deff404ece7e1bee08ff4c04b2"
+  },
+  {
+    "path": "audio/banhu/kong-5.wav",
+    "sha256": "586883f9184870d13a12b89df82f45ffae63b26496bcf6d885de63fe2c60dbd0"
+  },
+  {
+    "path": "audio/banhu/kong-6.wav",
+    "sha256": "7de52861d1299bec6b810f92fd3242aa0e9a3ccc2fd846da7414ce9ff572f670"
+  },
+  {
+    "path": "audio/banhu/kong-7.wav",
+    "sha256": "c4fc853fa844670d67361bf0405b2bcb6ad14f2e0b026207affe7904868958e6"
+  },
+  {
+    "path": "audio/banhu/音色说明.txt",
+    "sha256": "4553d83142c8107caa6af83b402e9dc337b221877d6d8e5dcc241d5380e7cf74"
+  },
+  {
+    "path": "audio/erhu/bank.json",
+    "sha256": "dc5caaa454c93cb792e8a22d32755d67339d90123909e99b9f7493d5e8d07e3a"
+  },
+  {
+    "path": "audio/erhu/音色说明.txt",
+    "sha256": "d9109a517f384e7296cb66b66e7e60abad395851bb3134ac54466f9a6567da17"
+  },
+  {
+    "path": "audio/zhonghu/bank.json",
+    "sha256": "c593d47c0bf1ab32480a9dd215b52979b17f37a7be7cca3b6dfa6fd0b0fa91f3"
+  },
+  {
+    "path": "audio/zhonghu/音色说明.txt",
+    "sha256": "49813b455743503d4e77c9fc4284ccfd5169b96a7f1a1b12cdb84224222886b5"
   }
 ]

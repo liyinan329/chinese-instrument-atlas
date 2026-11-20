@@ -1,5 +1,5 @@
 import {mountBowed,suspendBowed} from './bowed-workbench.mjs?assets=bowed-audio';
-import {mountPercussion,suspendPercussion} from './percussion-workbench.mjs';
+import {mountPercussion,suspendPercussion} from './percussion-workbench.mjs?assets=percussion-rebound';
 import {mountWind,suspendWind} from './wind-workbench.mjs';
 import {mountPlucked,suspendPlucked} from './plucked-workbench.mjs';
 import {instruments,families,instrumentIcon,filterInstruments} from './instrument-catalog.mjs';

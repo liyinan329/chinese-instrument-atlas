@@ -77,7 +77,7 @@
   },
   {
     "path": "plucked-scene.mjs",
-    "sha256": "ab160f3bca498f52e057cc1890c7ea84d46815c299518d4f4ea40803ebcfe7a8"
+    "sha256": "6f980d52e29b2b782b67737503336b0a28d6d59e17d9a6214d0e631197d062f7"
   },
   {
     "path": "pipa-3d.mjs",
@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "3b3367915d02c633b198fad9cb77b9a3bfe43004c68e13da31b6de7d162ac766"
+    "sha256": "01abccd77096597dbc4871912c3ab1f60e43419180b14fc52fa94b3c6e2cc6c1"
   },
   {
     "path": "object-turntable.mjs",
@@ -101,7 +101,7 @@
   },
   {
     "path": "orchestra-scene.mjs",
-    "sha256": "12caa365a84fd3d64d4c4e1ae5615a5d3f42f95d119fac5e6f18fe7a92dcc18f"
+    "sha256": "a99b64964e2c8e6948915ad41bb0e87a6e9880084f0451439fd0a84d633b2314"
   },
   {
     "path": "liuqin-techniques.mjs",
@@ -333,7 +333,7 @@
   },
   {
     "path": "instrument-atlas.mjs",
-    "sha256": "ee57ffa33841b217602128287de909a2a75b10f7f1695727355400a8f8d97fbc"
+    "sha256": "d165504124c6a6c91ca6a62941c50a6bad78b7eef29fb450ac7d3913d261d3ec"
   },
   {
     "path": "audio/dizi/bank.json",
@@ -441,7 +441,7 @@
   },
   {
     "path": "basic-audio.mjs",
-    "sha256": "17769c21ad2c26eeb3ff02c7852423b2a54a3ce6045d4985b8afcf63053c76d4"
+    "sha256": "98945d262acd6a734fcfc2aec945cf3ea0e25535920b58f414001ad73e475f9d"
   },
   {
     "path": "recordings.json",
@@ -546,5 +546,13 @@
   {
     "path": "audio/zhonghu/音色说明.txt",
     "sha256": "49813b455743503d4e77c9fc4284ccfd5169b96a7f1a1b12cdb84224222886b5"
+  },
+  {
+    "path": "percussion-workbench.mjs",
+    "sha256": "b1d07bd9237ba4ac4f05f014b5139615ede95247bdbd97963f680973c060342a"
+  },
+  {
+    "path": "percussion-feedback.mjs",
+    "sha256": "4a45e090d4758e82d716c23a182e4894644595715aa18db47733d6c9111aa27e"
   }
 ]

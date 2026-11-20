@@ -1,5 +1,5 @@
 import {startResponsiveWorkspaces} from './responsive-workspace.mjs';
-import {mountInstrumentAtlas} from './instrument-atlas.mjs?assets=bowed-audio';
+import {mountInstrumentAtlas} from './instrument-atlas.mjs?assets=percussion-rebound';
 import {ScoreTechniques} from './score-techniques.mjs?v=9.0';
 import { STRINGS, noteName, frequency, fretName, midiAt, available, parseInput, solve } from './model.mjs?v=6.0';
 import { SamplePipaAudio } from './sampler.mjs?v=6.0';

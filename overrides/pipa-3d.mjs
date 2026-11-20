@@ -1,4 +1,4 @@
-import {paintPipaOrnament} from './pipa-ornament.mjs';
+import {paintPipaOrnament} from './pipa-ornament.mjs?assets=fine-shell';
 import {makeNoteMarker} from './note-marker.mjs';
 import {ObjectTurntable,objectDragDelta} from './object-turntable.mjs';
 import {StringFeedback} from './string-feedback.mjs';
@@ -158,7 +158,7 @@ export class Pipa3D{
   const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;
  }
  setBackOrnament(enabled=true){
-  if(!this.backMaterial)return;if(enabled&&!this.backOrnamentMap){const c=document.createElement('canvas');c.width=1024;c.height=1536;const ctx=c.getContext('2d');ctx.drawImage(this.backWoodMap.image,0,0,c.width,c.height);paintPipaOrnament(ctx,c.width,c.height);this.backOrnamentMap=new THREE.CanvasTexture(c);this.backOrnamentMap.colorSpace=THREE.SRGBColorSpace;this.backOrnamentMap.anisotropy=4;}this.backMaterial.map=enabled?this.backOrnamentMap:this.backWoodMap;this.backMaterial.needsUpdate=true;this.backOrnament=enabled;
+  if(!this.backMaterial)return;if(enabled&&!this.backOrnamentMap){const c=document.createElement('canvas');c.width=2048;c.height=3072;const ctx=c.getContext('2d');ctx.drawImage(this.backWoodMap.image,0,0,c.width,c.height);paintPipaOrnament(ctx,c.width,c.height);this.backOrnamentMap=new THREE.CanvasTexture(c);this.backOrnamentMap.colorSpace=THREE.SRGBColorSpace;this.backOrnamentMap.anisotropy=4;}this.backMaterial.map=enabled?this.backOrnamentMap:this.backWoodMap;this.backMaterial.needsUpdate=true;this.backOrnament=enabled;
  }
  setGalleryTheme(name='warm'){
   const palettes={dunhuang:{bg:'#123f50',wall:'#287488',floor:'#244d56',silk:'#74ad9d',edge:'#215f74',hills:['#77b8a2','#409b99','#287b8d','#bf7651','#a05c42']},warm:{bg:'#34312e',wall:'#8e8579',floor:'#494139',silk:'#d6c8ad',edge:'#8d8270',hills:['#b5a792','#a19380','#8b7c6b','#706257','#554c45']},ink:{bg:'#202631',wall:'#536074',floor:'#333b49',silk:'#c4c7cc',edge:'#68758a',hills:['#a2abb9','#8c98aa','#748196','#5b6b82','#41516b']},paper:{bg:'#b0a596',wall:'#d4cabc',floor:'#9b8e7d',silk:'#eee3ce',edge:'#baab94',hills:['#d1c4af','#c0af99','#ad9982','#927c67','#786652']}};

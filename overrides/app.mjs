@@ -3,7 +3,7 @@ import {mountInstrumentAtlas} from './instrument-atlas.mjs?assets=percussion-reb
 import {ScoreTechniques} from './score-techniques.mjs?v=9.0';
 import { STRINGS, noteName, frequency, fretName, midiAt, available, parseInput, solve } from './model.mjs?v=6.0';
 import { SamplePipaAudio } from './sampler.mjs?v=6.0';
-import { Pipa3D } from './pipa-3d.mjs?assets=dunhuang-study';
+import { Pipa3D } from './pipa-3d.mjs?assets=fine-shell';
 import { techniques,sources } from './techniques.mjs?v=6.0';
 import {StaffEditor} from './staff-editor.mjs?v=6.0';
 import {spellMidi,spellToken,noteToken,scoreName} from './staff-model.mjs';

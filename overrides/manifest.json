@@ -81,7 +81,7 @@
   },
   {
     "path": "pipa-3d.mjs",
-    "sha256": "c80a1a629c4812f7ca417ce2454fc12f8fbee6a17867d6faeba8707a1f39913c"
+    "sha256": "ce5279ed7894450fd78b54e13f9e45668e5014603903ee7c193157ff4e02b6f8"
   },
   {
     "path": "sampler.mjs",
@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "c7f6ad7cef010ca42b9226a4cbfc018ee38ebafc2ab2b520adbe75871b5ee4fa"
+    "sha256": "ae38710508eb72b45e577121ac85458508a674d9a6c23d823ff225052de3f18f"
   },
   {
     "path": "object-turntable.mjs",
@@ -557,7 +557,7 @@
   },
   {
     "path": "pipa-ornament.mjs",
-    "sha256": "67fcd314204b7f5bc3749c275cf1352cd33e5c55f5910610c56f1625f574146d"
+    "sha256": "74658f18bbeb233c43586431d9d5d4505c82b2bc240ded2fd1d68b3912f27621"
   },
   {
     "path": "pipa-dunhuang.css",

@@ -1,3 +1,4 @@
+import {paintPipaOrnament} from './pipa-ornament.mjs';
 import {makeNoteMarker} from './note-marker.mjs';
 import {ObjectTurntable,objectDragDelta} from './object-turntable.mjs';
 import {StringFeedback} from './string-feedback.mjs';
@@ -22,7 +23,7 @@ export class Pipa3D{
   this.clock=new THREE.Clock();this.ray=new THREE.Raycaster();this.pointer=new THREE.Vector2();this.lastHit='';this.isDown=false;this.stringMeshes=[];this.stringFeedback=new StringFeedback();this.feedbackRoll=0;this.positions=[];
   this.scene=new THREE.Scene();this.scene.background=new THREE.Color('#34312e');this.scene.fog=new THREE.Fog('#34312e',30,65);
   this.camera=new THREE.PerspectiveCamera(34,1,.1,100);this.camera.position.set(0,.65,19.7);
-  this.renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});this.renderer.setPixelRatio(Math.min(devicePixelRatio,2));this.renderer.outputColorSpace=THREE.SRGBColorSpace;this.renderer.toneMapping=THREE.ACESFilmicToneMapping;this.renderer.toneMappingExposure=1.05;this.renderer.shadowMap.enabled=true;this.renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+  this.renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});this.renderer.setPixelRatio(Math.min(devicePixelRatio,2));this.renderer.outputColorSpace=THREE.SRGBColorSpace;this.renderer.toneMapping=THREE.ACESFilmicToneMapping;this.renderer.toneMappingExposure=1.12;this.renderer.shadowMap.enabled=true;this.renderer.shadowMap.type=THREE.PCFSoftShadowMap;
   this.renderer.domElement.setAttribute('aria-label','可旋转的3D琵琶：点击琴弦演奏，拖动空白处只转动琴身，滚轮上下浏览；选择旋转模式查看背面。方向键选择弦品，空格发声。');this.renderer.domElement.tabIndex=0;
   this.el.prepend(this.renderer.domElement);this.renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();this.onStatus('3D显示暂时中断，请刷新页面。');});
   this.model=new THREE.Group();this.model.rotation.y=-.08;this.scene.add(this.model);
@@ -65,10 +66,10 @@ export class Pipa3D{
   const pos=faceGeo.attributes.position,uv=faceGeo.attributes.uv;for(let i=0;i<pos.count;i++)uv.setXY(i,(pos.getX(i)+1.7)/3.4,(pos.getY(i)+4.3)/5.8);
   const face=this.mesh(faceGeo,this.frontMat,0,0,-.02);this.hitObjects.push(face);
   const outline=shape.getPoints(100),count=outline.length,rings=28,verts=[],uvs=[],indices=[];
-  for(let j=0;j<=rings;j++){const r=.00001+j/rings;for(let i=0;i<count;i++){const p=outline[i];verts.push(p.x*r,-1.6+(p.y+1.6)*r,-.05-.56*Math.sqrt(Math.max(0,1-r*r)));uvs.push(.5+p.x*r/3.5,.5+(-1.6+(p.y+1.6)*r)/6);}}
+  for(let j=0;j<=rings;j++){const r=.00001+j/rings;for(let i=0;i<count;i++){const p=outline[i];verts.push(p.x*r,-1.6+(p.y+1.6)*r,-.05-.56*Math.sqrt(Math.max(0,1-r*r)));uvs.push(.5+p.x*r/3.5,(-1.6+(p.y+1.6)*r+4.3)/5.8);}}
   for(let j=0;j<rings;j++)for(let i=0;i<count-1;i++){const a=j*count+i,b=a+count;indices.push(a,b,a+1,b,b+1,a+1);}
   const bowlGeo=new THREE.BufferGeometry();bowlGeo.setAttribute('position',new THREE.Float32BufferAttribute(verts,3));bowlGeo.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));bowlGeo.setIndex(indices);bowlGeo.computeVertexNormals();
-  const bowlMat=this.darkMat.clone();bowlMat.side=THREE.DoubleSide;const bowl=this.mesh(bowlGeo,bowlMat);this.hitObjects.push(bowl);bowl.receiveShadow=false;
+  const bowlMat=this.darkMat.clone();bowlMat.side=THREE.DoubleSide;this.backMaterial=bowlMat;this.backWoodMap=bowlMat.map;this.setBackOrnament(true);const bowl=this.mesh(bowlGeo,bowlMat);this.hitObjects.push(bowl);bowl.receiveShadow=false;
   const rimCurve=new THREE.CatmullRomCurve3(outline.map(p=>new THREE.Vector3(p.x,p.y,.018)),true);this.mesh(new THREE.TubeGeometry(rimCurve,400,.045,8,true),this.darkMat);
   const fineRim=new THREE.CatmullRomCurve3(outline.map(p=>new THREE.Vector3(p.x*.982,-1.6+(p.y+1.6)*.986,.048)),true);this.mesh(new THREE.TubeGeometry(fineRim,400,.009,5,true),this.boneMat);
   const neckShape=new THREE.Shape();neckShape.moveTo(-.34,1.43);neckShape.bezierCurveTo(-.25,2.2,-.24,3.1,-.24,3.83);neckShape.lineTo(.24,3.83);neckShape.bezierCurveTo(.24,3.1,.25,2.2,.34,1.43);neckShape.closePath();
@@ -152,19 +153,22 @@ export class Pipa3D{
   const c=document.createElement('canvas');c.width=c.height=1024;const ctx=c.getContext('2d');
   const grad=ctx.createRadialGradient(480,350,20,512,512,650);grad.addColorStop(0,p.silk);grad.addColorStop(1,p.edge);ctx.fillStyle=grad;ctx.fillRect(0,0,1024,1024);
   for(let layer=0;layer<5;layer++){ctx.beginPath();ctx.moveTo(0,1024);for(let x=0;x<=1024;x+=3){const y=660+layer*57-Math.sin(x/(145-layer*17)+layer)*86-Math.sin(x/(68+layer*8)+layer*.7)*31;ctx.lineTo(x,y);}ctx.lineTo(1024,1024);ctx.fillStyle=p.hills[layer];ctx.fill();}
-  ctx.fillStyle='#f0e4cb';ctx.beginPath();ctx.arc(690,260,55,0,Math.PI*2);ctx.fill();
+  ctx.fillStyle='#eed499';ctx.beginPath();ctx.arc(690,260,55,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#e8ce9370';ctx.lineWidth=2;ctx.beginPath();ctx.arc(690,260,69,0,Math.PI*2);ctx.stroke();
   ctx.strokeStyle='#ffffff0b';ctx.lineWidth=.5;for(let y=0;y<1024;y+=3){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(1024,y);ctx.stroke();}
   const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;
  }
+ setBackOrnament(enabled=true){
+  if(!this.backMaterial)return;if(enabled&&!this.backOrnamentMap){const c=document.createElement('canvas');c.width=1024;c.height=1536;const ctx=c.getContext('2d');ctx.drawImage(this.backWoodMap.image,0,0,c.width,c.height);paintPipaOrnament(ctx,c.width,c.height);this.backOrnamentMap=new THREE.CanvasTexture(c);this.backOrnamentMap.colorSpace=THREE.SRGBColorSpace;this.backOrnamentMap.anisotropy=4;}this.backMaterial.map=enabled?this.backOrnamentMap:this.backWoodMap;this.backMaterial.needsUpdate=true;this.backOrnament=enabled;
+ }
  setGalleryTheme(name='warm'){
-  const palettes={warm:{bg:'#34312e',wall:'#8e8579',floor:'#494139',silk:'#d6c8ad',edge:'#8d8270',hills:['#b5a792','#a19380','#8b7c6b','#706257','#554c45']},ink:{bg:'#202631',wall:'#536074',floor:'#333b49',silk:'#c4c7cc',edge:'#68758a',hills:['#a2abb9','#8c98aa','#748196','#5b6b82','#41516b']},paper:{bg:'#b0a596',wall:'#d4cabc',floor:'#9b8e7d',silk:'#eee3ce',edge:'#baab94',hills:['#d1c4af','#c0af99','#ad9982','#927c67','#786652']}};
+  const palettes={dunhuang:{bg:'#123f50',wall:'#287488',floor:'#244d56',silk:'#74ad9d',edge:'#215f74',hills:['#77b8a2','#409b99','#287b8d','#bf7651','#a05c42']},warm:{bg:'#34312e',wall:'#8e8579',floor:'#494139',silk:'#d6c8ad',edge:'#8d8270',hills:['#b5a792','#a19380','#8b7c6b','#706257','#554c45']},ink:{bg:'#202631',wall:'#536074',floor:'#333b49',silk:'#c4c7cc',edge:'#68758a',hills:['#a2abb9','#8c98aa','#748196','#5b6b82','#41516b']},paper:{bg:'#b0a596',wall:'#d4cabc',floor:'#9b8e7d',silk:'#eee3ce',edge:'#baab94',hills:['#d1c4af','#c0af99','#ad9982','#927c67','#786652']}};
   const p=palettes[name]||palettes.warm;this.galleryTheme=palettes[name]?name:'warm';this.scene.background.set(p.bg);this.scene.fog.color.set(p.bg);this.wallMat.color.set(p.wall);this.floorMat.color.set(p.floor);const old=this.landscapeMat.map;this.landscapeMat.map=this.landscapeTexture(p);this.landscapeMat.needsUpdate=true;old?.dispose();this.el.dataset.gallery=this.galleryTheme;
  }
  buildLighting(){
-  this.scene.add(new THREE.HemisphereLight(0xfff3e3,0x382f29,1.1));
-  const key=new THREE.SpotLight(0xffe9cb,200,35,.49,.9,1.45);key.position.set(-4,9,6);key.target.position.set(0,.2,0);key.castShadow=true;key.shadow.mapSize.set(4096,4096);key.shadow.normalBias=.04;key.shadow.radius=5;key.shadow.blurSamples=8;key.shadow.bias=-.00008;this.scene.add(key,key.target);
-  const fill=new THREE.DirectionalLight(0xe7edf4,1.35);fill.position.set(5,3,8);this.scene.add(fill);
-  const rim=new THREE.DirectionalLight(0xffdfb6,1.9);rim.position.set(2,5,-3);this.scene.add(rim);
+  this.scene.add(new THREE.HemisphereLight(0xfff3e3,0x356775,1.45));
+  const key=new THREE.SpotLight(0xffefcf,235,35,.49,.9,1.45);key.position.set(-4,9,6);key.target.position.set(0,.2,0);key.castShadow=true;key.shadow.mapSize.set(4096,4096);key.shadow.normalBias=.04;key.shadow.radius=5;key.shadow.blurSamples=8;key.shadow.bias=-.00008;this.scene.add(key,key.target);
+  const fill=new THREE.DirectionalLight(0xb9e8e5,1.55);fill.position.set(5,3,8);this.scene.add(fill);
+  const rim=new THREE.DirectionalLight(0xffd291,2.05);rim.position.set(2,5,-3);this.scene.add(rim);
   const stone=this.stoneTexture();this.wallMat=new THREE.MeshStandardMaterial({map:stone,bumpMap:stone,bumpScale:.025,roughness:.96});
   this.mesh(new THREE.PlaneGeometry(70,40),this.wallMat,0,6,-5,this.scene);
   this.floorMat=new THREE.MeshStandardMaterial({map:stone,roughness:.82,metalness:0});const floor=this.mesh(new THREE.PlaneGeometry(90,90),this.floorMat,0,-5.25,0,this.scene);floor.rotation.x=-Math.PI/2;floor.castShadow=false;
@@ -190,7 +194,7 @@ export class Pipa3D{
   const plaque=document.createElement('canvas');plaque.width=1024;plaque.height=256;const pc=plaque.getContext('2d');pc.fillStyle='#534737';pc.fillRect(0,0,1024,256);pc.strokeStyle='#b29a7033';for(let y=0;y<256;y+=3){pc.beginPath();pc.moveTo(0,y);pc.lineTo(1024,y);pc.stroke();}pc.fillStyle='#ead8b2';pc.textAlign='center';pc.font='42px serif';pc.fillText('琵 琶  /  P I P A',512,110);pc.font='23px sans-serif';pc.fillStyle='#c5b597';pc.fillText('四弦 · 六相二十四品',512,170);const pt=new THREE.CanvasTexture(plaque);pt.colorSpace=THREE.SRGBColorSpace;
   this.mesh(new THREE.PlaneGeometry(1.46,.29),new THREE.MeshStandardMaterial({map:pt,roughness:.52,metalness:.18}),0,-4.8,1.193,this.scene);
   for(const x of [-.69,.69])for(const y of [-4.92,-4.68]){const rivet=this.mesh(new THREE.SphereGeometry(.009,12,8),frame,x,y,1.197,this.scene);rivet.scale.z=.3;}
-  this.setGalleryTheme('warm');
+  this.setGalleryTheme('dunhuang');
  }
  makeMarker(radius=.07,color=0xa6482f){return makeNoteMarker({size:radius*.34,current:color===0xa6482f,candidate:color===0xc5a15f});}
  update({profile=this.profile,conservative=this.conservative,flat=this.flat,positions=this.positions,held=this.held}={}){
@@ -244,5 +248,5 @@ export class Pipa3D{
   const roll=this.stringFeedback.step(performance.now()/1000,{reduced:globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches});this.model.rotation.z+=roll-this.feedbackRoll;this.feedbackRoll=roll;
   this.renderer.render(this.scene,this.camera);
  }
- destroy(){this.stringFeedback.clear();cancelAnimationFrame(this.frame);this.resizeObserver.disconnect();this.controls.dispose();this.scene.traverse(o=>{o.geometry?.dispose();});this.renderer.dispose();}
+ destroy(){this.backOrnamentMap?.dispose();this.stringFeedback.clear();cancelAnimationFrame(this.frame);this.resizeObserver.disconnect();this.controls.dispose();this.scene.traverse(o=>{o.geometry?.dispose();});this.renderer.dispose();}
 }

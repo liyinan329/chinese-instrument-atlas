@@ -3,7 +3,7 @@ import {mountInstrumentAtlas} from './instrument-atlas.mjs?assets=percussion-reb
 import {ScoreTechniques} from './score-techniques.mjs?v=9.0';
 import { STRINGS, noteName, frequency, fretName, midiAt, available, parseInput, solve } from './model.mjs?v=6.0';
 import { SamplePipaAudio } from './sampler.mjs?v=6.0';
-import { Pipa3D } from './pipa-3d.mjs?v=6.0';
+import { Pipa3D } from './pipa-3d.mjs?assets=dunhuang-study';
 import { techniques,sources } from './techniques.mjs?v=6.0';
 import {StaffEditor} from './staff-editor.mjs?v=6.0';
 import {spellMidi,spellToken,noteToken,scoreName} from './staff-model.mjs';
@@ -46,7 +46,7 @@ function showView(view){atlas?.navigate('pipa/'+view);}
 function applyAtlasRoute(view){
  const pipa=['explore','techniques','about'].includes(view);
  $$('.view').forEach(el=>el.hidden=el.id!==view+'-view');$('.intro').hidden=view!=='explore';
- document.body.classList.toggle('atlas-mode',!pipa);$('#pipa-nav').hidden=!pipa;$('#header-home').hidden=!pipa;$('#pipa-breadcrumb').hidden=!pipa;
+ if(pipa)document.body.dataset.pipaLook='dunhuang';else delete document.body.dataset.pipaLook;document.body.classList.toggle('atlas-mode',!pipa);$('#pipa-nav').hidden=!pipa;$('#header-home').hidden=!pipa;$('#pipa-breadcrumb').hidden=!pipa;
  const titles={explore:'音位与和弦',techniques:'技法库',about:'模型与资料'};
  $('#pipa-location').textContent=titles[view]||'';document.title=pipa?'琵琶 · 国乐织音坊——中国民族乐器法交互学习平台':'国乐织音坊——中国民族乐器法交互学习平台';
  $$('.nav-button').forEach(el=>{const selected=el.dataset.view===view;el.classList.toggle('active',selected);if(selected)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
@@ -239,14 +239,17 @@ function ensureInstrument(){
  if(instrument)return;
  try{
  instrument=new Pipa3D($('#instrument-stage'),{onNote:selectNote,onHover:hoverNote,onStatus:t=>$('#stage-status').textContent=t});
- $('#stage-loading').hidden=true;renderBoard();
+ try{gallery(localStorage.getItem('pipa-gallery-study')||'dunhuang');}catch{gallery('dunhuang');}$('#stage-loading').hidden=true;renderBoard();
 }catch(error){$('#stage-loading').innerHTML='<div class="webgl-error">三维显示未能启动。请使用支持 WebGL 2 的浏览器并开启硬件加速。<button onclick="location.reload()">重新载入</button></div>';$('#stage-status').textContent='3D 初始化失败';console.error(error);}
 }
 $$('[data-camera]').forEach(b=>b.addEventListener('click',()=>{instrument?.preset(b.dataset.camera);$$('[data-camera]').forEach(x=>x.classList.toggle('active',x===b));$('#auto-rotate').classList.remove('active');$('#auto-rotate').setAttribute('aria-pressed','false');}));
+if(!document.querySelector('[data-pipa-look-style]')){const lookStyle=document.createElement('link');lookStyle.rel='stylesheet';lookStyle.dataset.pipaLookStyle='true';lookStyle.href=new URL('./pipa-dunhuang.css',import.meta.url).href;document.head.append(lookStyle);}
+const palette=document.querySelector('.gallery-palette'),studyButton=document.createElement('button');studyButton.dataset.gallery='dunhuang';studyButton.innerHTML='<i></i>青绿敦煌';palette.querySelector('button').before(studyButton);
+const ornamentLabel=document.createElement('label');ornamentLabel.className='ornament-control';ornamentLabel.innerHTML='<input type="checkbox" checked>唐风背饰';ornamentLabel.title='宝相花与卷草原创纹样；唐风设计，非古器复原';palette.append(ornamentLabel);ornamentLabel.querySelector('input').onchange=e=>instrument?.setBackOrnament(e.target.checked);
 function gallery(name){
- if(!['warm','ink','paper'].includes(name))name='warm';instrument?.setGalleryTheme(name);$$('[data-gallery]').forEach(b=>{b.classList.toggle('active',b.dataset.gallery===name);b.setAttribute('aria-pressed',String(b.dataset.gallery===name));});$('#gallery-note').textContent={warm:'暖灰石墙 · 胡桃木 · 柔金光',ink:'墨蓝夜色 · 冷暖对照 · 更沉静',paper:'宣纸米白 · 淡墨山色 · 更明亮'}[name];try{localStorage.setItem('pipa-gallery-theme',name);}catch{}
+ if(!['dunhuang','warm','ink','paper'].includes(name))name='warm';instrument?.setGalleryTheme(name);$$('[data-gallery]').forEach(b=>{b.classList.toggle('active',b.dataset.gallery===name);b.setAttribute('aria-pressed',String(b.dataset.gallery===name));});$('#gallery-note').textContent={dunhuang:'石青 · 石绿 · 赭红 · 沙金',warm:'暖灰石墙 · 胡桃木 · 柔金光',ink:'墨蓝夜色 · 冷暖对照 · 更沉静',paper:'宣纸米白 · 淡墨山色 · 更明亮'}[name];try{localStorage.setItem('pipa-gallery-study',name);}catch{}
 }
-$$('[data-gallery]').forEach(b=>b.addEventListener('click',()=>gallery(b.dataset.gallery)));try{gallery(localStorage.getItem('pipa-gallery-theme')||'warm');}catch{gallery('warm');}
+$$('[data-gallery]').forEach(b=>b.addEventListener('click',()=>gallery(b.dataset.gallery)));try{gallery(localStorage.getItem('pipa-gallery-study')||'dunhuang');}catch{gallery('dunhuang');}
 $$('[data-interaction]').forEach(b=>b.addEventListener('click',()=>{instrument?.setMode(b.dataset.interaction);$$('[data-interaction]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});}));
 $('#pan-up').addEventListener('click',()=>instrument?.pan(0,.8));$('#pan-down').addEventListener('click',()=>instrument?.pan(0,-.8));
 $('#zoom-in').addEventListener('click',()=>instrument?.zoom(.8));$('#zoom-out').addEventListener('click',()=>instrument?.zoom(1.25));

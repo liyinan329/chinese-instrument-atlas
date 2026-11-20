@@ -81,7 +81,7 @@
   },
   {
     "path": "pipa-3d.mjs",
-    "sha256": "fa58c16e25468a74be70ba005d8237feb5b5a86d75b0fb1ba42c503e83a231a7"
+    "sha256": "c80a1a629c4812f7ca417ce2454fc12f8fbee6a17867d6faeba8707a1f39913c"
   },
   {
     "path": "sampler.mjs",
@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "01abccd77096597dbc4871912c3ab1f60e43419180b14fc52fa94b3c6e2cc6c1"
+    "sha256": "c7f6ad7cef010ca42b9226a4cbfc018ee38ebafc2ab2b520adbe75871b5ee4fa"
   },
   {
     "path": "object-turntable.mjs",
@@ -554,5 +554,13 @@
   {
     "path": "percussion-feedback.mjs",
     "sha256": "4a45e090d4758e82d716c23a182e4894644595715aa18db47733d6c9111aa27e"
+  },
+  {
+    "path": "pipa-ornament.mjs",
+    "sha256": "67fcd314204b7f5bc3749c275cf1352cd33e5c55f5910610c56f1625f574146d"
+  },
+  {
+    "path": "pipa-dunhuang.css",
+    "sha256": "5140630adb5df607599adc0368187758a011aadb75499c6a3990131872f7af01"
   }
 ]

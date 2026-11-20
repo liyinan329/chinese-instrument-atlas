@@ -89,7 +89,7 @@
   },
   {
     "path": "app.mjs",
-    "sha256": "ae38710508eb72b45e577121ac85458508a674d9a6c23d823ff225052de3f18f"
+    "sha256": "b88a25b1db8217042432323896bb5987f01a022e899a45770747283b18d644b1"
   },
   {
     "path": "object-turntable.mjs",
@@ -333,7 +333,7 @@
   },
   {
     "path": "instrument-atlas.mjs",
-    "sha256": "d165504124c6a6c91ca6a62941c50a6bad78b7eef29fb450ac7d3913d261d3ec"
+    "sha256": "49f25d657b603370d1834b365609eab3b4c7f6062113838a55b59a8c5d6ede53"
   },
   {
     "path": "audio/dizi/bank.json",
@@ -562,5 +562,29 @@
   {
     "path": "pipa-dunhuang.css",
     "sha256": "5140630adb5df607599adc0368187758a011aadb75499c6a3990131872f7af01"
+  },
+  {
+    "path": "arranger-core.mjs",
+    "sha256": "20f41aa91c6b60ce3fee66868c446185d30158424a1501db62da04fc4ecbf000"
+  },
+  {
+    "path": "arranger-audio.mjs",
+    "sha256": "1227b6ba34c4ffcb840731d6ca1f55610ed4f44461c964d01c96ee2869546161"
+  },
+  {
+    "path": "arranger-score.mjs",
+    "sha256": "7daec3ad99772621b886a10fab6b174fc5abf4f24b543c61c53355d452113be7"
+  },
+  {
+    "path": "arranger-workbench.mjs",
+    "sha256": "6c0a1c4a129e16819451daf8f05ac810d084f37c19f6a86bbd44314942cc754d"
+  },
+  {
+    "path": "arranger.css",
+    "sha256": "380ca6d8b6f857cc53fde7d0819f2ca9d60c5241f16dace4c03457b0731fc9b6"
+  },
+  {
+    "path": "arranger-config.json",
+    "sha256": "4d1ed877842ddb513880cae1b5986e70daf188f25ca0d6e5cc9b87f3fe88c053"
   }
 ]

@@ -13,7 +13,8 @@
       "duration": 0.46253333333333335,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      1.wav",
-      "sha256": "ae0a06168f06a5b7863bbeef958df566bc648ccdba253a7d5dd12e080b46807f"
+      "sha256": "ae0a06168f06a5b7863bbeef958df566bc648ccdba253a7d5dd12e080b46807f",
+      "playbackGain": 0.385478
     },
     {
       "file": "kong-2.mp3",
@@ -22,7 +23,8 @@
       "duration": 0.7569333333333333,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      2.wav",
-      "sha256": "fd41c32ee973d0209f6ac5b90e1576f87a8f71e53fbf434c80ce73b89f44760e"
+      "sha256": "fd41c32ee973d0209f6ac5b90e1576f87a8f71e53fbf434c80ce73b89f44760e",
+      "playbackGain": 0.557186
     },
     {
       "file": "kong-3.mp3",
@@ -31,7 +33,8 @@
       "duration": 0.5287666666666667,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      3.wav",
-      "sha256": "a83fd18eb5ea2c430a0c1892dae8dda5a0760ec01fe5a86f9271428caef859e6"
+      "sha256": "a83fd18eb5ea2c430a0c1892dae8dda5a0760ec01fe5a86f9271428caef859e6",
+      "playbackGain": 0.555265
     },
     {
       "file": "kong-4.mp3",
@@ -40,7 +43,8 @@
       "duration": 0.6101333333333333,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      4.wav",
-      "sha256": "9f2f62c38d4955caf7f72a2e4022313abd3931fe8c7d505bc7fded0cf835381b"
+      "sha256": "9f2f62c38d4955caf7f72a2e4022313abd3931fe8c7d505bc7fded0cf835381b",
+      "playbackGain": 0.913079
     },
     {
       "file": "kong-5.mp3",
@@ -49,7 +53,8 @@
       "duration": 0.5416333333333333,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      5.wav",
-      "sha256": "c318c128d4eac86f45366898c15ac12769f1a124043c331f84b59cc20a54fcf4"
+      "sha256": "c318c128d4eac86f45366898c15ac12769f1a124043c331f84b59cc20a54fcf4",
+      "playbackGain": 0.48809
     },
     {
       "file": "kong-6.mp3",
@@ -58,7 +63,8 @@
       "duration": 0.4476,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      6.wav",
-      "sha256": "73866e2b5cfa113fbdf7c2125792008826ed34ab5edfd9d6a76cdc83c194f2c4"
+      "sha256": "73866e2b5cfa113fbdf7c2125792008826ed34ab5edfd9d6a76cdc83c194f2c4",
+      "playbackGain": 0.962755
     },
     {
       "file": "kong-7.mp3",
@@ -67,16 +73,31 @@
       "duration": 0.30033333333333334,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      7.wav",
-      "sha256": "6b7fbc1829093a0b6f3a1690dfc775e0dd3515484c9ead10b2418d02fdb3db3a"
+      "sha256": "6b7fbc1829093a0b6f3a1690dfc775e0dd3515484c9ead10b2418d02fdb3db3a",
+      "playbackGain": 0.526017
     },
     {
       "file": "kong-8.mp3",
       "root_midi": 79,
-      "root_hz": 773.6306811304325,
+      "root_hz": 784.5385939,
       "duration": 0.7167333333333333,
       "kind": "sample-library",
       "source_file": "SanXian/SanXian Samples/SXL      8.wav",
-      "sha256": "fd790282647b184164f9f292ef9ad35c67343b1060d906e23353017c039b2c52"
+      "sha256": "fd790282647b184164f9f292ef9ad35c67343b1060d906e23353017c039b2c52",
+      "playbackGain": 0.554626,
+      "pitchCalibration": {
+        "previousRootHz": 773.6306811304325,
+        "measuredRootHz": 784.5385939,
+        "method": "Normalized autocorrelation with parabolic interpolation, agreement of attack and stable windows",
+        "previousCentsError": 24.24
+      }
     }
-  ]
+  ],
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
 }

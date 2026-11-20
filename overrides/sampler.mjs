@@ -1,3 +1,4 @@
+import {calibratedVelocity} from './sample-calibration.mjs';
 import {planTechnique,planAnnotated} from './score-audio.mjs';
 import {PipaAudio} from './audio.mjs?v=3.0';
 
@@ -13,15 +14,15 @@ export class SamplePipaAudio extends PipaAudio {
  async prepare(notes){const unlocked=this.ready();await Promise.all([unlocked,this.loadManifest()]);const samples=notes.map(n=>n?.wheel?this.wheelSample(n.midi):this.nearest(typeof n==='number'?n:n.midi,typeof n==='number'?undefined:n.s===undefined?undefined:4-n.s));if(samples.some(s=>!s))throw new Error('真实拨弦采样尚未载入。请稍后重试。');this.onstate('正在载入音色…');await Promise.all(samples.map(s=>this.buffer(s.url)));await this.ready();this.onstate('正在播放');return samples;}
  wheelSample(midi){return [...(this.manifest.wheelSustain?.samples||[])].sort((a,b)=>Math.abs(a.midi-midi)-Math.abs(b.midi-midi))[0];}
  sampled(midi,sample,{time=0,velocity=.75,stringIndex,s,wheel=false,duration:requestedDuration,slide=0,bend=0,vibrato=0,offset=0,fadeIn=.002,fadeOut=.035}={}){
-  const ctx=this.ctx,buffer=this.buffers.get(sample.url);if(!buffer)return;
+  const ctx=this.ctx,buffer=this.buffers.get(sample.url);if(!buffer)return;const level=calibratedVelocity(sample,velocity);
   if(stringIndex!==undefined){const old=this.stringVoices.get(stringIndex);if(old){old.gain.gain.cancelScheduledValues(ctx.currentTime);old.gain.gain.setValueAtTime(old.velocity,ctx.currentTime);old.gain.gain.linearRampToValueAtTime(0,ctx.currentTime+.025);try{old.src.stop(ctx.currentTime+.03);}catch{}}}
   const src=ctx.createBufferSource(),gain=ctx.createGain();src.buffer=buffer;src.playbackRate.value=(440*2**((midi-69)/12))/(sample.recordedFrequency||440*2**((sample.midi-69)/12));
   const duration=Math.min(requestedDuration||5,(buffer.duration-offset)/src.playbackRate.value),t=ctx.currentTime+.008+time;
   if(slide){src.playbackRate.setValueAtTime(src.playbackRate.value,t);src.playbackRate.exponentialRampToValueAtTime(src.playbackRate.value*2**(slide/12),t+duration*.7);}
   if(bend){src.detune.setValueAtTime(0,t);src.detune.linearRampToValueAtTime(bend*100,t+Math.min(.3,duration*.3));src.detune.linearRampToValueAtTime(0,t+duration*.8);}
   if(vibrato){const lfo=ctx.createOscillator(),depth=ctx.createGain();lfo.frequency.value=5.4;depth.gain.value=vibrato*100;lfo.connect(depth);depth.connect(src.detune);lfo.start(t);lfo.stop(t+duration);this.voices.add(lfo);lfo.onended=()=>{this.voices.delete(lfo);lfo.disconnect();depth.disconnect();};}
-  gain.gain.setValueAtTime(0,t);gain.gain.linearRampToValueAtTime(velocity,t+Math.min(fadeIn,duration/3));gain.gain.setValueAtTime(velocity,t+Math.max(.005,duration-Math.min(fadeOut,duration/3)));gain.gain.linearRampToValueAtTime(0,t+duration);
-  src.connect(gain);gain.connect(this.master);src.start(t,offset);src.stop(t+duration+.01);this.voices.add(src);if(stringIndex!==undefined)this.stringVoices.set(stringIndex,{src,gain,velocity});src.onended=()=>{this.voices.delete(src);if(this.stringVoices.get(stringIndex)?.src===src)this.stringVoices.delete(stringIndex);src.disconnect();gain.disconnect();};
+  gain.gain.setValueAtTime(0,t);gain.gain.linearRampToValueAtTime(level,t+Math.min(fadeIn,duration/3));gain.gain.setValueAtTime(level,t+Math.max(.005,duration-Math.min(fadeOut,duration/3)));gain.gain.linearRampToValueAtTime(0,t+duration);
+  src.connect(gain);gain.connect(this.master);src.start(t,offset);src.stop(t+duration+.01);this.voices.add(src);if(stringIndex!==undefined)this.stringVoices.set(stringIndex,{src,gain,velocity:level});src.onended=()=>{this.voices.delete(src);if(this.stringVoices.get(stringIndex)?.src===src)this.stringVoices.delete(stringIndex);src.disconnect();gain.disconnect();};
   if(typeof this.onExcite==='function'){const generation=this.generation,index=stringIndex??s;const trigger=(delay)=>{const timer=setTimeout(()=>{this.feedbackTimers.delete(timer);if(generation===this.generation&&Number.isInteger(index))this.onExcite({s:index,midi,velocity});},Math.max(0,(t-ctx.currentTime+delay)*1000));this.feedbackTimers.add(timer);};if(wheel){for(let elapsed=0;elapsed<duration;elapsed+=1/9)trigger(elapsed);}else trigger(0);}
   this.onSampleState(midi===sample.midi?'真实单音采样 · 音高校准':'真实采样 · 移调 '+(midi-sample.midi>0?'+':'')+(midi-sample.midi)+' 半音');
  }

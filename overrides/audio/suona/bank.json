@@ -14,7 +14,8 @@
       "source_file": "SuoNa/SuoNa Basic Layer Samples/SuoNa Basic Layer_066_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "64f391e3a78e932615778e6e059550e482eef8410012fc65428c6d80c53302be"
+      "sha256": "64f391e3a78e932615778e6e059550e482eef8410012fc65428c6d80c53302be",
+      "playbackGain": 0.423156
     },
     {
       "file": "kong-2.mp3",
@@ -24,17 +25,25 @@
       "source_file": "SuoNa/SuoNa Basic Layer Samples/SuoNa Basic Layer_069_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "30f706c2014e2f9c379b2fc4bcacda0af5ca71f7c33ac46d49fc15216bf650fb"
+      "sha256": "30f706c2014e2f9c379b2fc4bcacda0af5ca71f7c33ac46d49fc15216bf650fb",
+      "playbackGain": 0.445143
     },
     {
       "file": "kong-3.mp3",
       "root_midi": 72,
-      "root_hz": 529.4830122900922,
+      "root_hz": 523.3486197,
       "kind": "sample-library",
       "source_file": "SuoNa/SuoNa Basic Layer Samples/SuoNa Basic Layer_072_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "f17e905f60fd5d2f668402ccf7e930fba46326be1254d9641900e7beb96a9a36"
+      "sha256": "f17e905f60fd5d2f668402ccf7e930fba46326be1254d9641900e7beb96a9a36",
+      "playbackGain": 0.615886,
+      "pitchCalibration": {
+        "previousRootHz": 529.4830122900922,
+        "measuredRootHz": 523.3486197,
+        "method": "Normalized autocorrelation with parabolic interpolation, agreement of attack and stable windows",
+        "previousCentsError": -20.18
+      }
     },
     {
       "file": "kong-4.mp3",
@@ -44,7 +53,8 @@
       "source_file": "SuoNa/SuoNa Basic Layer Samples/SuoNa Basic Layer_078_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "47c4dedc6489c1cf79994b52ff7056add595d0808328111e1dc3f45047184a31"
+      "sha256": "47c4dedc6489c1cf79994b52ff7056add595d0808328111e1dc3f45047184a31",
+      "playbackGain": 0.335351
     },
     {
       "file": "kong-5.mp3",
@@ -54,7 +64,15 @@
       "source_file": "SuoNa/SuoNa Basic Layer Samples/SuoNa Basic Layer_083_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "7514b864521ef3f0dce0d9bd7c0058f2864e36f37477dab27ee1be2a2e252e71"
+      "sha256": "7514b864521ef3f0dce0d9bd7c0058f2864e36f37477dab27ee1be2a2e252e71",
+      "playbackGain": 0.415432
     }
-  ]
+  ],
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
 }

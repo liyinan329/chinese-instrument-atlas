@@ -17,7 +17,7 @@
   },
   {
     "path": "ruan-audio.mjs",
-    "sha256": "31fcc97ef7adc4dc61294cb60ac739952034250905cfc40fad9b5cea1d184e1e"
+    "sha256": "9f6a54ba1f3c77176fc0757e722c51f4d9829255ff7c71b5d0fb7ae787ab548c"
   },
   {
     "path": "ruan-motion.mjs",
@@ -49,7 +49,7 @@
   },
   {
     "path": "audio/ruan/bank.json",
-    "sha256": "4a0247404764e109331b42e88f98f2c55ee569ab602f395d278de33c7e6830b7"
+    "sha256": "951c375265484fdb34e75fd1cd1701ba615f99dfd4f338ac10dd00e9dd444ba9"
   },
   {
     "path": "audio/ruan/d3-a.wav",
@@ -85,7 +85,7 @@
   },
   {
     "path": "sampler.mjs",
-    "sha256": "75afc6d3e059db130d8a7448a78589ed49609d754854d9b5bbb54f101271a611"
+    "sha256": "6e36600ad0bdd53ae9e16bfd3d5010685a2a82638d4f88c40dd75dc6bea3384a"
   },
   {
     "path": "app.mjs",
@@ -129,7 +129,7 @@
   },
   {
     "path": "audio/liuqin/bank.json",
-    "sha256": "f223d8d673116f0181b4dd9bcab77cb6b51575c0ac31785cbb80e5fadfae101a"
+    "sha256": "0a0a0103d7d0b27a156de9ad2c4ff390a2d7b249923e68c4577319bf623219dc"
   },
   {
     "path": "audio/liuqin/pluck-62-0.wav",
@@ -225,7 +225,7 @@
   },
   {
     "path": "audio/sanxian/bank.json",
-    "sha256": "2bdc315acf438ab6aeee535c595005d91da1b7c6b49f3031d61fa23c77186bae"
+    "sha256": "af073e4ddf1616df599239a27bfa9818322940f078b26f9963cc06934b507b6f"
   },
   {
     "path": "audio/sanxian/音色说明.txt",
@@ -257,7 +257,7 @@
   },
   {
     "path": "audio/guzheng/bank.json",
-    "sha256": "7c7f29d7558c343fc06927b98b7665c45e2df0988ea8bc6065df93790f3ca421"
+    "sha256": "f33f35485c7559eac681a4b0cdad57244ecc56c73964ebe4160bdfd3cf817480"
   },
   {
     "path": "audio/guzheng/音色说明.txt",
@@ -285,7 +285,7 @@
   },
   {
     "path": "audio/guqin/bank.json",
-    "sha256": "8e99689039adcf15c623e59b4210b26f50ee0c11d7eac25c81fa61d91b5199a8"
+    "sha256": "d5843ab5bcb53969caeac20c7c00657db8d35ef182d65b3c3d0028d6edacdadc"
   },
   {
     "path": "audio/guqin/音色说明.txt",
@@ -313,7 +313,7 @@
   },
   {
     "path": "audio/yangqin/bank.json",
-    "sha256": "c968e0a126bfddc4a4d1d48a2aa7aea930783cb97656eac29186a747d3994497"
+    "sha256": "a4cb427683b23022aa17b84d9946240eec98aa12fbec4b18b30177de7693ab19"
   },
   {
     "path": "audio/yangqin/音色说明.txt",
@@ -337,7 +337,7 @@
   },
   {
     "path": "audio/dizi/bank.json",
-    "sha256": "3ea2122311878101263cda7b65b6dfbd53c05359ddffbd772387744f9cb146bc"
+    "sha256": "08f8f5b801afea4075378240519d3bcae4ab6a407ff33583b42f90943fd4dfb6"
   },
   {
     "path": "audio/dizi/音色说明.txt",
@@ -365,7 +365,7 @@
   },
   {
     "path": "audio/xiao/bank.json",
-    "sha256": "0e23f1d780bd2000426cca66288122417e649ab30b62ad75bd30a990a3eae434"
+    "sha256": "20db708630bb5c5b7d0a921a809bfc4c45360ca5c76a2ac9f3689d8d51bad4e1"
   },
   {
     "path": "audio/xiao/音色说明.txt",
@@ -393,7 +393,7 @@
   },
   {
     "path": "audio/sheng/bank.json",
-    "sha256": "299c8791236fc0118c47eb88d2582023910b07c32fc17dc9eea430645f5c1187"
+    "sha256": "a1cd03bb46fbd65d5d55d70dcd498df43dd10a0de42ee11355dd09f2e518409f"
   },
   {
     "path": "audio/sheng/音色说明.txt",
@@ -421,7 +421,7 @@
   },
   {
     "path": "audio/suona/bank.json",
-    "sha256": "b55d6398233e3910ba896690e9947af77902ca1a4517ed37daaab78cf1dd7ae8"
+    "sha256": "ae72c2c796f433627556a0d19d25234c115219fb45a202530647f8f989c4145d"
   },
   {
     "path": "audio/suona/音色说明.txt",
@@ -434,5 +434,21 @@
   {
     "path": "responsive-workspace.css",
     "sha256": "fd36379cbf41466cd487ee936a630357de5bc488d4eab4ae664fd6dcac543ee4"
+  },
+  {
+    "path": "sample-calibration.mjs",
+    "sha256": "3146f1ca2d36d659a153f0de34f0ea71a3a5ceba65d0adcdbb4e0c72b1eab3fe"
+  },
+  {
+    "path": "basic-audio.mjs",
+    "sha256": "17769c21ad2c26eeb3ff02c7852423b2a54a3ce6045d4985b8afcf63053c76d4"
+  },
+  {
+    "path": "recordings.json",
+    "sha256": "d11a5b2165dc0ac34eeeef1ab961350d61f26a08c3f9bc06d49bdec0028d9ee8"
+  },
+  {
+    "path": "basic-audio-data.mjs",
+    "sha256": "e4e3ac962c6f5697c1ab4fbbbb53d9910db08c3d67662718e8dfbe533ef89a73"
   }
 ]

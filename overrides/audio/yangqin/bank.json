@@ -13,7 +13,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_041.wav",
-      "sha256": "e5b5f54835b26dda7c8349e60f0a8ee61fbf922fa8b9a6f90e0b143fd1939ba7"
+      "sha256": "e5b5f54835b26dda7c8349e60f0a8ee61fbf922fa8b9a6f90e0b143fd1939ba7",
+      "playbackGain": 0.588844
     },
     {
       "file": "kong-2.mp3",
@@ -22,7 +23,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_053.wav",
-      "sha256": "e8e18b8699a85f7b3968b5b94b188566b2706a9aae53e23d5846c66b392c3b2f"
+      "sha256": "e8e18b8699a85f7b3968b5b94b188566b2706a9aae53e23d5846c66b392c3b2f",
+      "playbackGain": 0.6223
     },
     {
       "file": "kong-3.mp3",
@@ -31,7 +33,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_065.wav",
-      "sha256": "7ebabcc77c2ae1172d6f441930ad8f7195897e6b2daf2a5df262005353deebef"
+      "sha256": "7ebabcc77c2ae1172d6f441930ad8f7195897e6b2daf2a5df262005353deebef",
+      "playbackGain": 1.116863
     },
     {
       "file": "kong-4.mp3",
@@ -40,7 +43,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_077.wav",
-      "sha256": "41aafa61cc2684519634cfc374b7f28bf65a6bea1b2e8fa9de74878ca32a5f81"
+      "sha256": "41aafa61cc2684519634cfc374b7f28bf65a6bea1b2e8fa9de74878ca32a5f81",
+      "playbackGain": 0.990832
     },
     {
       "file": "kong-5.mp3",
@@ -49,7 +53,15 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "YangQin/YangQin 02 pp_p_mp_mf Samples/YangQin 02 pp_p_mp_mf_089.wav",
-      "sha256": "3204b41970806f6ba78c1c9c6a46afbe79e30e4bac75d586bba1d1a2d20c8f38"
+      "sha256": "3204b41970806f6ba78c1c9c6a46afbe79e30e4bac75d586bba1d1a2d20c8f38",
+      "playbackGain": 1.918669
     }
-  ]
+  ],
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
 }

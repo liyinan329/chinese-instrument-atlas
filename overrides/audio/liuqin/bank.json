@@ -14,7 +14,8 @@
       "kind": "sample-library",
       "source_file": "LQ1.wav",
       "duration": 1.1238095238095238,
-      "sha256": "cc9cae1d42d0b0f6c4f45237aed819a1f6e0c0e408f34a98d5a8605520522a13"
+      "sha256": "cc9cae1d42d0b0f6c4f45237aed819a1f6e0c0e408f34a98d5a8605520522a13",
+      "playbackGain": 0.801678
     },
     {
       "file": "kong-lq-2.wav",
@@ -23,16 +24,24 @@
       "kind": "sample-library",
       "source_file": "LQ2.wav",
       "duration": 1.1759637188208616,
-      "sha256": "cc98b1bc6ecc8d1ea68247552bb571488ae469f80549b65a10fd7bf65cbffd9f"
+      "sha256": "cc98b1bc6ecc8d1ea68247552bb571488ae469f80549b65a10fd7bf65cbffd9f",
+      "playbackGain": 0.899498
     },
     {
       "file": "kong-lq-3.wav",
       "root_midi": 67,
-      "root_hz": 388.9434814453125,
+      "root_hz": 392.5170161,
       "kind": "sample-library",
       "source_file": "LQ3.wav",
       "duration": 1.0013605442176872,
-      "sha256": "05cb18aeb066bf7cb05c6bad322fbb4c85ac2e0c0721e35121070f73e244ac8a"
+      "sha256": "05cb18aeb066bf7cb05c6bad322fbb4c85ac2e0c0721e35121070f73e244ac8a",
+      "playbackGain": 0.666807,
+      "pitchCalibration": {
+        "previousRootHz": 388.9434814453125,
+        "measuredRootHz": 392.5170161,
+        "method": "Normalized autocorrelation with parabolic interpolation, agreement of attack and stable windows",
+        "previousCentsError": 15.83
+      }
     },
     {
       "file": "kong-lq-4.wav",
@@ -41,7 +50,8 @@
       "kind": "sample-library",
       "source_file": "LQ4.wav",
       "duration": 0.8367346938775511,
-      "sha256": "0d698930e87f6f8fef3fe973051a2e9a86f6526271731766634a5b15a52a3bb9"
+      "sha256": "0d698930e87f6f8fef3fe973051a2e9a86f6526271731766634a5b15a52a3bb9",
+      "playbackGain": 1.161449
     },
     {
       "file": "kong-lq-5.wav",
@@ -50,7 +60,8 @@
       "kind": "sample-library",
       "source_file": "LQ5.wav",
       "duration": 0.9943310657596371,
-      "sha256": "9a549a0f927ea61505803ddd860505faa50f4d5284f1e5a7f5c407019c78aaa0"
+      "sha256": "9a549a0f927ea61505803ddd860505faa50f4d5284f1e5a7f5c407019c78aaa0",
+      "playbackGain": 0.710395
     },
     {
       "file": "kong-lq-6.wav",
@@ -59,7 +70,8 @@
       "kind": "sample-library",
       "source_file": "LQ6.wav",
       "duration": 0.8072562358276644,
-      "sha256": "bf27a2377d65b02f2ce1badacd3744c2ba718a5e9e4833b376ecb27eab42bc5e"
+      "sha256": "bf27a2377d65b02f2ce1badacd3744c2ba718a5e9e4833b376ecb27eab42bc5e",
+      "playbackGain": 1.426764
     },
     {
       "file": "kong-lq-7.wav",
@@ -68,7 +80,15 @@
       "kind": "sample-library",
       "source_file": "LQ7.wav",
       "duration": 0.7328798185941043,
-      "sha256": "08feb47fd7fd5cf4785d7b9c2cc29d8b09a00909836ea71999640d0479e0ced3"
+      "sha256": "08feb47fd7fd5cf4785d7b9c2cc29d8b09a00909836ea71999640d0479e0ced3",
+      "playbackGain": 1.208335
     }
-  ]
+  ],
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
 }

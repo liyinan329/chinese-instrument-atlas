@@ -13,7 +13,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_048_110.wav",
-      "sha256": "c246f2046bd42e181565defc94f04a2e7a0387253528ae9cbe8d74a8b2e7fec8"
+      "sha256": "c246f2046bd42e181565defc94f04a2e7a0387253528ae9cbe8d74a8b2e7fec8",
+      "playbackGain": 1.487647
     },
     {
       "file": "kong-2.mp3",
@@ -22,7 +23,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_060_110.wav",
-      "sha256": "350813eea0e9decd9782c4b0294b0f5abd2802f31ac4658f633d7752794e0b14"
+      "sha256": "350813eea0e9decd9782c4b0294b0f5abd2802f31ac4658f633d7752794e0b14",
+      "playbackGain": 1.554175
     },
     {
       "file": "kong-3.mp3",
@@ -31,7 +33,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_072_110.wav",
-      "sha256": "df4b956dbd03a5d726362a62d04c97b4181abc350a382948fe4dea5ed7e51b03"
+      "sha256": "df4b956dbd03a5d726362a62d04c97b4181abc350a382948fe4dea5ed7e51b03",
+      "playbackGain": 0.865964
     },
     {
       "file": "kong-4.mp3",
@@ -40,7 +43,8 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_084_110.wav",
-      "sha256": "54a4ef18678b0a8d242792c25529780c74c8303cad78ba3270032ba1b6600623"
+      "sha256": "54a4ef18678b0a8d242792c25529780c74c8303cad78ba3270032ba1b6600623",
+      "playbackGain": 1.169499
     },
     {
       "file": "kong-5.mp3",
@@ -49,7 +53,15 @@
       "duration": 2.8,
       "kind": "sample-library",
       "source_file": "GuQin/GuQin_Gou_Leg Samples/GuQin_Gou_Leg_095_110.wav",
-      "sha256": "aba7345abeb3c3f822f5238d0a9992918d556d4e11cb79b0244382ad491efdfe"
+      "sha256": "aba7345abeb3c3f822f5238d0a9992918d556d4e11cb79b0244382ad491efdfe",
+      "playbackGain": 2
     }
-  ]
+  ],
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
 }

@@ -1,0 +1,4458 @@
+{
+  "samples": [
+    {
+      "id": "pipa-s1-m58",
+      "midi": 58,
+      "recordedFrequency": 234.89396265317657,
+      "string": 1,
+      "label": "A#3 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_A5#_p10.wav",
+      "sourceSegment": {
+        "start": 0.3078004535147392,
+        "end": 3.4137414965986395
+      },
+      "duration": 3.1059410430839,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 13.41,
+        "periodicity": 0.97
+      },
+      "sha256": "126a554aaffd58af74dec88df1c0278206c8e19ca424828ad635ee07a628e19c",
+      "url": "./audio/pipa-s1-m58.wav",
+      "playbackGain": 0.577431
+    },
+    {
+      "id": "pipa-s1-m57",
+      "midi": 57,
+      "recordedFrequency": 220.15358287035292,
+      "string": 1,
+      "label": "A3 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_A5__0.wav",
+      "sourceSegment": {
+        "start": 0.6851927437641724,
+        "end": 4.293197278911564
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 1.21,
+        "periodicity": 0.959
+      },
+      "sha256": "ebdcb679c8f8e4e71cb45b78b1e2560e0d22da1c6273081e6f844ada6cd9bd70",
+      "url": "./audio/pipa-s1-m57.wav",
+      "playbackGain": 0.630231
+    },
+    {
+      "id": "pipa-s1-m70",
+      "midi": 70,
+      "recordedFrequency": 465.57408360196956,
+      "string": 1,
+      "label": "A#4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_A6#_n5.wav",
+      "sourceSegment": {
+        "start": 0.19183673469387755,
+        "end": 3.5543083900226757
+      },
+      "duration": 3.362471655328798,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.19,
+        "periodicity": 0.984
+      },
+      "sha256": "ab5216b02840975ae180d6f792c023382b5916d1c6c0cfcc2af6e595c0686bdf",
+      "url": "./audio/pipa-s1-m70.wav",
+      "playbackGain": 0.621584
+    },
+    {
+      "id": "pipa-s1-m69",
+      "midi": 69,
+      "recordedFrequency": 441.31853500335944,
+      "string": 1,
+      "label": "A4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_A6__p5.wav",
+      "sourceSegment": {
+        "start": 0.447233560090703,
+        "end": 4.055238095238095
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 5.18,
+        "periodicity": 0.98
+      },
+      "sha256": "a79b62c2edaff2f3b55d4ade953ad1375e17d28a094abb30316c6a466eb95f80",
+      "url": "./audio/pipa-s1-m69.wav",
+      "playbackGain": 0.814704
+    },
+    {
+      "id": "pipa-s1-m82",
+      "midi": 82,
+      "recordedFrequency": 937.8615091801396,
+      "string": 1,
+      "label": "A#5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_A7#_p10.wav",
+      "sourceSegment": {
+        "start": 0.40408163265306124,
+        "end": 2.452562358276644
+      },
+      "duration": 2.0484807256235826,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 10.25,
+        "periodicity": 0.991
+      },
+      "sha256": "6b91b0fbf5fb9add4c92d6abd6f434fb1a77d79f7e9fc43c6161d78591e9b19d",
+      "url": "./audio/pipa-s1-m82.wav",
+      "playbackGain": 0.606038
+    },
+    {
+      "id": "pipa-s1-m81",
+      "midi": 81,
+      "recordedFrequency": 876.822003120014,
+      "string": 1,
+      "label": "A5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_A7__n5.wav",
+      "sourceSegment": {
+        "start": 0.3395011337868481,
+        "end": 2.885170068027211
+      },
+      "duration": 2.545668934240363,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.26,
+        "periodicity": 0.99
+      },
+      "sha256": "8ed54f133a3ef035c1771fdc823ddcb64b3bf6f33d2dfdb425c434677ea52b58",
+      "url": "./audio/pipa-s1-m81.wav",
+      "playbackGain": 0.636063
+    },
+    {
+      "id": "pipa-s1-m59",
+      "midi": 59,
+      "recordedFrequency": 248.14859158712272,
+      "string": 1,
+      "label": "B3 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_B5__p5.wav",
+      "sourceSegment": {
+        "start": 0.2017233560090703,
+        "end": 1.7896145124716554
+      },
+      "duration": 1.587891156462585,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 8.44,
+        "periodicity": 0.969
+      },
+      "sha256": "a9d5409cf8bcd60c509700204a1677403a6dc90225f489ca7c1c044fd88ebe12",
+      "url": "./audio/pipa-s1-m59.wav",
+      "playbackGain": 0.718621
+    },
+    {
+      "id": "pipa-s1-m71",
+      "midi": 71,
+      "recordedFrequency": 493.27078187352544,
+      "string": 1,
+      "label": "B4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_B6__n5.wav",
+      "sourceSegment": {
+        "start": 0.20448979591836736,
+        "end": 3.8124943310657597
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.15,
+        "periodicity": 0.983
+      },
+      "sha256": "a4a334868652d61aac0806bf55f396b0c6c48ce0117c9238ffa77923713fec02",
+      "url": "./audio/pipa-s1-m71.wav",
+      "playbackGain": 0.99426
+    },
+    {
+      "id": "pipa-s1-m83",
+      "midi": 83,
+      "recordedFrequency": 987.4891322223866,
+      "string": 1,
+      "label": "B5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_B7__0.wav",
+      "sourceSegment": {
+        "start": 0.261156462585034,
+        "end": 2.567369614512472
+      },
+      "duration": 2.306213151927438,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.49,
+        "periodicity": 0.987
+      },
+      "sha256": "654122838633c0fff6bd969150c01b45184838396ea60a9dbc37c7be33cc878d",
+      "url": "./audio/pipa-s1-m83.wav",
+      "playbackGain": 1.111642
+    },
+    {
+      "id": "pipa-s1-m61",
+      "midi": 61,
+      "recordedFrequency": 277.0263145076845,
+      "string": 1,
+      "label": "C#4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_C6#_0.wav",
+      "sourceSegment": {
+        "start": 0.28444444444444444,
+        "end": 2.8249433106575963
+      },
+      "duration": 2.540498866213152,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.98,
+        "periodicity": 0.974
+      },
+      "sha256": "b3aad1e5be3dc6497ce8abfea86ce82fe2e2dc567b2698b808267886204add8d",
+      "url": "./audio/pipa-s1-m61.wav",
+      "playbackGain": 0.775354
+    },
+    {
+      "id": "pipa-s1-m60",
+      "midi": 60,
+      "recordedFrequency": 261.1595268298711,
+      "string": 1,
+      "label": "C4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_C6__0.wav",
+      "sourceSegment": {
+        "start": 0.23403628117913833,
+        "end": 1.7767120181405895
+      },
+      "duration": 1.5426757369614512,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -3.09,
+        "periodicity": 0.972
+      },
+      "sha256": "982ab4a5da9dc8c62ab49f9acb88feaacd225b0264889d2524d2b7ce2db6bf4b",
+      "url": "./audio/pipa-s1-m60.wav",
+      "playbackGain": 0.49545
+    },
+    {
+      "id": "pipa-s1-m73",
+      "midi": 73,
+      "recordedFrequency": 551.2975531732636,
+      "string": 1,
+      "label": "C#5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_C7#_n10.wav",
+      "sourceSegment": {
+        "start": 0.31476190476190474,
+        "end": 2.709637188208617
+      },
+      "duration": 2.394875283446712,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -9.61,
+        "periodicity": 0.987
+      },
+      "sha256": "470b38786f8a8c83c1213fceba369fa96b6970aeb38eefd2c68a18fd6e8a4c8f",
+      "url": "./audio/pipa-s1-m73.wav",
+      "playbackGain": 0.632412
+    },
+    {
+      "id": "pipa-s1-m72",
+      "midi": 72,
+      "recordedFrequency": 521.8670215880774,
+      "string": 1,
+      "label": "C5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_C7__n5.wav",
+      "sourceSegment": {
+        "start": 0.16505668934240364,
+        "end": 1.0063945578231293
+      },
+      "duration": 0.8413378684807257,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -4.59,
+        "periodicity": 0.974
+      },
+      "sha256": "1598df7fe5bea927cf5f389e43c4534b943cc9462f395395713edb025793176c",
+      "url": "./audio/pipa-s1-m72.wav",
+      "playbackGain": 0.483059
+    },
+    {
+      "id": "pipa-s1-m85",
+      "midi": 85,
+      "recordedFrequency": 1108.076098668689,
+      "string": 1,
+      "label": "C#6 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_C8#_n15.wav",
+      "sourceSegment": {
+        "start": 0.1626530612244898,
+        "end": 1.7700226757369615
+      },
+      "duration": 1.6073696145124716,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -1.02,
+        "periodicity": 0.981
+      },
+      "sha256": "bf6919e8649f27dc6b50c0b59482f4064b6d5abc96934d9786e2e360b538950c",
+      "url": "./audio/pipa-s1-m85.wav",
+      "playbackGain": 1.073947
+    },
+    {
+      "id": "pipa-s1-m84",
+      "midi": 84,
+      "recordedFrequency": 1035.5901334059292,
+      "string": 1,
+      "label": "C6 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_C8__p10.wav",
+      "sourceSegment": {
+        "start": 0.03687074829931973,
+        "end": 1.576485260770975
+      },
+      "duration": 1.5396145124716554,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -18.15,
+        "periodicity": 0.563
+      },
+      "sha256": "ad78cdb194265502bc069e574e828fe6fb17800c162b2226e590a95a2dffd886",
+      "url": "./audio/pipa-s1-m84.wav",
+      "playbackGain": 1.09954
+    },
+    {
+      "id": "pipa-s1-m63",
+      "midi": 63,
+      "recordedFrequency": 310.29649420348926,
+      "string": 1,
+      "label": "D#4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_D6#_0.wav",
+      "sourceSegment": {
+        "start": 0.1301360544217687,
+        "end": 1.6394557823129252
+      },
+      "duration": 1.5093197278911565,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -4.63,
+        "periodicity": 0.977
+      },
+      "sha256": "89e915ee9992401cae4827b2851cdd78cd6b8da50420e759d56c033473f71af3",
+      "url": "./audio/pipa-s1-m63.wav",
+      "playbackGain": 0.510505
+    },
+    {
+      "id": "pipa-s1-m62",
+      "midi": 62,
+      "recordedFrequency": 294.2100919867522,
+      "string": 1,
+      "label": "D4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_D6__0.wav",
+      "sourceSegment": {
+        "start": 0.1901360544217687,
+        "end": 2.3448072562358275
+      },
+      "duration": 2.154671201814059,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.21,
+        "periodicity": 0.973
+      },
+      "sha256": "736c30ceb3e4cd117e815fb25cc60b55c06de1a3cd024c4dc046d879967b2af7",
+      "url": "./audio/pipa-s1-m62.wav",
+      "playbackGain": 0.898463
+    },
+    {
+      "id": "pipa-s1-m75",
+      "midi": 75,
+      "recordedFrequency": 618.1330414289582,
+      "string": 1,
+      "label": "D#5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_D7#_n20.wav",
+      "sourceSegment": {
+        "start": 0.407687074829932,
+        "end": 1.708231292517007
+      },
+      "duration": 1.3005442176870747,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -11.5,
+        "periodicity": 0.983
+      },
+      "sha256": "410cb3ef08f69b0980506efdeab7517d8ff17143c46f170d8f7ebf60a885b791",
+      "url": "./audio/pipa-s1-m75.wav",
+      "playbackGain": 0.780728
+    },
+    {
+      "id": "pipa-s1-m74",
+      "midi": 74,
+      "recordedFrequency": 586.4637194567066,
+      "string": 1,
+      "label": "D5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_D7__n5.wav",
+      "sourceSegment": {
+        "start": 0.2589795918367347,
+        "end": 3.866984126984127
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.55,
+        "periodicity": 0.987
+      },
+      "sha256": "7aa29461d63d7e5e0ead61093699aeae23c6d20738be5210d042ff1a777c110d",
+      "url": "./audio/pipa-s1-m74.wav",
+      "playbackGain": 0.812831
+    },
+    {
+      "id": "pipa-s1-m86",
+      "midi": 86,
+      "recordedFrequency": 1166.0355453173815,
+      "string": 1,
+      "label": "D6 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_D8__n10.wav",
+      "sourceSegment": {
+        "start": 0.43639455782312925,
+        "end": 3.3563945578231293
+      },
+      "duration": 2.92,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -12.76,
+        "periodicity": 0.987
+      },
+      "sha256": "7a4dfd5a9128e166d5a8f9c30323b2b2b2eefcaf5e57c69e6210a45d7818646f",
+      "url": "./audio/pipa-s1-m86.wav",
+      "playbackGain": 0.910961
+    },
+    {
+      "id": "pipa-s1-m64",
+      "midi": 64,
+      "recordedFrequency": 329.8691257072977,
+      "string": 1,
+      "label": "E4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_E6__n5.wav",
+      "sourceSegment": {
+        "start": 0.24952380952380954,
+        "end": 3.8575283446712016
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 1.27,
+        "periodicity": 0.975
+      },
+      "sha256": "75a7284fc6e2884bc0eb97cdc06ae54652d23939dc94e01375146ef10e92d238",
+      "url": "./audio/pipa-s1-m64.wav",
+      "playbackGain": 0.732825
+    },
+    {
+      "id": "pipa-s1-m76",
+      "midi": 76,
+      "recordedFrequency": 661.3348278621845,
+      "string": 1,
+      "label": "E5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_E7__0.wav",
+      "sourceSegment": {
+        "start": 0.5617006802721088,
+        "end": 3.835532879818594
+      },
+      "duration": 3.273832199546485,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 5.45,
+        "periodicity": 0.988
+      },
+      "sha256": "bf4db50ea2cd68cde24d257359488339eb53dac8e9942b323b829b337eb0341a",
+      "url": "./audio/pipa-s1-m76.wav",
+      "playbackGain": 1.072164
+    },
+    {
+      "id": "pipa-s1-m88",
+      "midi": 88,
+      "recordedFrequency": 1319.0770925786164,
+      "string": 1,
+      "label": "E6 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_E8__0.wav",
+      "sourceSegment": {
+        "start": 0.20285714285714285,
+        "end": 1.8780045351473922
+      },
+      "duration": 1.6751473922902493,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 0.74,
+        "periodicity": 0.982
+      },
+      "sha256": "4e298148b39f4740e993e5f9ff554d078b5029c8bd5de6a5de58ff74631c77ab",
+      "url": "./audio/pipa-s1-m88.wav",
+      "playbackGain": 1.078277
+    },
+    {
+      "id": "pipa-s1-m66",
+      "midi": 66,
+      "recordedFrequency": 371.91529985533367,
+      "string": 1,
+      "label": "F#4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_F6#_p10.wav",
+      "sourceSegment": {
+        "start": 0.39900226757369617,
+        "end": 2.705827664399093
+      },
+      "duration": 2.306825396825397,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 8.96,
+        "periodicity": 0.977
+      },
+      "sha256": "6293a8b14874af322828611983a401a3c136d02ceb8f32ea2243a943e23a333b",
+      "url": "./audio/pipa-s1-m66.wav",
+      "playbackGain": 0.638999
+    },
+    {
+      "id": "pipa-s1-m65",
+      "midi": 65,
+      "recordedFrequency": 351.00333934945036,
+      "string": 1,
+      "label": "F4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_F6__p10.wav",
+      "sourceSegment": {
+        "start": 0.2174829931972789,
+        "end": 1.981859410430839
+      },
+      "duration": 1.76437641723356,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 8.78,
+        "periodicity": 0.98
+      },
+      "sha256": "8761e3b70c66a2fb48ee7a7a9d4eef38c1091607115c5dd7257813d46dcf90bb",
+      "url": "./audio/pipa-s1-m65.wav",
+      "playbackGain": 0.606736
+    },
+    {
+      "id": "pipa-s1-m78",
+      "midi": 78,
+      "recordedFrequency": 737.1576270040271,
+      "string": 1,
+      "label": "F#5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_F7#_0.wav",
+      "sourceSegment": {
+        "start": 0.09718820861678004,
+        "end": 2.248775510204082
+      },
+      "duration": 2.1515873015873015,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.64,
+        "periodicity": 0.96
+      },
+      "sha256": "c91688cb4a4fc582210041036922ec454086cec04860f4ee41a55b7a294a29c3",
+      "url": "./audio/pipa-s1-m78.wav",
+      "playbackGain": 0.761202
+    },
+    {
+      "id": "pipa-s1-m77",
+      "midi": 77,
+      "recordedFrequency": 700.249481072088,
+      "string": 1,
+      "label": "F5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_F7__p5.wav",
+      "sourceSegment": {
+        "start": 0.2287981859410431,
+        "end": 1.8893877551020408
+      },
+      "duration": 1.6605895691609978,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.44,
+        "periodicity": 0.986
+      },
+      "sha256": "2501a18e506f5a66973b05b901b7bab2fbe7c51fac8b6ace47cd463e41f897ca",
+      "url": "./audio/pipa-s1-m77.wav",
+      "playbackGain": 0.776247
+    },
+    {
+      "id": "pipa-s1-m68",
+      "midi": 68,
+      "recordedFrequency": 416.9409821915952,
+      "string": 1,
+      "label": "G#4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_G6#_p5.wav",
+      "sourceSegment": {
+        "start": 0.3468480725623583,
+        "end": 2.3685714285714288
+      },
+      "duration": 2.0217233560090704,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 6.81,
+        "periodicity": 0.981
+      },
+      "sha256": "cca9b1e61fecac7a90afd0a67c4683ff1de033bd9a9000fecb4b739b5b974706",
+      "url": "./audio/pipa-s1-m68.wav",
+      "playbackGain": 0.731981
+    },
+    {
+      "id": "pipa-s1-m67",
+      "midi": 67,
+      "recordedFrequency": 393.3733768326399,
+      "string": 1,
+      "label": "G4 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_G6__p5.wav",
+      "sourceSegment": {
+        "start": 0.3934240362811791,
+        "end": 2.6846485260770976
+      },
+      "duration": 2.291224489795918,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 6.07,
+        "periodicity": 0.98
+      },
+      "sha256": "d3e6d79a781b9a951bc0cdc8a17b780d77d32aa6b8e29da5489dc21502103e00",
+      "url": "./audio/pipa-s1-m67.wav",
+      "playbackGain": 0.493742
+    },
+    {
+      "id": "pipa-s1-m80",
+      "midi": 80,
+      "recordedFrequency": 824.5273468509245,
+      "string": 1,
+      "label": "G#5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_G7#_n10.wav",
+      "sourceSegment": {
+        "start": 0.20430839002267573,
+        "end": 2.8393877551020408
+      },
+      "duration": 2.635079365079365,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -12.72,
+        "periodicity": 0.987
+      },
+      "sha256": "39a8354ef60d2df494546f0245d7f9b86e67d4cc5530cef068074fa203d36f8f",
+      "url": "./audio/pipa-s1-m80.wav",
+      "playbackGain": 0.874984
+    },
+    {
+      "id": "pipa-s1-m79",
+      "midi": 79,
+      "recordedFrequency": 787.3448535150817,
+      "string": 1,
+      "label": "G5 · 第1弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str1_G7__p5.wav",
+      "sourceSegment": {
+        "start": 0.44020408163265307,
+        "end": 3.202675736961451
+      },
+      "duration": 2.762471655328798,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 7.39,
+        "periodicity": 0.989
+      },
+      "sha256": "35695fecaffff47d5d3d0ec76fc7b19ae03d3bc2b43220dff301220a469c4770",
+      "url": "./audio/pipa-s1-m79.wav",
+      "playbackGain": 0.586138
+    },
+    {
+      "id": "pipa-s2-m58",
+      "midi": 58,
+      "recordedFrequency": 232.7354899362609,
+      "string": 2,
+      "label": "A#3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_A5#_n10.wav",
+      "sourceSegment": {
+        "start": 0.3563265306122449,
+        "end": 3.6
+      },
+      "duration": 3.243673469387755,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.57,
+        "periodicity": 0.969
+      },
+      "sha256": "0235ff6d58b238989ee9aacb9dfc0ff8cb6cd6feee1f2f4dbf710dc93d150b21",
+      "url": "./audio/pipa-s2-m58.wav",
+      "playbackGain": 0.485289
+    },
+    {
+      "id": "pipa-s2-m57",
+      "midi": 57,
+      "recordedFrequency": 220.22456538248287,
+      "string": 2,
+      "label": "A3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_A5__0.wav",
+      "sourceSegment": {
+        "start": 0.06668934240362812,
+        "end": 3.1
+      },
+      "duration": 3.0333106575963718,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 1.77,
+        "periodicity": 0.967
+      },
+      "sha256": "03bfa8bbf5718bab82b8a5c45853777e8d4483469ac9a2669a989f5af8ef03a4",
+      "url": "./audio/pipa-s2-m57.wav",
+      "playbackGain": 0.859014
+    },
+    {
+      "id": "pipa-s2-m70",
+      "midi": 70,
+      "recordedFrequency": 465.6321625238929,
+      "string": 2,
+      "label": "A#4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_A6#_n10.wav",
+      "sourceSegment": {
+        "start": 0.27582766439909295,
+        "end": 3.3
+      },
+      "duration": 3.024172335600907,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -1.98,
+        "periodicity": 0.984
+      },
+      "sha256": "7c7f39e5aba7b68a25e17ef502c27d033a5070dd340c7c123f8abad90da45930",
+      "url": "./audio/pipa-s2-m70.wav",
+      "playbackGain": 0.664508
+    },
+    {
+      "id": "pipa-s2-m69",
+      "midi": 69,
+      "recordedFrequency": 441.0327874541805,
+      "string": 2,
+      "label": "A4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_A6__0.wav",
+      "sourceSegment": {
+        "start": 0.2246031746031746,
+        "end": 2.8000226757369613
+      },
+      "duration": 2.575419501133787,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.06,
+        "periodicity": 0.984
+      },
+      "sha256": "5f6e67d06c3004713aafd247c0815a165ad45b6de3eea926fb8798221ef79924",
+      "url": "./audio/pipa-s2-m69.wav",
+      "playbackGain": 0.796159
+    },
+    {
+      "id": "pipa-s2-m81",
+      "midi": 81,
+      "recordedFrequency": 879.7781371708503,
+      "string": 2,
+      "label": "A5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_A7__0.wav",
+      "sourceSegment": {
+        "start": 0.1628798185941043,
+        "end": 2.793310657596372
+      },
+      "duration": 2.6304308390022677,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.44,
+        "periodicity": 0.987
+      },
+      "sha256": "9c719063386e8aeae9d9f76d44edec53321d62a22329eb985b468b7dea077de2",
+      "url": "./audio/pipa-s2-m81.wav",
+      "playbackGain": 0.964939
+    },
+    {
+      "id": "pipa-s2-m59",
+      "midi": 59,
+      "recordedFrequency": 246.84346118950765,
+      "string": 2,
+      "label": "B3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_B5__n5.wav",
+      "sourceSegment": {
+        "start": 0.13952380952380952,
+        "end": 2.9000226757369614
+      },
+      "duration": 2.760498866213152,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.69,
+        "periodicity": 0.973
+      },
+      "sha256": "09428196d08b3523fdd2f10eb9c067998740e03a9fb6860d4ebabd979e193559",
+      "url": "./audio/pipa-s2-m59.wav",
+      "playbackGain": 0.49204
+    },
+    {
+      "id": "pipa-s2-m71",
+      "midi": 71,
+      "recordedFrequency": 493.7282771786453,
+      "string": 2,
+      "label": "B4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_B6__n5.wav",
+      "sourceSegment": {
+        "start": 0.21612244897959185,
+        "end": 3.191609977324263
+      },
+      "duration": 2.9754875283446713,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.54,
+        "periodicity": 0.985
+      },
+      "sha256": "301eba9cfd5ca72853e768aa5632abcdac78a619277521fed32390687e42c580",
+      "url": "./audio/pipa-s2-m71.wav",
+      "playbackGain": 0.57544
+    },
+    {
+      "id": "pipa-s2-m83",
+      "midi": 83,
+      "recordedFrequency": 990.598381582689,
+      "string": 2,
+      "label": "B5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_B7__p10.wav",
+      "sourceSegment": {
+        "start": 0.22517006802721087,
+        "end": 2.9000226757369614
+      },
+      "duration": 2.6748526077097505,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.96,
+        "periodicity": 0.949
+      },
+      "sha256": "2dcae3312734db57761f75a629534e5b760a60edab5693cf4b91efb0eccd5555",
+      "url": "./audio/pipa-s2-m83.wav",
+      "playbackGain": 1.111813
+    },
+    {
+      "id": "pipa-s2-m61",
+      "midi": 61,
+      "recordedFrequency": 277.5271582769727,
+      "string": 2,
+      "label": "C#4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_C6#_0.wav",
+      "sourceSegment": {
+        "start": 0.3676190476190476,
+        "end": 3.6520181405895693
+      },
+      "duration": 3.2843990929705216,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 2.15,
+        "periodicity": 0.976
+      },
+      "sha256": "17063061e783dfd0036ff8fdab7ec1be4adcbc183537334536cee48bace78f23",
+      "url": "./audio/pipa-s2-m61.wav",
+      "playbackGain": 0.595662
+    },
+    {
+      "id": "pipa-s2-m60",
+      "midi": 60,
+      "recordedFrequency": 262.9785776969758,
+      "string": 2,
+      "label": "C4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_C6__p5.wav",
+      "sourceSegment": {
+        "start": 0.30950113378684807,
+        "end": 3.2663492063492066
+      },
+      "duration": 2.9568480725623583,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 8.93,
+        "periodicity": 0.972
+      },
+      "sha256": "bea07728638723580d5a7a3e20730701d592bbbfd1efb0ff5a5af71ee576dfd5",
+      "url": "./audio/pipa-s2-m60.wav",
+      "playbackGain": 0.468813
+    },
+    {
+      "id": "pipa-s2-m73",
+      "midi": 73,
+      "recordedFrequency": 551.4385481625413,
+      "string": 2,
+      "label": "C#5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_C7#_n10.wav",
+      "sourceSegment": {
+        "start": 0.22102040816326532,
+        "end": 2.2
+      },
+      "duration": 1.9789795918367348,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -9.16,
+        "periodicity": 0.984
+      },
+      "sha256": "fe83ff13e85961ebf5028df78ca2a8239bd7ee644c6791c936c8352d218956d6",
+      "url": "./audio/pipa-s2-m73.wav",
+      "playbackGain": 0.881049
+    },
+    {
+      "id": "pipa-s2-m72",
+      "midi": 72,
+      "recordedFrequency": 517.842071636351,
+      "string": 2,
+      "label": "C5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_C7__n20.wav",
+      "sourceSegment": {
+        "start": 0.23764172335600908,
+        "end": 3.490498866213152
+      },
+      "duration": 3.2528571428571427,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -17.99,
+        "periodicity": 0.986
+      },
+      "sha256": "b4440af9cd4947b6700091689cc064ea2af7c2200b135039ed08d7b6dc7c5607",
+      "url": "./audio/pipa-s2-m72.wav",
+      "playbackGain": 0.672202
+    },
+    {
+      "id": "pipa-s2-m63",
+      "midi": 63,
+      "recordedFrequency": 310.4439811234058,
+      "string": 2,
+      "label": "D#4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_D6#_0.wav",
+      "sourceSegment": {
+        "start": 0.2082766439909297,
+        "end": 2.181496598639456
+      },
+      "duration": 1.973219954648526,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -3.8,
+        "periodicity": 0.972
+      },
+      "sha256": "8bdb6f8a1b780094d48aa4f693017a82f1033b392316cde3d77a62e1fdfc66f4",
+      "url": "./audio/pipa-s2-m63.wav",
+      "playbackGain": 0.564937
+    },
+    {
+      "id": "pipa-s2-m62",
+      "midi": 62,
+      "recordedFrequency": 292.60514996049415,
+      "string": 2,
+      "label": "D4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_D6__n10.wav",
+      "sourceSegment": {
+        "start": 0.19188208616780045,
+        "end": 3.2
+      },
+      "duration": 3.0081179138321996,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.26,
+        "periodicity": 0.976
+      },
+      "sha256": "4e278b83b3eb52702fb78cf326c784a4b9ccab0f44626da79e05486f5e31932f",
+      "url": "./audio/pipa-s2-m62.wav",
+      "playbackGain": 0.618728
+    },
+    {
+      "id": "pipa-s2-m75",
+      "midi": 75,
+      "recordedFrequency": 614.6371813535368,
+      "string": 2,
+      "label": "D#5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_D7#_n10.wav",
+      "sourceSegment": {
+        "start": 0.34625850340136055,
+        "end": 2
+      },
+      "duration": 1.6537414965986394,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -21.32,
+        "periodicity": 0.948
+      },
+      "sha256": "91501bd9e8dba54be2e743c83adb9d72be6818e4f14a7676d94dc583620c25a7",
+      "url": "./audio/pipa-s2-m75.wav",
+      "playbackGain": 0.92683
+    },
+    {
+      "id": "pipa-s2-m74",
+      "midi": 74,
+      "recordedFrequency": 586.1503993786731,
+      "string": 2,
+      "label": "D5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_D7__0.wav",
+      "sourceSegment": {
+        "start": 0.2038095238095238,
+        "end": 2.9000226757369614
+      },
+      "duration": 2.6962131519274375,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -3.48,
+        "periodicity": 0.979
+      },
+      "sha256": "bb9b0a546a8a651d178a86dfadf2635e8a6610438a8108d770e955a4d8d9897a",
+      "url": "./audio/pipa-s2-m74.wav",
+      "playbackGain": 0.966051
+    },
+    {
+      "id": "pipa-s2-m52",
+      "midi": 52,
+      "recordedFrequency": 165.1117825717611,
+      "string": 2,
+      "label": "E3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_E5__0.wav",
+      "sourceSegment": {
+        "start": 0.11523809523809524,
+        "end": 3.3
+      },
+      "duration": 3.184761904761905,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.13,
+        "periodicity": 0.96
+      },
+      "sha256": "b7a02fe1b3d745a2c7cfc126a5bae2376597652e4b356efab1a00e9468091827",
+      "url": "./audio/pipa-s2-m52.wav",
+      "playbackGain": 0.626614
+    },
+    {
+      "id": "pipa-s2-m64",
+      "midi": 64,
+      "recordedFrequency": 330.57241511454527,
+      "string": 2,
+      "label": "E4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_E6__p5.wav",
+      "sourceSegment": {
+        "start": 0.08526077097505669,
+        "end": 2.9761451247165533
+      },
+      "duration": 2.8908843537414968,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.96,
+        "periodicity": 0.98
+      },
+      "sha256": "4f0bcaf54a8d0eb6b1b0289770d0d958fcf2e2dec3098e15df86f96e7a869dc3",
+      "url": "./audio/pipa-s2-m64.wav",
+      "playbackGain": 1.064143
+    },
+    {
+      "id": "pipa-s2-m76",
+      "midi": 76,
+      "recordedFrequency": 655.4122600116248,
+      "string": 2,
+      "label": "E5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_E7__n5.wav",
+      "sourceSegment": {
+        "start": 0.7076190476190476,
+        "end": 4.31562358276644
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -10.12,
+        "periodicity": 0.976
+      },
+      "sha256": "ef37ccb3968cc9cc23fc342f599feafdf79e883d6083547b4634b7e8722b1368",
+      "url": "./audio/pipa-s2-m76.wav",
+      "playbackGain": 1.073428
+    },
+    {
+      "id": "pipa-s2-m54",
+      "midi": 54,
+      "recordedFrequency": 185.4038671067577,
+      "string": 2,
+      "label": "F#3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_F5#_p5.wav",
+      "sourceSegment": {
+        "start": 0.3226530612244898,
+        "end": 3.2862585034013607
+      },
+      "duration": 2.963605442176871,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.8,
+        "periodicity": 0.963
+      },
+      "sha256": "a11e2bafd17e2e6a14cbd4a2045d27d9e5c6d6f13477b2657ed0b13afeb9c1ad",
+      "url": "./audio/pipa-s2-m54.wav",
+      "playbackGain": 0.422182
+    },
+    {
+      "id": "pipa-s2-m53",
+      "midi": 53,
+      "recordedFrequency": 175.74310795919473,
+      "string": 2,
+      "label": "F3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_F5__p5.wav",
+      "sourceSegment": {
+        "start": 0.23573696145124717,
+        "end": 2.7842857142857143
+      },
+      "duration": 2.548548752834467,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 11.16,
+        "periodicity": 0.961
+      },
+      "sha256": "bfbf69b187e4c45d176299158d97f1cf4425429eee83202650eab44d1e956e21",
+      "url": "./audio/pipa-s2-m53.wav",
+      "playbackGain": 0.423156
+    },
+    {
+      "id": "pipa-s2-m66",
+      "midi": 66,
+      "recordedFrequency": 368.65826586778735,
+      "string": 2,
+      "label": "F#4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_F6#_n10.wav",
+      "sourceSegment": {
+        "start": 0.28600907029478456,
+        "end": 2.5
+      },
+      "duration": 2.2139909297052154,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.26,
+        "periodicity": 0.98
+      },
+      "sha256": "649846bca71bfacf2e11b4b3007a6f229cd0c4b67f6b47f72bd86b115a49a947",
+      "url": "./audio/pipa-s2-m66.wav",
+      "playbackGain": 0.578762
+    },
+    {
+      "id": "pipa-s2-m65",
+      "midi": 65,
+      "recordedFrequency": 348.74333696121766,
+      "string": 2,
+      "label": "F4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_F6__p5.wav",
+      "sourceSegment": {
+        "start": 0.40791383219954647,
+        "end": 3
+      },
+      "duration": 2.5920861678004536,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.41,
+        "periodicity": 0.975
+      },
+      "sha256": "25b58b9fc42ba067dcf580ef5005321c92df5a4d2fe828924c75b6a16faac19d",
+      "url": "./audio/pipa-s2-m65.wav",
+      "playbackGain": 0.571479
+    },
+    {
+      "id": "pipa-s2-m78",
+      "midi": 78,
+      "recordedFrequency": 734.7183917820989,
+      "string": 2,
+      "label": "F#5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_F7#_n10.wav",
+      "sourceSegment": {
+        "start": 0.1082766439909297,
+        "end": 1.697891156462585
+      },
+      "duration": 1.5896145124716554,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -12.37,
+        "periodicity": 0.966
+      },
+      "sha256": "37cf35001b290df85001238360226431499acdd91188978e3523efe60232f04e",
+      "url": "./audio/pipa-s2-m78.wav",
+      "playbackGain": 0.768245
+    },
+    {
+      "id": "pipa-s2-m77",
+      "midi": 77,
+      "recordedFrequency": 685.7106386835464,
+      "string": 2,
+      "label": "F5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_F7__n25.wav",
+      "sourceSegment": {
+        "start": 0.3290702947845805,
+        "end": 2.4788662131519272
+      },
+      "duration": 2.1497959183673467,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -31.88,
+        "periodicity": 0.972
+      },
+      "sha256": "0f9c4bbf33911f9761850803d733e4343ca2480340699f398d8ce614f6903429",
+      "url": "./audio/pipa-s2-m77.wav",
+      "playbackGain": 0.658415
+    },
+    {
+      "id": "pipa-s2-m56",
+      "midi": 56,
+      "recordedFrequency": 206.9115995380075,
+      "string": 2,
+      "label": "G#3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_G5#_n5.wav",
+      "sourceSegment": {
+        "start": 0.21430839002267574,
+        "end": 3.272222222222222
+      },
+      "duration": 3.0579138321995463,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.19,
+        "periodicity": 0.964
+      },
+      "sha256": "975e7835f25602ca7914f9647581c4664b19b5005385ba68bb64814811932549",
+      "url": "./audio/pipa-s2-m56.wav",
+      "playbackGain": 0.491473
+    },
+    {
+      "id": "pipa-s2-m55",
+      "midi": 55,
+      "recordedFrequency": 195.41344091850834,
+      "string": 2,
+      "label": "G3 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_G5__n5.wav",
+      "sourceSegment": {
+        "start": 0.1682766439909297,
+        "end": 3.776281179138322
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -5.17,
+        "periodicity": 0.965
+      },
+      "sha256": "becfa69db5c760a015f013459aa852da4ab83677eb126d27f31402487ac0cdfa",
+      "url": "./audio/pipa-s2-m55.wav",
+      "playbackGain": 0.49488
+    },
+    {
+      "id": "pipa-s2-m68",
+      "midi": 68,
+      "recordedFrequency": 415.7576667175104,
+      "string": 2,
+      "label": "G#4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_G6#_0.wav",
+      "sourceSegment": {
+        "start": 0.8980272108843538,
+        "end": 4.506031746031746
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 1.89,
+        "periodicity": 0.983
+      },
+      "sha256": "afd7974385a97e6a319c0d6454166d389ad89e0692a3fc0d9581ed84fd01d3f2",
+      "url": "./audio/pipa-s2-m68.wav",
+      "playbackGain": 0.580096
+    },
+    {
+      "id": "pipa-s2-m67",
+      "midi": 67,
+      "recordedFrequency": 390.24585847108125,
+      "string": 2,
+      "label": "G4 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_G6__n10.wav",
+      "sourceSegment": {
+        "start": 0.11487528344671202,
+        "end": 2.0915873015873014
+      },
+      "duration": 1.9767120181405895,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -7.74,
+        "periodicity": 0.981
+      },
+      "sha256": "bd069fbd5151ba44b308e2537136afdac38a1d5ed9bf7b139bc16098b7a2255e",
+      "url": "./audio/pipa-s2-m67.wav",
+      "playbackGain": 0.496021
+    },
+    {
+      "id": "pipa-s2-m80",
+      "midi": 80,
+      "recordedFrequency": 823.4600412141546,
+      "string": 2,
+      "label": "G#5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_G7#_n15.wav",
+      "sourceSegment": {
+        "start": 0.10571428571428572,
+        "end": 2.5915419501133785
+      },
+      "duration": 2.485827664399093,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -14.97,
+        "periodicity": 0.985
+      },
+      "sha256": "3bfc63875e3f14cc5bf064957d932adb0aeb92d5ed3257499262180d1e49730f",
+      "url": "./audio/pipa-s2-m80.wav",
+      "playbackGain": 0.672977
+    },
+    {
+      "id": "pipa-s2-m79",
+      "midi": 79,
+      "recordedFrequency": 778.4499323384629,
+      "string": 2,
+      "label": "G5 · 第2弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str2_G7__n20.wav",
+      "sourceSegment": {
+        "start": 0.18505668934240363,
+        "end": 2.4545351473922903
+      },
+      "duration": 2.269478458049887,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -12.28,
+        "periodicity": 0.985
+      },
+      "sha256": "dee3a1f432318c122b267133ee2d4d40bc04de037fcab6cdbc25e60bb3373e68",
+      "url": "./audio/pipa-s2-m79.wav",
+      "playbackGain": 0.721107
+    },
+    {
+      "id": "pipa-s3-m58",
+      "midi": 58,
+      "recordedFrequency": 235.33670183909967,
+      "string": 3,
+      "label": "A#3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_A5#_p10.wav",
+      "sourceSegment": {
+        "start": 0.28861678004535146,
+        "end": 3.8966213151927436
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 16.67,
+        "periodicity": 0.968
+      },
+      "sha256": "6e8858db8f550f3dbcec1810e02260498a0268284e6005c54be2aae3be570434",
+      "url": "./audio/pipa-s3-m58.wav",
+      "playbackGain": 0.459198
+    },
+    {
+      "id": "pipa-s3-m57",
+      "midi": 57,
+      "recordedFrequency": 220.55543371666107,
+      "string": 3,
+      "label": "A3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_A5__p5.wav",
+      "sourceSegment": {
+        "start": 0.42859410430839,
+        "end": 4.036598639455782
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.37,
+        "periodicity": 0.968
+      },
+      "sha256": "5549e2718d30497947f858537d9bf42906201fbff9b46b4d30ffe1c3c1d1ea83",
+      "url": "./audio/pipa-s3-m57.wav",
+      "playbackGain": 0.672977
+    },
+    {
+      "id": "pipa-s3-m70",
+      "midi": 70,
+      "recordedFrequency": 466.5640878210243,
+      "string": 3,
+      "label": "A#4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_A6#_n5.wav",
+      "sourceSegment": {
+        "start": 0.30462585034013606,
+        "end": 3.912630385487528
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 1.49,
+        "periodicity": 0.983
+      },
+      "sha256": "df55d1c894036376b0dcdf5c25f14cc8f82fe7585a611ad103ca8d3128242028",
+      "url": "./audio/pipa-s3-m70.wav",
+      "playbackGain": 0.746449
+    },
+    {
+      "id": "pipa-s3-m69",
+      "midi": 69,
+      "recordedFrequency": 442.4251072944745,
+      "string": 3,
+      "label": "A4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_A6__p5.wav",
+      "sourceSegment": {
+        "start": 0.5075736961451247,
+        "end": 4.115578231292517
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 9.52,
+        "periodicity": 0.983
+      },
+      "sha256": "7862ecb3314ec1d60fdc9a8b97767a8a4f81dce3997d7f119c4fd190db9b0e18",
+      "url": "./audio/pipa-s3-m69.wav",
+      "playbackGain": 0.60256
+    },
+    {
+      "id": "pipa-s3-m59",
+      "midi": 59,
+      "recordedFrequency": 248.49323006125422,
+      "string": 3,
+      "label": "B3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_B5__p5.wav",
+      "sourceSegment": {
+        "start": 0.39591836734693875,
+        "end": 4.003922902494331
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 10.84,
+        "periodicity": 0.971
+      },
+      "sha256": "e6c93ff0ce814ddffc19edc0995d3819b9b5ac8803da272aabddadc0d9be9a68",
+      "url": "./audio/pipa-s3-m59.wav",
+      "playbackGain": 0.47152
+    },
+    {
+      "id": "pipa-s3-m71",
+      "midi": 71,
+      "recordedFrequency": 493.81635318869496,
+      "string": 3,
+      "label": "B4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_B6__n5.wav",
+      "sourceSegment": {
+        "start": 0.8621541950113378,
+        "end": 4.47015873015873
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.23,
+        "periodicity": 0.983
+      },
+      "sha256": "a828a0d3cbf9686cfcf3419454975adef107be171744d78a279dbb39441c07b2",
+      "url": "./audio/pipa-s3-m71.wav",
+      "playbackGain": 0.888178
+    },
+    {
+      "id": "pipa-s3-m61",
+      "midi": 61,
+      "recordedFrequency": 278.8579434263941,
+      "string": 3,
+      "label": "C#4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_C6#_p10.wav",
+      "sourceSegment": {
+        "start": 0.30784580498866215,
+        "end": 3.6889795918367345
+      },
+      "duration": 3.3811337868480726,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 10.43,
+        "periodicity": 0.973
+      },
+      "sha256": "ec7b1b478e4fa59aa0484784b1bba8996e8adc8baff976424dcd783484d9e10f",
+      "url": "./audio/pipa-s3-m61.wav",
+      "playbackGain": 0.624453
+    },
+    {
+      "id": "pipa-s3-m60",
+      "midi": 60,
+      "recordedFrequency": 262.77455454958,
+      "string": 3,
+      "label": "C4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_C6__p20.wav",
+      "sourceSegment": {
+        "start": 0.3873469387755102,
+        "end": 3.9953514739229026
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 7.59,
+        "periodicity": 0.972
+      },
+      "sha256": "d763858196c9abb57c57dc3cd82608548bdd059a97e9d5804a530cf9275f3d58",
+      "url": "./audio/pipa-s3-m60.wav",
+      "playbackGain": 0.530274
+    },
+    {
+      "id": "pipa-s3-m73",
+      "midi": 73,
+      "recordedFrequency": 551.9193572883875,
+      "string": 3,
+      "label": "C#5 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_C7#_n5.wav",
+      "sourceSegment": {
+        "start": 0.5050113378684807,
+        "end": 2.792267573696145
+      },
+      "duration": 2.2872562358276642,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -7.66,
+        "periodicity": 0.984
+      },
+      "sha256": "ef073ed2e3686bccbccff091493c7c80431fb520f79440d952c6c800d323386d",
+      "url": "./audio/pipa-s3-m73.wav",
+      "playbackGain": 1.037528
+    },
+    {
+      "id": "pipa-s3-m72",
+      "midi": 72,
+      "recordedFrequency": 524.5508662269738,
+      "string": 3,
+      "label": "C5 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_C7__0.wav",
+      "sourceSegment": {
+        "start": 0.369297052154195,
+        "end": 3.4019727891156464
+      },
+      "duration": 3.032675736961451,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.29,
+        "periodicity": 0.98
+      },
+      "sha256": "704554da46b920e67a2d31180ea4357c64f6a10a33825f5ca82f379577749515",
+      "url": "./audio/pipa-s3-m72.wav",
+      "playbackGain": 0.863973
+    },
+    {
+      "id": "pipa-s3-m51",
+      "midi": 51,
+      "recordedFrequency": 155.93702662767265,
+      "string": 3,
+      "label": "D#3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_D5#_0.wav",
+      "sourceSegment": {
+        "start": 0.40077097505668935,
+        "end": 4.008775510204082
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.15,
+        "periodicity": 0.951
+      },
+      "sha256": "21a89b6865086cb05fc94bb93de2d89506525c69fcc6be6769e84df9d959f9c9",
+      "url": "./audio/pipa-s3-m51.wav",
+      "playbackGain": 0.588166
+    },
+    {
+      "id": "pipa-s3-m50",
+      "midi": 50,
+      "recordedFrequency": 146.8472700495107,
+      "string": 3,
+      "label": "D3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_D5__0.wav",
+      "sourceSegment": {
+        "start": 0.25848072562358276,
+        "end": 3.866485260770975
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 0.18,
+        "periodicity": 0.955
+      },
+      "sha256": "ccf1720c6f50ab6ab460b016dc806f20f360fbe610c61bc68f200c01196ee377",
+      "url": "./audio/pipa-s3-m50.wav",
+      "playbackGain": 0.378443
+    },
+    {
+      "id": "pipa-s3-m63",
+      "midi": 63,
+      "recordedFrequency": 312.00587529455794,
+      "string": 3,
+      "label": "D#4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_D6#_p5.wav",
+      "sourceSegment": {
+        "start": 0.49612244897959185,
+        "end": 4.104126984126984
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.88,
+        "periodicity": 0.968
+      },
+      "sha256": "c0a092e522648bec03129435a03cd3addabd60d7aee92c5f26298f61fbc86db4",
+      "url": "./audio/pipa-s3-m63.wav",
+      "playbackGain": 0.65013
+    },
+    {
+      "id": "pipa-s3-m62",
+      "midi": 62,
+      "recordedFrequency": 294.94210146507004,
+      "string": 3,
+      "label": "D4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_D6__p10.wav",
+      "sourceSegment": {
+        "start": 0.19678004535147392,
+        "end": 3.804784580498866
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 7.51,
+        "periodicity": 0.974
+      },
+      "sha256": "e3c7618d3fea6341e5a4a2c6fae0b3c385823e655f92395a4593699f21eada48",
+      "url": "./audio/pipa-s3-m62.wav",
+      "playbackGain": 0.599791
+    },
+    {
+      "id": "pipa-s3-m74",
+      "midi": 74,
+      "recordedFrequency": 584.4291483942741,
+      "string": 3,
+      "label": "D5 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_D7__p5.wav",
+      "sourceSegment": {
+        "start": 0.3597732426303855,
+        "end": 2.4634240362811792
+      },
+      "duration": 2.1036507936507935,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -8.57,
+        "periodicity": 0.976
+      },
+      "sha256": "dae28a2f401a2ba23e03587fe228c54860c75f8f9a567bda58d0bab619e655b9",
+      "url": "./audio/pipa-s3-m74.wav",
+      "playbackGain": 0.840427
+    },
+    {
+      "id": "pipa-s3-m52",
+      "midi": 52,
+      "recordedFrequency": 165.07900083233596,
+      "string": 3,
+      "label": "E3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_E5__0.wav",
+      "sourceSegment": {
+        "start": 0.4492290249433107,
+        "end": 4.057233560090703
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 2.78,
+        "periodicity": 0.96
+      },
+      "sha256": "244410c7fc683699f514b4ad6eef1069bb73d8b77149006ee7c80e9d087abb58",
+      "url": "./audio/pipa-s3-m52.wav",
+      "playbackGain": 0.768245
+    },
+    {
+      "id": "pipa-s3-m64",
+      "midi": 64,
+      "recordedFrequency": 330.25796969153487,
+      "string": 3,
+      "label": "E4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_E6__0.wav",
+      "sourceSegment": {
+        "start": 0.2992063492063492,
+        "end": 3.9072108843537414
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.31,
+        "periodicity": 0.978
+      },
+      "sha256": "f4a259c9e26a09bd0067405337bee94f3609064f9e52ba08b90d6a9585f3f76a",
+      "url": "./audio/pipa-s3-m64.wav",
+      "playbackGain": 0.933254
+    },
+    {
+      "id": "pipa-s3-m54",
+      "midi": 54,
+      "recordedFrequency": 185.47866227761102,
+      "string": 3,
+      "label": "F#3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_F5#_0.wav",
+      "sourceSegment": {
+        "start": 0.6861904761904762,
+        "end": 4.286938775510204
+      },
+      "duration": 3.600748299319728,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.5,
+        "periodicity": 0.964
+      },
+      "sha256": "26a9c367b4f731b86c6b235b68f8148ac1ddfdb37b5c4f6501becf8b3f318c2b",
+      "url": "./audio/pipa-s3-m54.wav",
+      "playbackGain": 0.450298
+    },
+    {
+      "id": "pipa-s3-m53",
+      "midi": 53,
+      "recordedFrequency": 175.0092644470607,
+      "string": 3,
+      "label": "F3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_F5__0.wav",
+      "sourceSegment": {
+        "start": 0.5327664399092971,
+        "end": 4.1407709750566895
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.91,
+        "periodicity": 0.958
+      },
+      "sha256": "9564bc3edb790a2dba3adea90678b2f0436fa47f2bd676bf11c257622220e5ca",
+      "url": "./audio/pipa-s3-m53.wav",
+      "playbackGain": 0.484172
+    },
+    {
+      "id": "pipa-s3-m66",
+      "midi": 66,
+      "recordedFrequency": 372.1557670077466,
+      "string": 3,
+      "label": "F#4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_F6#_p10.wav",
+      "sourceSegment": {
+        "start": 0.23643990929705216,
+        "end": 2.5492290249433105
+      },
+      "duration": 2.3127891156462583,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 10.08,
+        "periodicity": 0.975
+      },
+      "sha256": "e7f40729cd936afbedd911f8a52644059303b4e8393986d038e1488742d898c0",
+      "url": "./audio/pipa-s3-m66.wav",
+      "playbackGain": 0.789769
+    },
+    {
+      "id": "pipa-s3-m65",
+      "midi": 65,
+      "recordedFrequency": 349.18066859985385,
+      "string": 3,
+      "label": "F4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_F6__n10.wav",
+      "sourceSegment": {
+        "start": 0.4357369614512472,
+        "end": 3.689501133786848
+      },
+      "duration": 3.253764172335601,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -0.24,
+        "periodicity": 0.978
+      },
+      "sha256": "d4be25e2863ef31b64a4deb3e0ade400daa50319e7701d4964122d4d2459d2ba",
+      "url": "./audio/pipa-s3-m65.wav",
+      "playbackGain": 0.555904
+    },
+    {
+      "id": "pipa-s3-m56",
+      "midi": 56,
+      "recordedFrequency": 207.71513068317893,
+      "string": 3,
+      "label": "G#3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_G5#_0.wav",
+      "sourceSegment": {
+        "start": 0.33634920634920634,
+        "end": 3.944353741496599
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 0.52,
+        "periodicity": 0.962
+      },
+      "sha256": "40a60fb0fa62935f4780673c0e436c338e3cd49cc02ce151be69a7edcb19f0c9",
+      "url": "./audio/pipa-s3-m56.wav",
+      "playbackGain": 0.549541
+    },
+    {
+      "id": "pipa-s3-m55",
+      "midi": 55,
+      "recordedFrequency": 196.44927535915184,
+      "string": 3,
+      "label": "G3 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_G5__p5.wav",
+      "sourceSegment": {
+        "start": 0.6466666666666666,
+        "end": 4.254671201814059
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.98,
+        "periodicity": 0.965
+      },
+      "sha256": "17bf3d3d4b6ac2c5e4123f2c86d24f3c3c1b5319dafbdbebf1d0a9b03c79e5fa",
+      "url": "./audio/pipa-s3-m55.wav",
+      "playbackGain": 0.479181
+    },
+    {
+      "id": "pipa-s3-m68",
+      "midi": 68,
+      "recordedFrequency": 418.2820595546829,
+      "string": 3,
+      "label": "G#4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_G6#_p10.wav",
+      "sourceSegment": {
+        "start": 0.2890022675736961,
+        "end": 3.8970068027210885
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 12.37,
+        "periodicity": 0.981
+      },
+      "sha256": "2863e3e22116328297563bba91caff28e439bf52eb6e7ff1b5869797288c3953",
+      "url": "./audio/pipa-s3-m68.wav",
+      "playbackGain": 0.794328
+    },
+    {
+      "id": "pipa-s3-m67",
+      "midi": 67,
+      "recordedFrequency": 396.4136843323638,
+      "string": 3,
+      "label": "G4 · 第3弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str3_G6__p20.wav",
+      "sourceSegment": {
+        "start": 0.3686167800453515,
+        "end": 3.9766213151927436
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 19.4,
+        "periodicity": 0.981
+      },
+      "sha256": "e2d33c743439b959ce74a67e64bb594f60a93f70aaa996b8c8c2bd403792ec02",
+      "url": "./audio/pipa-s3-m67.wav",
+      "playbackGain": 0.586138
+    },
+    {
+      "id": "pipa-s4-m46",
+      "midi": 46,
+      "recordedFrequency": 116.97652491777913,
+      "string": 4,
+      "label": "A#2 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_A4#_0.wav",
+      "sourceSegment": {
+        "start": 0.17188208616780046,
+        "end": 2.5
+      },
+      "duration": 2.3281179138321995,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 6.46,
+        "periodicity": 0.935
+      },
+      "sha256": "a317b031ddc0e279ac694ad29db81be10e6ed241969db44a295086972c54b474",
+      "url": "./audio/pipa-s4-m46.wav",
+      "playbackGain": 0.629506
+    },
+    {
+      "id": "pipa-s4-m45",
+      "midi": 45,
+      "recordedFrequency": 110.16834102211054,
+      "string": 4,
+      "label": "A2 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_A4__0.wav",
+      "sourceSegment": {
+        "start": 0.21036281179138322,
+        "end": 3.8183673469387753
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 2.65,
+        "periodicity": 0.937
+      },
+      "sha256": "f2ab992f714d2614350d2ac4cd9dbf964cb9f0c28be3fc86569948bb064723fa",
+      "url": "./audio/pipa-s4-m45.wav",
+      "playbackGain": 0.620869
+    },
+    {
+      "id": "pipa-s4-m58",
+      "midi": 58,
+      "recordedFrequency": 232.90800230801943,
+      "string": 4,
+      "label": "A#3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_A5#_n10.wav",
+      "sourceSegment": {
+        "start": 0.22029478458049886,
+        "end": 3.7
+      },
+      "duration": 3.479705215419501,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -1.29,
+        "periodicity": 0.967
+      },
+      "sha256": "97ad6d5d265107085efd58fc070d22c9e4028f5030283dfdb9921e4f3ef6e23f",
+      "url": "./audio/pipa-s4-m58.wav",
+      "playbackGain": 0.620155
+    },
+    {
+      "id": "pipa-s4-m57",
+      "midi": 57,
+      "recordedFrequency": 219.618803738794,
+      "string": 4,
+      "label": "A3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_A5__n5.wav",
+      "sourceSegment": {
+        "start": 0.27945578231292517,
+        "end": 3.6
+      },
+      "duration": 3.320544217687075,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -3,
+        "periodicity": 0.962
+      },
+      "sha256": "83ec4a41cd15104136f7bcafa4ddfb2283df709a238b39fcc380ffcc07af1657",
+      "url": "./audio/pipa-s4-m57.wav",
+      "playbackGain": 1.076778
+    },
+    {
+      "id": "pipa-s4-m47",
+      "midi": 47,
+      "recordedFrequency": 123.72137214135356,
+      "string": 4,
+      "label": "B2 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_B4__0.wav",
+      "sourceSegment": {
+        "start": 0.13659863945578232,
+        "end": 3.7446031746031747
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.51,
+        "periodicity": 0.929
+      },
+      "sha256": "d4353853baac875c0906956ba56bcfa082c93ae14973021bd6c8180f4ed76f5b",
+      "url": "./audio/pipa-s4-m47.wav",
+      "playbackGain": 0.8531
+    },
+    {
+      "id": "pipa-s4-m59",
+      "midi": 59,
+      "recordedFrequency": 246.54909693202148,
+      "string": 4,
+      "label": "B3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_B5__n5.wav",
+      "sourceSegment": {
+        "start": 0.15179138321995464,
+        "end": 3.7
+      },
+      "duration": 3.5482086167800455,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.75,
+        "periodicity": 0.97
+      },
+      "sha256": "043d55794d792b77ce0ac3279a44bfb011053073f705c473d0ae4aa440357a57",
+      "url": "./audio/pipa-s4-m59.wav",
+      "playbackGain": 0.894335
+    },
+    {
+      "id": "pipa-s4-m49",
+      "midi": 49,
+      "recordedFrequency": 138.96579045611523,
+      "string": 4,
+      "label": "C#3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_C5#_0.wav",
+      "sourceSegment": {
+        "start": 0.2680045351473923,
+        "end": 3.758843537414966
+      },
+      "duration": 3.4908390022675735,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.67,
+        "periodicity": 0.948
+      },
+      "sha256": "91fcc53883e08cc645cfa171250930760e340b412a7e71d6af48d4a6377753fb",
+      "url": "./audio/pipa-s4-m49.wav",
+      "playbackGain": 0.760326
+    },
+    {
+      "id": "pipa-s4-m48",
+      "midi": 48,
+      "recordedFrequency": 131.10990315424706,
+      "string": 4,
+      "label": "C3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_C5__0.wav",
+      "sourceSegment": {
+        "start": 0.05863945578231292,
+        "end": 2.5
+      },
+      "duration": 2.441360544217687,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 3.93,
+        "periodicity": 0.932
+      },
+      "sha256": "bd3087ad4695a0f278a8c91b390da39336451beeb0edf7b58e34ddebe68731fa",
+      "url": "./audio/pipa-s4-m48.wav",
+      "playbackGain": 0.677642
+    },
+    {
+      "id": "pipa-s4-m61",
+      "midi": 61,
+      "recordedFrequency": 276.7410346868733,
+      "string": 4,
+      "label": "C#4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_C6#_n5.wav",
+      "sourceSegment": {
+        "start": 0.7963945578231293,
+        "end": 4.404399092970522
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -2.76,
+        "periodicity": 0.966
+      },
+      "sha256": "a5c739b158107cacd4d916a64847ac4f83bdd1155146a78d598009ba7a0018c3",
+      "url": "./audio/pipa-s4-m61.wav",
+      "playbackGain": 0.810028
+    },
+    {
+      "id": "pipa-s4-m60",
+      "midi": 60,
+      "recordedFrequency": 260.28310233631566,
+      "string": 4,
+      "label": "C4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_C6__n10.wav",
+      "sourceSegment": {
+        "start": 0.14249433106575965,
+        "end": 3.3680272108843536
+      },
+      "duration": 3.2255328798185943,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -8.91,
+        "periodicity": 0.968
+      },
+      "sha256": "e108e6dd526f1cf7431c3a3be4a99e18cef24f94e249fc91f5fa8285d70a0bf1",
+      "url": "./audio/pipa-s4-m60.wav",
+      "playbackGain": 0.693426
+    },
+    {
+      "id": "pipa-s4-m51",
+      "midi": 51,
+      "recordedFrequency": 154.80099679772843,
+      "string": 4,
+      "label": "D#3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_D5#_n10.wav",
+      "sourceSegment": {
+        "start": 0.11231292517006802,
+        "end": 3.7
+      },
+      "duration": 3.587687074829932,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -8.51,
+        "periodicity": 0.947
+      },
+      "sha256": "1225c8ee661a940e50d4b65be157681cae7ac21ce96c3345123f99e9814a5d3d",
+      "url": "./audio/pipa-s4-m51.wav",
+      "playbackGain": 0.627336
+    },
+    {
+      "id": "pipa-s4-m50",
+      "midi": 50,
+      "recordedFrequency": 147.24702266968922,
+      "string": 4,
+      "label": "D3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_D5__0.wav",
+      "sourceSegment": {
+        "start": 0.12192743764172335,
+        "end": 3.1779138321995464
+      },
+      "duration": 3.055986394557823,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 4.88,
+        "periodicity": 0.933
+      },
+      "sha256": "3f1b0fa769d199b3d94fdad888bd8ca52cc0716de69178d260fc30e70c47a75d",
+      "url": "./audio/pipa-s4-m50.wav",
+      "playbackGain": 0.836566
+    },
+    {
+      "id": "pipa-s4-m63",
+      "midi": 63,
+      "recordedFrequency": 310.45670264123885,
+      "string": 4,
+      "label": "D#4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_D6#_0.wav",
+      "sourceSegment": {
+        "start": 0.21328798185941042,
+        "end": 3.6
+      },
+      "duration": 3.3867120181405896,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -3.73,
+        "periodicity": 0.966
+      },
+      "sha256": "817c7530eef055eeb71ca41bfd2e3bb458a539328f6d50ddc065981330310298",
+      "url": "./audio/pipa-s4-m63.wav",
+      "playbackGain": 0.94189
+    },
+    {
+      "id": "pipa-s4-m62",
+      "midi": 62,
+      "recordedFrequency": 292.33083142244357,
+      "string": 4,
+      "label": "D4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_D6__n10.wav",
+      "sourceSegment": {
+        "start": 0.14505668934240362,
+        "end": 3.753061224489796
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -7.88,
+        "periodicity": 0.969
+      },
+      "sha256": "34503624ed1fa13287118b4eb009999af9cad40d66d9e40ded88db19519e86ca",
+      "url": "./audio/pipa-s4-m62.wav",
+      "playbackGain": 0.909913
+    },
+    {
+      "id": "pipa-s4-m52",
+      "midi": 52,
+      "recordedFrequency": 164.46423923923803,
+      "string": 4,
+      "label": "E3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_E5__n5.wav",
+      "sourceSegment": {
+        "start": 0.23687074829931973,
+        "end": 3.844875283446712
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -3.68,
+        "periodicity": 0.956
+      },
+      "sha256": "7991b44076e39fb92182d1b67ab89d1b481a2bb7c3d5baf53271a71dd18a2dac",
+      "url": "./audio/pipa-s4-m52.wav",
+      "playbackGain": 0.995405
+    },
+    {
+      "id": "pipa-s4-m64",
+      "midi": 64,
+      "recordedFrequency": 328.5464548162001,
+      "string": 4,
+      "label": "E4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_E6__n10.wav",
+      "sourceSegment": {
+        "start": 0.43244897959183676,
+        "end": 4.040453514739229
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -5.69,
+        "periodicity": 0.973
+      },
+      "sha256": "9667c1f4ab243ce2c0258081dbe15216296ad4abc9d86df77046b903a0692708",
+      "url": "./audio/pipa-s4-m64.wav",
+      "playbackGain": 1.072754
+    },
+    {
+      "id": "pipa-s4-m54",
+      "midi": 54,
+      "recordedFrequency": 185.6942129399302,
+      "string": 4,
+      "label": "F#3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_F5#_p5.wav",
+      "sourceSegment": {
+        "start": 0.21634920634920635,
+        "end": 3.2738095238095237
+      },
+      "duration": 3.0574603174603174,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 6.51,
+        "periodicity": 0.96
+      },
+      "sha256": "164d683d3a86ca9e58b67b117abaf419a2256a2aa5a210ad75e94943137ec614",
+      "url": "./audio/pipa-s4-m54.wav",
+      "playbackGain": 0.691035
+    },
+    {
+      "id": "pipa-s4-m53",
+      "midi": 53,
+      "recordedFrequency": 175.33680422947248,
+      "string": 4,
+      "label": "F3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_F5__p5.wav",
+      "sourceSegment": {
+        "start": 0.1906575963718821,
+        "end": 3.098344671201814
+      },
+      "duration": 2.907687074829932,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": 7.15,
+        "periodicity": 0.956
+      },
+      "sha256": "0f23feb3929d2690101627414dbaf76a8c984d6578d84859b9723a65cf2ece3a",
+      "url": "./audio/pipa-s4-m53.wav",
+      "playbackGain": 0.601174
+    },
+    {
+      "id": "pipa-s4-m66",
+      "midi": 66,
+      "recordedFrequency": 368.12007416784434,
+      "string": 4,
+      "label": "F#4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_F6#_n10.wav",
+      "sourceSegment": {
+        "start": 0.1472562358276644,
+        "end": 3.5
+      },
+      "duration": 3.3527437641723354,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -8.79,
+        "periodicity": 0.976
+      },
+      "sha256": "d7ec1a71b89bbc432c7d6c7b514ef671c088615a352d8884ad3b3385cc58e992",
+      "url": "./audio/pipa-s4-m66.wav",
+      "playbackGain": 1.107375
+    },
+    {
+      "id": "pipa-s4-m65",
+      "midi": 65,
+      "recordedFrequency": 345.8651668595081,
+      "string": 4,
+      "label": "F4 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_F6__n20.wav",
+      "sourceSegment": {
+        "start": 0.2061904761904762,
+        "end": 3.250249433106576
+      },
+      "duration": 3.0440589569161,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -16.75,
+        "periodicity": 0.972
+      },
+      "sha256": "4b84fb32d6997a8e25c1996e2199815c53144466225bfdcc7880626912add5cc",
+      "url": "./audio/pipa-s4-m65.wav",
+      "playbackGain": 0.879023
+    },
+    {
+      "id": "pipa-s4-m56",
+      "midi": 56,
+      "recordedFrequency": 206.8550346531959,
+      "string": 4,
+      "label": "G#3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_G5#_n5.wav",
+      "sourceSegment": {
+        "start": 0.186734693877551,
+        "end": 3.6
+      },
+      "duration": 3.413265306122449,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.66,
+        "periodicity": 0.956
+      },
+      "sha256": "11a0d1807098ab6f277ec321590a204332fd4820fe19305f8efdb9ca88eb72cc",
+      "url": "./audio/pipa-s4-m56.wav",
+      "playbackGain": 0.711214
+    },
+    {
+      "id": "pipa-s4-m55",
+      "midi": 55,
+      "recordedFrequency": 195.3180462481651,
+      "string": 4,
+      "label": "G3 · 第4弦独立实录",
+      "technique": "single-pluck",
+      "audioKind": "recorded-isolated-note",
+      "sourceFile": "Material/mono_str4_G5__n5.wav",
+      "sourceSegment": {
+        "start": 0.2419501133786848,
+        "end": 3.849954648526077
+      },
+      "duration": 3.6080045351473924,
+      "pitchVerification": {
+        "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+        "filenameOctaveCorrection": -2,
+        "centsFromEqualTemperament": -6.01,
+        "periodicity": 0.963
+      },
+      "sha256": "15a0794511ef3499b142def469701991e32571de1865515b4271ee70c84c965f",
+      "url": "./audio/pipa-s4-m55.wav",
+      "playbackGain": 0.54325
+    }
+  ],
+  "techniques": {
+    "wheel": [
+      {
+        "id": "wheel-nannibay",
+        "techniqueId": "wheel",
+        "title": "轮指 · 《南泥湾》片段",
+        "duration": 2.27,
+        "match": "exact",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "NanniBay",
+        "note": "作者标注为 Wheel（多指轮奏）；此片段保留起轮前后的衔接，不单独证明某一种五指指序。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.48,
+          "end": 11.75
+        },
+        "annotation": {
+          "file": "NanniBay/Annotation/NanniBay_source1_tremolos_str1.csv",
+          "row": [
+            9.5967,
+            11.5411,
+            1.9444,
+            328.8329,
+            2
+          ],
+          "originalLabel": "Wheel",
+          "labelDefinitionUrl": "https://github.com/yuanchengwang/TEAS",
+          "interval": [
+            9.5967,
+            11.5411
+          ]
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "d482926b67504da7208c5ec9f4d597661816f03a4d72a47f639f17e86b6b65f2",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8199999928474426,
+          "rms": 0.07720191031694412,
+          "finite": true
+        },
+        "url": "./audio/tech-wheel-nannibay.wav",
+        "originalLabel": "Wheel",
+        "evidence": "原录音 9.48–11.75 秒"
+      },
+      {
+        "id": "wheel",
+        "label": "轮指 · Wheel 实录片段",
+        "technique": "wheel",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": 1,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 27.698,
+          "end": 31.104895833333334
+        },
+        "duration": 3.4068958333333335,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_source1_tremolos_str1.csv",
+          "row": [
+            27.768,
+            30.8849,
+            3.1169,
+            557,
+            2
+          ],
+          "typeCode": 2,
+          "techniqueInterval": [
+            27.768,
+            30.8849
+          ]
+        },
+        "note": "作者标为Wheel；未细分五指轮、半轮或长轮。真实作品片段，可能包含其他同时发声。",
+        "sha256": "972fad00827e4c8c877b141b07a05c59b77458e09665470cead5aed8850815e9",
+        "url": "./audio/tech-wheel.wav",
+        "title": "轮指 · Wheel 实录片段",
+        "match": "exact",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Wheel",
+        "evidence": "原录音 27.70–31.10 秒"
+      }
+    ],
+    "long": [
+      {
+        "id": "wheel",
+        "label": "轮指 · Wheel 实录片段",
+        "technique": "wheel",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": 1,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 27.698,
+          "end": 31.104895833333334
+        },
+        "duration": 3.4068958333333335,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_source1_tremolos_str1.csv",
+          "row": [
+            27.768,
+            30.8849,
+            3.1169,
+            557,
+            2
+          ],
+          "typeCode": 2,
+          "techniqueInterval": [
+            27.768,
+            30.8849
+          ]
+        },
+        "note": "作者标为Wheel；未细分五指轮、半轮或长轮。真实作品片段，可能包含其他同时发声。",
+        "sha256": "972fad00827e4c8c877b141b07a05c59b77458e09665470cead5aed8850815e9",
+        "url": "./audio/tech-wheel.wav",
+        "title": "轮指 · Wheel 实录片段",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Wheel",
+        "evidence": "原录音 27.70–31.10 秒"
+      }
+    ],
+    "yao": [
+      {
+        "id": "shaking-nannibay",
+        "techniqueId": "yao",
+        "title": "摇指 · 《南泥湾》片段",
+        "duration": 2.09,
+        "match": "exact",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "NanniBay",
+        "note": "作者标注为 Shaking；TEAS 将其定义为食指重复拨奏。本片段是原始麦克风实录，包含琴体共鸣与其他同时发声。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 42.01,
+          "end": 44.1
+        },
+        "annotation": {
+          "file": "NanniBay/Annotation/NanniBay_source3_tremolos_str3.csv",
+          "row": [
+            42.0752,
+            43.9745,
+            1.8993,
+            222.1472,
+            4
+          ],
+          "originalLabel": "Shaking",
+          "labelDefinitionUrl": "https://github.com/yuanchengwang/TEAS",
+          "interval": [
+            42.0752,
+            43.9745
+          ]
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "84a12b2cff4a8a669c62b4a842246133f944381126741cc9c594fb33d7168402",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8199999928474426,
+          "rms": 0.10206779092550278,
+          "finite": true
+        },
+        "url": "./audio/tech-shaking-nannibay.wav",
+        "originalLabel": "Shaking",
+        "evidence": "原录音 42.01–44.10 秒"
+      },
+      {
+        "id": "shake",
+        "label": "摇指相关 · Shaking 实录片段",
+        "technique": "shake",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": 2,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 20.215895833333335,
+          "end": 23.282208333333333
+        },
+        "duration": 3.0663125,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_source2_tremolos_str2.csv",
+          "row": [
+            20.2859,
+            23.0622,
+            2.7763,
+            372,
+            4
+          ],
+          "typeCode": 4,
+          "techniqueInterval": [
+            20.2859,
+            23.0622
+          ]
+        },
+        "note": "作者标为Shaking；真实作品混合技法片段，不能据此确认每一下的指序。",
+        "sha256": "f5642f1d63d81025247b989c304c240cbea2cc995a12f3a600fb40cc6fcebcd9",
+        "url": "./audio/tech-shake.wav",
+        "title": "摇指相关 · Shaking 实录片段",
+        "match": "exact",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Shaking",
+        "evidence": "原录音 20.22–23.28 秒"
+      }
+    ],
+    "vibrato": [
+      {
+        "id": "vibrato-jasmine",
+        "techniqueId": "vibrato",
+        "title": "揉弦 · 《茉莉花》片段",
+        "duration": 1.35,
+        "match": "exact",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "note": "作者标注为 Vibrato，选取较完整的揉弦区间；保留原始起音、音高波动与余响。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 8.78,
+          "end": 10.13
+        },
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source1_vibratos_str1.csv",
+          "row": [
+            8.845,
+            10.1079,
+            1.2629,
+            1
+          ],
+          "originalLabel": "Vibrato",
+          "labelDefinitionUrl": "https://github.com/yuanchengwang/TEAS",
+          "interval": [
+            8.845,
+            10.1079
+          ]
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "213e41f342c4941e3cecfa1286bd270d6604f27ee6faf623a567890005a03926",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8200000524520874,
+          "rms": 0.09599205106496811,
+          "finite": true
+        },
+        "url": "./audio/tech-vibrato-jasmine.wav",
+        "originalLabel": "Vibrato",
+        "evidence": "原录音 8.78–10.13 秒"
+      },
+      {
+        "id": "vibrato",
+        "label": "揉弦 · Vibrato 实录片段",
+        "technique": "vibrato",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": 2,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 41.28,
+          "end": 42.23
+        },
+        "duration": 0.95,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_source2_vibratos_str2.csv",
+          "row": [
+            41.35,
+            42.15,
+            0.8,
+            1
+          ],
+          "typeCode": 1,
+          "techniqueInterval": [
+            41.35,
+            42.15
+          ]
+        },
+        "note": "真实作品片段，保留同时发声与共振；技法区间依据PipaSet作者注释。",
+        "sha256": "cc24bb43cc5e59e4a86de622598930967981abd62737f9cc576fa378e9003a66",
+        "url": "./audio/tech-vibrato.wav",
+        "title": "揉弦 · Vibrato 实录片段",
+        "match": "exact",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Vibrato",
+        "evidence": "原录音 41.28–42.23 秒"
+      }
+    ],
+    "slideDown": [
+      {
+        "id": "slide-down",
+        "label": "下行滑音 · Slide 实录片段",
+        "technique": "slide-down",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": 1,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 22.942,
+          "end": 23.67
+        },
+        "duration": 0.728,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_source1_portamentos_str1.csv",
+          "row": [
+            23.012,
+            23.3929,
+            0.3809,
+            1
+          ],
+          "typeCode": 1,
+          "techniqueInterval": [
+            23.012,
+            23.3929
+          ]
+        },
+        "note": "作者标注Slide；下行依据该区间基频走势。片段保留其他琴弦发声。",
+        "sha256": "f5db8b134a49a0b1dabe9952ff14dba789a40823e243a03256c526dcfd0ecc0f",
+        "url": "./audio/tech-slide-down.wav",
+        "title": "下行滑音 · Slide 实录片段",
+        "match": "exact",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Slide",
+        "evidence": "原录音 22.94–23.67 秒"
+      }
+    ],
+    "slideUp": [
+      {
+        "id": "slide-up",
+        "label": "上行滑音 · Slide 实录片段",
+        "technique": "slide-up",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": 1,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 25.438,
+          "end": 26.15
+        },
+        "duration": 0.712,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_source1_portamentos_str1.csv",
+          "row": [
+            25.508,
+            25.8836,
+            0.3756,
+            1
+          ],
+          "typeCode": 1,
+          "techniqueInterval": [
+            25.508,
+            25.8836
+          ]
+        },
+        "note": "作者标注Slide；上行依据该区间基频走势。片段保留其他琴弦发声。",
+        "sha256": "fc5c17636e42ae92da1b279a7bd1f6ccba754825d90de49b33fbf69d9c974f25",
+        "url": "./audio/tech-slide-up.wav",
+        "title": "上行滑音 · Slide 实录片段",
+        "match": "exact",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Slide",
+        "evidence": "原录音 25.44–26.15 秒"
+      }
+    ],
+    "sao": [
+      {
+        "id": "strum-up",
+        "label": "Up Strum · 扫弦方向实录",
+        "technique": "strum-up",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": null,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 18.752604166666668,
+          "end": 19.12
+        },
+        "duration": 0.3673958333333333,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_strummings.csv",
+          "row": [
+            18.8226,
+            18.9,
+            0.0774,
+            1
+          ],
+          "typeCode": 1,
+          "techniqueInterval": [
+            18.8226,
+            18.9
+          ]
+        },
+        "note": "作者原标签Up Strum；仅据录音/数值不能保证传统指法名称为弹扫或拂，作为扫弦相关参考。",
+        "sha256": "347a3574982b9c485f4fff05757ec304dc1710fb9e0db5ad547b19f41aed50f6",
+        "url": "./audio/tech-strum-up.wav",
+        "title": "Up Strum · 扫弦方向实录",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Up Strum",
+        "evidence": "原录音 18.75–19.12 秒"
+      },
+      {
+        "id": "strum-down",
+        "label": "Down Strum · 扫弦方向实录",
+        "technique": "strum-down",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": null,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 19.98539583333333,
+          "end": 20.27
+        },
+        "duration": 0.28460416666666666,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_strummings.csv",
+          "row": [
+            20.0554,
+            20.2258,
+            0.1704,
+            4
+          ],
+          "typeCode": 4,
+          "techniqueInterval": [
+            20.0554,
+            20.2258
+          ]
+        },
+        "note": "作者原标签Down Strum；仅据录音/数值不能保证传统指法名称为弹扫或拂，作为扫弦相关参考。",
+        "sha256": "184cc25a2065ddae9060d7cbc760e6078f69323c33127e80a117aff7f65b79c4",
+        "url": "./audio/tech-strum-down.wav",
+        "title": "Down Strum · 扫弦方向实录",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Down Strum",
+        "evidence": "原录音 19.99–20.27 秒"
+      },
+      {
+        "id": "rasgueado",
+        "label": "扫弦组合 · Rasgueado 实录",
+        "technique": "rasgueado",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": null,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 1.7942083333333334,
+          "end": 2.65
+        },
+        "duration": 0.8557916666666666,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_strummings.csv",
+          "row": [
+            1.8642,
+            2.226,
+            0.3618,
+            13
+          ],
+          "typeCode": 13,
+          "techniqueInterval": [
+            1.8642,
+            2.226
+          ]
+        },
+        "note": "作者原标签Rasgueado；包含快速多次扫奏，未细分传统汇组指法。",
+        "sha256": "1721e3d9d9a6a664ab74d33fde5825ee5bc9daa89f859c10532277b312178ace",
+        "url": "./audio/tech-rasgueado.wav",
+        "title": "扫弦组合 · Rasgueado 实录",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Rasgueado",
+        "evidence": "原录音 1.79–2.65 秒"
+      }
+    ],
+    "fu": [
+      {
+        "id": "strum-up",
+        "label": "Up Strum · 扫弦方向实录",
+        "technique": "strum-up",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": null,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 18.752604166666668,
+          "end": 19.12
+        },
+        "duration": 0.3673958333333333,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_strummings.csv",
+          "row": [
+            18.8226,
+            18.9,
+            0.0774,
+            1
+          ],
+          "typeCode": 1,
+          "techniqueInterval": [
+            18.8226,
+            18.9
+          ]
+        },
+        "note": "作者原标签Up Strum；仅据录音/数值不能保证传统指法名称为弹扫或拂，作为扫弦相关参考。",
+        "sha256": "347a3574982b9c485f4fff05757ec304dc1710fb9e0db5ad547b19f41aed50f6",
+        "url": "./audio/tech-strum-up.wav",
+        "title": "Up Strum · 扫弦方向实录",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Up Strum",
+        "evidence": "原录音 18.75–19.12 秒"
+      },
+      {
+        "id": "strum-down",
+        "label": "Down Strum · 扫弦方向实录",
+        "technique": "strum-down",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": null,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 19.98539583333333,
+          "end": 20.27
+        },
+        "duration": 0.28460416666666666,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_strummings.csv",
+          "row": [
+            20.0554,
+            20.2258,
+            0.1704,
+            4
+          ],
+          "typeCode": 4,
+          "techniqueInterval": [
+            20.0554,
+            20.2258
+          ]
+        },
+        "note": "作者原标签Down Strum；仅据录音/数值不能保证传统指法名称为弹扫或拂，作为扫弦相关参考。",
+        "sha256": "184cc25a2065ddae9060d7cbc760e6078f69323c33127e80a117aff7f65b79c4",
+        "url": "./audio/tech-strum-down.wav",
+        "title": "Down Strum · 扫弦方向实录",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Down Strum",
+        "evidence": "原录音 19.99–20.27 秒"
+      },
+      {
+        "id": "rasgueado",
+        "label": "扫弦组合 · Rasgueado 实录",
+        "technique": "rasgueado",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Ambush from ten sides",
+        "string": null,
+        "sourceFile": "Ambush from ten sides/Raw/Ambushfromtensides_s1_L.wav",
+        "sourceSegment": {
+          "start": 1.7942083333333334,
+          "end": 2.65
+        },
+        "duration": 0.8557916666666666,
+        "annotation": {
+          "file": "Ambush from ten sides/Annotation/Ambushfromtensides_s1_strummings.csv",
+          "row": [
+            1.8642,
+            2.226,
+            0.3618,
+            13
+          ],
+          "typeCode": 13,
+          "techniqueInterval": [
+            1.8642,
+            2.226
+          ]
+        },
+        "note": "作者原标签Rasgueado；包含快速多次扫奏，未细分传统汇组指法。",
+        "sha256": "1721e3d9d9a6a664ab74d33fde5825ee5bc9daa89f859c10532277b312178ace",
+        "url": "./audio/tech-rasgueado.wav",
+        "title": "扫弦组合 · Rasgueado 实录",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Rasgueado",
+        "evidence": "原录音 1.79–2.65 秒"
+      }
+    ],
+    "harmonic": [
+      {
+        "id": "harmonic-jasmine-ending",
+        "techniqueId": "harmonic",
+        "title": "泛音音色参考 · 《茉莉花》尾音",
+        "duration": 4.558,
+        "match": "related",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "note": "作者标注 Harmonic，未在标注中区分自然与人工。保留较长衰减，供泛音音色比较，不能据此宣称自然泛音手法已核验。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 49.262,
+          "end": 53.82
+        },
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source1_others.csv",
+          "row": [
+            49.287,
+            4.445,
+            220.5308,
+            12,
+            29,
+            "Harmonic"
+          ],
+          "originalLabel": "Harmonic",
+          "interval": [
+            49.287,
+            53.732
+          ]
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "00016d070c6d6753ec647b011bf8dc87fe2e67224650fd351ac8c23fd9bb9c24",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8199999928474426,
+          "rms": 0.057203490287065506,
+          "finite": true
+        },
+        "url": "./audio/tech-harmonic-jasmine-ending.wav",
+        "originalLabel": "Harmonic",
+        "evidence": "原录音 49.26–53.82 秒"
+      },
+      {
+        "id": "harmonic",
+        "label": "泛音 · Harmonics 实录片段",
+        "technique": "harmonic",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "NanniBay",
+        "string": 4,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 100.81820833333333,
+          "end": 104
+        },
+        "duration": 3.181791666666667,
+        "annotation": {
+          "file": "NanniBay/Annotation/NanniBay_source4_others_str4.csv",
+          "row": [
+            100.8432,
+            3.112,
+            220.0526,
+            12,
+            50,
+            "harmonics"
+          ],
+          "techniqueInterval": [
+            100.8432,
+            103.95519999999999
+          ]
+        },
+        "note": "作者原标签Harmonics；自然/人工未细分，勿复用为人工泛音的已核验示范。",
+        "sha256": "765dd83fb04746638550f4f7ec896ef95c5e6fb3eefb6710fb0ea5819db210de",
+        "url": "./audio/tech-harmonic.wav",
+        "title": "泛音 · Harmonics 实录片段",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Harmonics",
+        "evidence": "原录音 100.82–104.00 秒"
+      },
+      {
+        "id": "harmonic-jasmine",
+        "label": "泛音 · Harmonics 实录片段",
+        "technique": "harmonic",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "string": 3,
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 34.10720833333333,
+          "end": 36.42220833333333
+        },
+        "duration": 2.315,
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source3_others.csv (BIFF .xls container despite .csv extension)",
+          "row": [
+            34.1322,
+            2.2,
+            441.7705,
+            19,
+            16,
+            "Harmonic"
+          ],
+          "techniqueInterval": [
+            34.1322,
+            36.3322
+          ]
+        },
+        "note": "作者原标签Harmonics；自然/人工未细分，勿复用为人工泛音的已核验示范。",
+        "sha256": "e907186060ad6a664efe299796101b83487202d8709a764531466ec5bbb01371",
+        "url": "./audio/tech-harmonic-jasmine.wav",
+        "title": "泛音 · Harmonics 实录片段",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Harmonic",
+        "evidence": "原录音 34.11–36.42 秒"
+      }
+    ],
+    "artificial": [
+      {
+        "id": "harmonic",
+        "label": "泛音 · Harmonics 实录片段",
+        "technique": "harmonic",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "NanniBay",
+        "string": 4,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 100.81820833333333,
+          "end": 104
+        },
+        "duration": 3.181791666666667,
+        "annotation": {
+          "file": "NanniBay/Annotation/NanniBay_source4_others_str4.csv",
+          "row": [
+            100.8432,
+            3.112,
+            220.0526,
+            12,
+            50,
+            "harmonics"
+          ],
+          "techniqueInterval": [
+            100.8432,
+            103.95519999999999
+          ]
+        },
+        "note": "作者原标签Harmonics；自然/人工未细分，勿复用为人工泛音的已核验示范。",
+        "sha256": "765dd83fb04746638550f4f7ec896ef95c5e6fb3eefb6710fb0ea5819db210de",
+        "url": "./audio/tech-harmonic.wav",
+        "title": "泛音 · Harmonics 实录片段",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Harmonics",
+        "evidence": "原录音 100.82–104.00 秒"
+      },
+      {
+        "id": "harmonic-jasmine",
+        "label": "泛音 · Harmonics 实录片段",
+        "technique": "harmonic",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "string": 3,
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 34.10720833333333,
+          "end": 36.42220833333333
+        },
+        "duration": 2.315,
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source3_others.csv (BIFF .xls container despite .csv extension)",
+          "row": [
+            34.1322,
+            2.2,
+            441.7705,
+            19,
+            16,
+            "Harmonic"
+          ],
+          "techniqueInterval": [
+            34.1322,
+            36.3322
+          ]
+        },
+        "note": "作者原标签Harmonics；自然/人工未细分，勿复用为人工泛音的已核验示范。",
+        "sha256": "e907186060ad6a664efe299796101b83487202d8709a764531466ec5bbb01371",
+        "url": "./audio/tech-harmonic-jasmine.wav",
+        "title": "泛音 · Harmonics 实录片段",
+        "match": "related",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Harmonic",
+        "evidence": "原录音 34.11–36.42 秒"
+      }
+    ],
+    "tan": [
+      {
+        "id": "tan-score-jasmine",
+        "techniqueId": "tan",
+        "title": "弹 · 原谱标注的单音参考",
+        "duration": 0.6321041666666667,
+        "match": "related",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "note": "《茉莉花》原谱在此音标“弹”，录音音高与时间已对齐；录音数据未独立标注出弦手指，因此作为谱注指法参考，不能视为动作核验。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 0.285,
+          "end": 0.9171
+        },
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source2_note_str2.csv",
+          "row": [
+            0.3157,
+            0.6014,
+            368.6843,
+            14,
+            49
+          ],
+          "originalLabel": "Normal note; score Tan mark",
+          "interval": [
+            0.3157,
+            0.9171
+          ],
+          "scoreFile": "Jasmine Flower/Raw/Jasmine flower.pdf",
+          "scorePage": 1,
+          "notationReferenceUrl": "https://www.atlasensemble.nl/assets/files/instruments/Pipa/Pipa%20by%20Samuel%20Wong%20Shengmiao.pdf",
+          "notationLocator": "PDF第10页 / 印刷第26页：Tan 为反斜线，Tiao 为正斜线",
+          "limitation": "乐谱指法与音高时间序列对应，未通过独立手指动作注释或逐帧演奏核验。",
+          "scoreLocator": "第一行起拍的3（1=D，即F#4），音符上方反斜线"
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "b44f48b32a3f621976099546a60687b96895726f28b02d81e4d31db0f61fd853",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8200000524520874,
+          "rms": 0.12731817364692688,
+          "finite": true
+        },
+        "url": "./audio/tech-tan-score-jasmine.wav",
+        "originalLabel": "Normal note; score Tan mark",
+        "evidence": "原录音 0.28–0.92 秒"
+      },
+      {
+        "id": "pipa-s1-m57",
+        "midi": 57,
+        "recordedFrequency": 220.15358287035292,
+        "string": 1,
+        "label": "A3 · 第1弦独立实录",
+        "technique": "single-pluck",
+        "audioKind": "recorded-isolated-note",
+        "sourceFile": "Material/mono_str1_A5__0.wav",
+        "sourceSegment": {
+          "start": 0.6851927437641724,
+          "end": 4.293197278911564
+        },
+        "duration": 3.6080045351473924,
+        "pitchVerification": {
+          "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+          "filenameOctaveCorrection": -2,
+          "centsFromEqualTemperament": 1.21,
+          "periodicity": 0.959
+        },
+        "sha256": "ebdcb679c8f8e4e71cb45b78b1e2560e0d22da1c6273081e6f844ada6cd9bd70",
+        "url": "./audio/pipa-s1-m57.wav",
+        "match": "related",
+        "title": "独立单拨音色参考 · 不区分弹挑",
+        "note": "这是一段真实单拨采样；音源没有标注食指弹或拇指挑，因此只作音色参考，不作为本项动作已获确认的证据。",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Single pluck",
+        "evidence": "原录音 0.69–4.29 秒"
+      }
+    ],
+    "tiao": [
+      {
+        "id": "tiao-score-jasmine",
+        "techniqueId": "tiao",
+        "title": "挑 · 原谱标注的单音参考",
+        "duration": 0.3748958333333333,
+        "match": "related",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "note": "《茉莉花》原谱在此音标“挑”，录音音高与时间已对齐；录音数据未独立标注出弦手指，因此作为谱注指法参考，不能视为动作核验。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 1.775,
+          "end": 2.1499
+        },
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source1_note_str1.csv",
+          "row": [
+            1.7941,
+            0.3558,
+            588.5771,
+            17,
+            35
+          ],
+          "originalLabel": "Normal note; score Tiao mark",
+          "interval": [
+            1.7941,
+            2.1499
+          ],
+          "scoreFile": "Jasmine Flower/Raw/Jasmine flower.pdf",
+          "scorePage": 1,
+          "notationReferenceUrl": "https://www.atlasensemble.nl/assets/files/instruments/Pipa/Pipa%20by%20Samuel%20Wong%20Shengmiao.pdf",
+          "notationLocator": "PDF第10页 / 印刷第26页：Tan 为反斜线，Tiao 为正斜线",
+          "limitation": "乐谱指法与音高时间序列对应，未通过独立手指动作注释或逐帧演奏核验。",
+          "scoreLocator": "第一行第二完整小节的第一个高音1（D5），音符上方正斜线"
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "4684c7e29de2934834eb0bf575bcd61c86873e2e829d442b22c9e4a4eb277240",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8199999928474426,
+          "rms": 0.1261374056339264,
+          "finite": true
+        },
+        "url": "./audio/tech-tiao-score-jasmine.wav",
+        "originalLabel": "Normal note; score Tiao mark",
+        "evidence": "原录音 1.77–2.15 秒"
+      },
+      {
+        "id": "pipa-s1-m57",
+        "midi": 57,
+        "recordedFrequency": 220.15358287035292,
+        "string": 1,
+        "label": "A3 · 第1弦独立实录",
+        "technique": "single-pluck",
+        "audioKind": "recorded-isolated-note",
+        "sourceFile": "Material/mono_str1_A5__0.wav",
+        "sourceSegment": {
+          "start": 0.6851927437641724,
+          "end": 4.293197278911564
+        },
+        "duration": 3.6080045351473924,
+        "pitchVerification": {
+          "method": "Expected-pitch-constrained autocorrelation with parabolic lag interpolation, median of four stable windows",
+          "filenameOctaveCorrection": -2,
+          "centsFromEqualTemperament": 1.21,
+          "periodicity": 0.959
+        },
+        "sha256": "ebdcb679c8f8e4e71cb45b78b1e2560e0d22da1c6273081e6f844ada6cd9bd70",
+        "url": "./audio/pipa-s1-m57.wav",
+        "match": "related",
+        "title": "独立单拨音色参考 · 不区分弹挑",
+        "note": "这是一段真实单拨采样；音源没有标注食指弹或拇指挑，因此只作音色参考，不作为本项动作已获确认的证据。",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "sourceId": "pipaset",
+        "originalLabel": "Single pluck",
+        "evidence": "原录音 0.69–4.29 秒"
+      }
+    ],
+    "alternate": [
+      {
+        "id": "alternate-score-jasmine",
+        "techniqueId": "alternate",
+        "title": "弹挑 · 原谱交替指法短句",
+        "duration": 1.21,
+        "match": "related",
+        "audioKind": "real-microphone-performance-excerpt",
+        "piece": "Jasmine Flower",
+        "note": "原谱此小节以弹—挑—弹—挑连接四音，音高和时间与实录对应。保留原始短句；指序来自谱注，未由动作标注独立确认。",
+        "sourceId": "pipaset",
+        "sourceUrl": "https://zenodo.org/records/6760047",
+        "authors": [
+          "Yuancheng Wang",
+          "Yuyang Jing",
+          "Wei Wei",
+          "Dorian Cazau",
+          "Olivier Adam",
+          "Qiao Wang"
+        ],
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceFile": "Jasmine Flower/Raw/JasmineFlower1_L.wav",
+        "sourceSegment": {
+          "start": 1.52,
+          "end": 2.73
+        },
+        "annotation": {
+          "file": "Jasmine Flower/Annotation/JasmineFlower1_source1_note_str1.csv",
+          "rows": [
+            [
+              1.5435,
+              0.2506,
+              494.1458,
+              14,
+              37
+            ],
+            [
+              1.7941,
+              0.3558,
+              588.5771,
+              17,
+              35
+            ],
+            [
+              2.1499,
+              0.2656,
+              587.3382,
+              17,
+              38
+            ],
+            [
+              2.4155,
+              0.3257,
+              497.1618,
+              14,
+              32
+            ]
+          ],
+          "originalLabel": "Four normal notes; score Tan-Tiao-Tan-Tiao marks",
+          "interval": [
+            1.5435,
+            2.7412
+          ],
+          "scoreFile": "Jasmine Flower/Raw/Jasmine flower.pdf",
+          "scorePage": 1,
+          "notationReferenceUrl": "https://www.atlasensemble.nl/assets/files/instruments/Pipa/Pipa%20by%20Samuel%20Wong%20Shengmiao.pdf",
+          "notationLocator": "PDF第10页 / 印刷第26页：Tan 为反斜线，Tiao 为正斜线",
+          "limitation": "乐谱指法与音高时间序列对应，未通过独立手指动作注释或逐帧演奏核验。",
+          "scoreLocator": "第一行第二完整小节6-高音1-高音1-6，连续反斜/正斜/反斜/正斜"
+        },
+        "transforms": "裁取原始左侧麦克风录音；单声道化、峰值归一化、3 ms 起始及25 ms 末尾淡变；保持原速原调，未循环、移调或合成。",
+        "sha256": "bc5087a70f6294177cfc83a6ab5e5bcab27e5a6a2d298ca835d615e30be13b6b",
+        "qa": {
+          "sampleRate": 48000,
+          "peak": 0.8199999928474426,
+          "rms": 0.10683460533618927,
+          "finite": true
+        },
+        "url": "./audio/tech-alternate-score-jasmine.wav",
+        "originalLabel": "Four normal notes; score Tan-Tiao-Tan-Tiao marks",
+        "evidence": "原录音 1.52–2.73 秒"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pipaset",
+      "title": "PipaSet preview v1",
+      "authors": "Yuancheng Wang, Yuyang Jing, Wei Wei, Dorian Cazau, Olivier Adam, Qiao Wang",
+      "url": "https://zenodo.org/records/6760047",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "独立单音录音：裁去起始静音、单声道化、峰值归一化并添加边缘淡变。技法片段：依据作者注释区间裁切同步麦克风音轨，保持原速原调。未用合成或重复单音重建技法。"
+    }
+  ],
+  "coverageNote": "实录按作者标注核对；相关参考未确认对应指法。谱例只说明记法，不是录音转写。",
+  "gaps": {
+    "double": "尚未取得明确标注“双弹”且可用于网站的真实录音，试听位置已保留。",
+    "doubleTiao": "尚未取得明确标注“双挑”且可用于网站的真实录音，试听位置已保留。",
+    "fen": "尚未取得明确标注“分”且可用于网站的真实录音，试听位置已保留。",
+    "zhi": "尚未取得明确标注“摭”且可用于网站的真实录音，试听位置已保留。",
+    "gun": "尚未取得明确标注“滚”且可用于网站的真实录音，试听位置已保留。",
+    "half": "尚未取得明确标注“半轮”且可用于网站的真实录音，试听位置已保留。",
+    "wheel2": "尚未取得明确标注“轮双”且可用于网站的真实录音，试听位置已保留。",
+    "push": "尚未取得明确标注“推弦”且可用于网站的真实录音，试听位置已保留。",
+    "pull": "尚未取得明确标注“拉弦”且可用于网站的真实录音，试听位置已保留。",
+    "hammer": "尚未取得明确标注“打音”且可用于网站的真实录音，试听位置已保留。",
+    "pullOff": "尚未取得明确标注“带起”且可用于网站的真实录音，试听位置已保留。",
+    "trill": "尚未取得明确标注“颤音”且可用于网站的真实录音，试听位置已保留。",
+    "mute": "尚未取得明确标注“闷音”且可用于网站的真实录音，试听位置已保留。",
+    "twist": "尚未取得明确标注“绞弦（绞二弦）”且可用于网站的真实录音，试听位置已保留。",
+    "percussion": "尚未取得明确标注“敲板”且可用于网站的真实录音，试听位置已保留。",
+    "boardWheel": "尚未取得明确标注“轮板”且可用于网站的真实录音，试听位置已保留。",
+    "scratch": "尚未取得明确标注“煞音”且可用于网站的真实录音，试听位置已保留。"
+  },
+  "updated": "2026-11-04",
+  "wheelSustain": {
+    "samples": [
+      {
+        "midi": 45,
+        "recordedFrequency": 110.0,
+        "url": "./audio/wheel-sustain/wheel-m45.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "fdb5e38cd3ef163decad2c094a2407852d96d1c8909082cf4a389154c561141c",
+        "playbackGain": 0.433511
+      },
+      {
+        "midi": 46,
+        "recordedFrequency": 116.54094037952248,
+        "url": "./audio/wheel-sustain/wheel-m46.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "9e0c4240b937988cc4363d7a7ba9c933979a388e5e046b7f58192913e8f0ff8a",
+        "playbackGain": 0.461318
+      },
+      {
+        "midi": 47,
+        "recordedFrequency": 123.47082531403103,
+        "url": "./audio/wheel-sustain/wheel-m47.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "5e94c878a5b42fcfdb736aef2220163bb2ff0f434effbebd0072b0d867efc94a",
+        "playbackGain": 0.44412
+      },
+      {
+        "midi": 48,
+        "recordedFrequency": 130.8127826502993,
+        "url": "./audio/wheel-sustain/wheel-m48.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "43977da079077205fcee9c2a644d8ab4dbc7d79f7724a78db5d2eee307cb241b",
+        "playbackGain": 0.436516
+      },
+      {
+        "midi": 49,
+        "recordedFrequency": 138.59131548843604,
+        "url": "./audio/wheel-sustain/wheel-m49.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "dc6375e24769f634457595e5d769ac82b165325a34368790d4fce282f6316705",
+        "playbackGain": 0.460787
+      },
+      {
+        "midi": 50,
+        "recordedFrequency": 146.8323839587038,
+        "url": "./audio/wheel-sustain/wheel-m50.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "cd1f0cbad8723603580cc478f3b11e02074b1fb6776ec62280c0a77ec3536e65",
+        "playbackGain": 0.481948
+      },
+      {
+        "midi": 51,
+        "recordedFrequency": 155.56349186104046,
+        "url": "./audio/wheel-sustain/wheel-m51.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "40a2e62bf61bcfa497905b8a41cc785a828864bf57b2e2f0757647a9f5cd52af",
+        "playbackGain": 0.464515
+      },
+      {
+        "midi": 52,
+        "recordedFrequency": 164.81377845643496,
+        "url": "./audio/wheel-sustain/wheel-m52.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "9ffcb229755a13719fe0860a8ce0075f3730da90cd8e9f61c3d1808123073cf8",
+        "playbackGain": 0.455512
+      },
+      {
+        "midi": 53,
+        "recordedFrequency": 174.61411571650194,
+        "url": "./audio/wheel-sustain/wheel-m53.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "6bf972912895384fb48061d3995c6e2d6ebaaf7301ed684252d437d995058541",
+        "playbackGain": 0.453942
+      },
+      {
+        "midi": 54,
+        "recordedFrequency": 184.9972113558172,
+        "url": "./audio/wheel-sustain/wheel-m54.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "4dc7d3f912aa623efeaca81d9d935311c0ef0f5fba3cde16e55deeb78c38e4be",
+        "playbackGain": 0.44978
+      },
+      {
+        "midi": 55,
+        "recordedFrequency": 195.99771799087463,
+        "url": "./audio/wheel-sustain/wheel-m55.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "448abc6f862ac33b8f8f96b7357995df592808b93613c67f4bf63f30e6724ad1",
+        "playbackGain": 0.463981
+      },
+      {
+        "midi": 56,
+        "recordedFrequency": 207.65234878997256,
+        "url": "./audio/wheel-sustain/wheel-m56.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "38c117974c93bb7a64f8b0596e8c59e54a4a111ec2ba23b18c4ebc85f5262ddc",
+        "playbackGain": 0.457615
+      },
+      {
+        "midi": 57,
+        "recordedFrequency": 220.0,
+        "url": "./audio/wheel-sustain/wheel-m57.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "d3bb2b3ad70269c8674968265ae25ed1028a57e0248d78dd547f7e7fb7d64c1c",
+        "playbackGain": 0.454988
+      },
+      {
+        "midi": 58,
+        "recordedFrequency": 233.08188075904496,
+        "url": "./audio/wheel-sustain/wheel-m58.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "f3b77410dc63f95a36f44bd9513a40f17ea87a4807cc9d3f3b245b10842f54ba",
+        "playbackGain": 0.467735
+      },
+      {
+        "midi": 59,
+        "recordedFrequency": 246.94165062806206,
+        "url": "./audio/wheel-sustain/wheel-m59.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "66e898afd528d26656818cd242883bce8249d5411940d710fdd4b36334131dd9",
+        "playbackGain": 0.466659
+      },
+      {
+        "midi": 60,
+        "recordedFrequency": 261.6255653005986,
+        "url": "./audio/wheel-sustain/wheel-m60.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "8bae648a47bf7757de8a6c253e4cc326bb5e4215404e22779d25e1ea73cad9dd",
+        "playbackGain": 0.480839
+      },
+      {
+        "midi": 61,
+        "recordedFrequency": 277.1826309768721,
+        "url": "./audio/wheel-sustain/wheel-m61.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "cca36073c51f26dc09da72714d7bf3adb3c4f3c9dbabfb15de97a329d9028f97",
+        "playbackGain": 0.482503
+      },
+      {
+        "midi": 62,
+        "recordedFrequency": 293.6647679174076,
+        "url": "./audio/wheel-sustain/wheel-m62.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "4513df13ea2791365b4bbfc4ed96beabb9b30a3c96c8807db5d18cb0103305d5",
+        "playbackGain": 0.489779
+      },
+      {
+        "midi": 63,
+        "recordedFrequency": 311.1269837220809,
+        "url": "./audio/wheel-sustain/wheel-m63.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "404f95d37d0b4f51a86baad5594b351882f0886f300e7ddb088ae912419071b5",
+        "playbackGain": 0.489215
+      },
+      {
+        "midi": 64,
+        "recordedFrequency": 329.6275569128699,
+        "url": "./audio/wheel-sustain/wheel-m64.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "0c275dc85d64ad424d98edd92f55a216c0fc441186bb8cec7271c73378bc0030",
+        "playbackGain": 0.483615
+      },
+      {
+        "midi": 65,
+        "recordedFrequency": 349.2282314330039,
+        "url": "./audio/wheel-sustain/wheel-m65.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "669183d651bd48e2b43c4e41fb9bc6f8ae2bbd59f7a8eb6c97403b50ac58caf6",
+        "playbackGain": 0.476431
+      },
+      {
+        "midi": 66,
+        "recordedFrequency": 369.9944227116344,
+        "url": "./audio/wheel-sustain/wheel-m66.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "500f9ac2a5a989899338c077f81b37f9e5b32a265f5cab926310d618e323751a",
+        "playbackGain": 0.47152
+      },
+      {
+        "midi": 67,
+        "recordedFrequency": 391.99543598174927,
+        "url": "./audio/wheel-sustain/wheel-m67.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "f6a1215b383f0eedcac5c9edc79445418b6b2fb72037995e7ec6f62c18287936",
+        "playbackGain": 0.465586
+      },
+      {
+        "midi": 68,
+        "recordedFrequency": 415.3046975799451,
+        "url": "./audio/wheel-sustain/wheel-m68.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "ecc6dd8e8507585a8c7b25e8994efa971779c0b0c579528acf86f0364551eb61",
+        "playbackGain": 0.468813
+      },
+      {
+        "midi": 69,
+        "recordedFrequency": 440.0,
+        "url": "./audio/wheel-sustain/wheel-m69.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "2cf0dd004f21658d06d801e669f3b880dfe01d41e30f4c3f1e895c4b0a949187",
+        "playbackGain": 0.455512
+      },
+      {
+        "midi": 70,
+        "recordedFrequency": 466.1637615180899,
+        "url": "./audio/wheel-sustain/wheel-m70.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "2477db106a7402d4622a35aa3a82aa30ed4579ad9cdf9989bb9291dd96ef878c",
+        "playbackGain": 0.452376
+      },
+      {
+        "midi": 71,
+        "recordedFrequency": 493.8833012561241,
+        "url": "./audio/wheel-sustain/wheel-m71.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "ebb92fad3d73e26b99bd74b536af4edd970a1a9626d849b8f3822a4c3b53a2f4",
+        "playbackGain": 0.451856
+      },
+      {
+        "midi": 72,
+        "recordedFrequency": 523.2511306011972,
+        "url": "./audio/wheel-sustain/wheel-m72.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "d160da92d9f7d7ac917824fa97797d5ed500797ea6069705d732495efab6a4c5",
+        "playbackGain": 0.448745
+      },
+      {
+        "midi": 73,
+        "recordedFrequency": 554.3652619537442,
+        "url": "./audio/wheel-sustain/wheel-m73.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "b30304682e16124f5c26f2382261aadaaf858c239d09ce44db175c3c76fdd34e",
+        "playbackGain": 0.464515
+      },
+      {
+        "midi": 74,
+        "recordedFrequency": 587.3295358348151,
+        "url": "./audio/wheel-sustain/wheel-m74.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "0dba24da6738f052e29e58274be240a77b4c1181e51aed359a1f56664e30ddf4",
+        "playbackGain": 0.486968
+      },
+      {
+        "midi": 75,
+        "recordedFrequency": 622.2539674441618,
+        "url": "./audio/wheel-sustain/wheel-m75.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "bec7326046c31271880bed5a35d59e00191994adc404e4a12845a63888eeb4b6",
+        "playbackGain": 0.505825
+      },
+      {
+        "midi": 76,
+        "recordedFrequency": 659.2551138257398,
+        "url": "./audio/wheel-sustain/wheel-m76.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "914cc2ea27d3a49e3ef07b618080688133c9e217d4ab70b7c7fd994986fca999",
+        "playbackGain": 0.490343
+      },
+      {
+        "midi": 77,
+        "recordedFrequency": 698.4564628660078,
+        "url": "./audio/wheel-sustain/wheel-m77.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "4d12267840e522105847e648ffca516b2389aba61e7ba09507bae13b4e5618a3",
+        "playbackGain": 0.475335
+      },
+      {
+        "midi": 78,
+        "recordedFrequency": 739.9888454232688,
+        "url": "./audio/wheel-sustain/wheel-m78.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "2953862e16a790aa5a36d74906d8cf9c5a716fc444bb5cfdebb295994def4dbd",
+        "playbackGain": 0.445656
+      },
+      {
+        "midi": 79,
+        "recordedFrequency": 783.9908719634985,
+        "url": "./audio/wheel-sustain/wheel-m79.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "e4d410507dcad404bc4a0ff5050bbe8cb87f35081b87b3717f64eef3a434bf0b",
+        "playbackGain": 0.509331
+      },
+      {
+        "midi": 80,
+        "recordedFrequency": 830.6093951598903,
+        "url": "./audio/wheel-sustain/wheel-m80.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "7e2d638f857bb019c4b05e2072186ee588dc97c9b468469e7fee47c3e7fc0091",
+        "playbackGain": 0.43451
+      },
+      {
+        "midi": 81,
+        "recordedFrequency": 880.0,
+        "url": "./audio/wheel-sustain/wheel-m81.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "95f3b70063aee65a19fa9b3291acd3c9d7dff58c3a6c8b6c3cf5078b67cc41e1",
+        "playbackGain": 0.438531
+      },
+      {
+        "midi": 82,
+        "recordedFrequency": 932.3275230361799,
+        "url": "./audio/wheel-sustain/wheel-m82.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "367e6c2d8c930f4d8cb5e8a91691f70c732b6d353c786f040cffe8045d1e0bab",
+        "playbackGain": 0.475883
+      },
+      {
+        "midi": 83,
+        "recordedFrequency": 987.7666025122483,
+        "url": "./audio/wheel-sustain/wheel-m83.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "462af0a25cdce137d3714b0e955a42c6e28665a8a119dc6aadd8603cf6fc210b",
+        "playbackGain": 0.447713
+      },
+      {
+        "midi": 84,
+        "recordedFrequency": 1046.5022612023945,
+        "url": "./audio/wheel-sustain/wheel-m84.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "414eb1afdf4f678acf2dfc15d09de3ae83f64a994716af755c690bf9769ebf47",
+        "playbackGain": 0.49545
+      },
+      {
+        "midi": 85,
+        "recordedFrequency": 1108.7305239074883,
+        "url": "./audio/wheel-sustain/wheel-m85.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "4b97ffaf1739cc7706416eb2bdf21cf30d88508707e477d83881760e16155a26",
+        "playbackGain": 0.5188
+      },
+      {
+        "midi": 86,
+        "recordedFrequency": 1174.6590716696303,
+        "url": "./audio/wheel-sustain/wheel-m86.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "bfba51e7fd04fd3605c2619b613e5c7cbdc6dc9292995127c1745ea675a110e8",
+        "playbackGain": 0.522396
+      },
+      {
+        "midi": 87,
+        "recordedFrequency": 1244.5079348883237,
+        "url": "./audio/wheel-sustain/wheel-m87.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "dec6c01bd22661bfc8ac6b45b72b7ed3607588590c87b93add884c6a24f764e0",
+        "playbackGain": 0.470977
+      },
+      {
+        "midi": 88,
+        "recordedFrequency": 1318.5102276514797,
+        "url": "./audio/wheel-sustain/wheel-m88.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "695fc433fe15a52e6ad0094370a9e3aacbfd03b2289d4e17cda69d03d48b62b9",
+        "playbackGain": 0.536414
+      },
+      {
+        "midi": 89,
+        "recordedFrequency": 1396.9129257320155,
+        "url": "./audio/wheel-sustain/wheel-m89.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "bb0b4cb98c278ff323e322e4c339615d839c7551eae69d2435eee1feda387945",
+        "playbackGain": 0.49204
+      },
+      {
+        "midi": 90,
+        "recordedFrequency": 1479.9776908465376,
+        "url": "./audio/wheel-sustain/wheel-m90.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "658b2d07bb27ac695e211962a81e4aef36a7289503f9c758fd2991045776ec01",
+        "playbackGain": 0.477529
+      },
+      {
+        "midi": 91,
+        "recordedFrequency": 1567.981743926997,
+        "url": "./audio/wheel-sustain/wheel-m91.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "2fc454b9f66e15ef957cb641da4c51c4e5ddee93a7636d3104d36af875ada117",
+        "playbackGain": 0.469353
+      },
+      {
+        "midi": 92,
+        "recordedFrequency": 1661.2187903197805,
+        "url": "./audio/wheel-sustain/wheel-m92.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "abbdd7f16747cfa92b335967b3fc0581d6cf19d501570d35da5ad9ee207b2888",
+        "playbackGain": 0.465586
+      },
+      {
+        "midi": 93,
+        "recordedFrequency": 1760.0,
+        "url": "./audio/wheel-sustain/wheel-m93.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "1417c7483766226ff5b9eb4d213c00240371026f9e1e4406d8cab72b81263bc1",
+        "playbackGain": 0.466122
+      },
+      {
+        "midi": 94,
+        "recordedFrequency": 1864.6550460723597,
+        "url": "./audio/wheel-sustain/wheel-m94.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "2e3ab9826262d8d1e61aa68d815f5f9329cde979b1151d9382055084261f5bb1",
+        "playbackGain": 0.501187
+      },
+      {
+        "midi": 95,
+        "recordedFrequency": 1975.533205024496,
+        "url": "./audio/wheel-sustain/wheel-m95.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "a5bc02ab3f03b495ebebb62c8107845b84514eb3c319aee2b04fc6e5d8a81da7",
+        "playbackGain": 0.430527
+      },
+      {
+        "midi": 96,
+        "recordedFrequency": 2093.004522404789,
+        "url": "./audio/wheel-sustain/wheel-m96.wav",
+        "duration": 1.8,
+        "sourceFile": "NanniBay/Raw/NanniBay_L.wav",
+        "sourceSegment": {
+          "start": 9.66,
+          "end": 11.46
+        },
+        "sha256": "517a218de086c22c2e3b6adaaf59e0d554ca7dc3f62b7fc5974a82051a59f409",
+        "playbackGain": 0.468274
+      }
+    ],
+    "sourceClipId": "wheel-nannibay",
+    "sourceUrl": "https://zenodo.org/records/6760047",
+    "sourceId": "pipaset",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "authors": [
+      "Yuancheng Wang",
+      "Yuyang Jing",
+      "Wei Wei",
+      "Dorian Cazau",
+      "Olivier Adam",
+      "Qiao Wang"
+    ],
+    "measuredSourceFrequency": 329.6299999999949,
+    "originalLabel": "Wheel",
+    "transforms": "从作者标注的轮指持续区间裁取单音纹理；以重采样及 WSOLA 时间伸缩制作逐半音移调库，保持约1.8秒长度；峰值归一化和首尾淡变。长音以交叉淡化连接，不是逐音逐技法独立实录。",
+    "limitation": "来源为作品中的单声道麦克风轮指，仍可能有轻微背景余响；远距离移调会改变音色。多音叠合仅供和声音响参考，不保证四弦同时轮奏可行。"
+  },
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
+}

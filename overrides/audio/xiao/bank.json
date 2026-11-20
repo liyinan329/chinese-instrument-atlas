@@ -14,7 +14,8 @@
       "source_file": "Xiao/Xiao 001 1-Xiao Loop-FX Samples/Xiao 001 1-Xiao Loop-FX_060_100.wav",
       "trim_start": 0.001070294784580499,
       "duration": 3.2,
-      "sha256": "ac6100f4649643bea72a28da9710c66a65da3e79e95e0475d7929bcb0dacdcab"
+      "sha256": "ac6100f4649643bea72a28da9710c66a65da3e79e95e0475d7929bcb0dacdcab",
+      "playbackGain": 2
     },
     {
       "file": "kong-2.mp3",
@@ -24,7 +25,8 @@
       "source_file": "Xiao/Xiao 001 1-Xiao Loop-FX Samples/Xiao 001 1-Xiao Loop-FX_066_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "ad8980657ead57602d932564253c39b68e1461e9d891cc4331cae3075b828ec2"
+      "sha256": "ad8980657ead57602d932564253c39b68e1461e9d891cc4331cae3075b828ec2",
+      "playbackGain": 0.737055
     },
     {
       "file": "kong-3.mp3",
@@ -34,7 +36,8 @@
       "source_file": "Xiao/Xiao 001 1-Xiao Loop-FX Samples/Xiao 001 1-Xiao Loop-FX_072_100.wav",
       "trim_start": 0.012113378684807257,
       "duration": 3.2,
-      "sha256": "4b1d2608a5de9940f6243221166f6ca5be84b2382de9ffe9a3dfb511ab6712cd"
+      "sha256": "4b1d2608a5de9940f6243221166f6ca5be84b2382de9ffe9a3dfb511ab6712cd",
+      "playbackGain": 0.566892
     },
     {
       "file": "kong-4.mp3",
@@ -44,7 +47,8 @@
       "source_file": "Xiao/Xiao 001 1-Xiao Loop-FX Samples/Xiao 001 1-Xiao Loop-FX_078_100.wav",
       "trim_start": 0.002725623582766439,
       "duration": 3.2,
-      "sha256": "0bfb9bf90132f4f0965456bcf84571f8ebd80f26851b1b36a715126e66156f74"
+      "sha256": "0bfb9bf90132f4f0965456bcf84571f8ebd80f26851b1b36a715126e66156f74",
+      "playbackGain": 0.470435
     },
     {
       "file": "kong-5.mp3",
@@ -54,7 +58,15 @@
       "source_file": "Xiao/Xiao 001 1-Xiao Loop-FX Samples/Xiao 001 1-Xiao Loop-FX_083_100.wav",
       "trim_start": 0,
       "duration": 3.2,
-      "sha256": "25859f5a3eead31477326a8b80bf446ac042209e0daa85f5bdb282a17df1626e"
+      "sha256": "25859f5a3eead31477326a8b80bf446ac042209e0daa85f5bdb282a17df1626e",
+      "playbackGain": 0.566239
     }
-  ]
+  ],
+  "playbackCalibration": {
+    "referenceActiveRmsDbFS": -22,
+    "maximumBoostDb": 6.02,
+    "maximumCutDb": 12.04,
+    "peakCeilingAfterCompensation": 0.88,
+    "method": "Playback-only RMS compensation from 40–550ms with ±gain limits and transient peak headroom. No waveform or dynamics automation altered."
+  }
 }
